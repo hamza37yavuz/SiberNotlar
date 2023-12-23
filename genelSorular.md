@@ -74,18 +74,57 @@
 
 > Sayfa 2
 6. #### Bilgi güvenliğinin temel ilkeleri nelerdir?
-9. İnkar etmeme (BT güvenliği için geçerli olduğu için) nedir?
-10. Bir CISO olarak, yönetim kuruluna harcanan bir teminatı nasıl haklı çıkarırsınız?
-11. Yönetim kurulu odasında bilgi güvenliği ne sıklıkla ele alınmalıdır, neden?
-12. Bilgi güvenliği ve veri kullanılabilirliği arasındaki ilişki nedir?
-13. Güvenlik politikası nedir ve neden buna ihtiyacımız var?
-14. Mantıksal ve fiziksel güvenlik arasındaki fark nedir? verebilir misin
-ikisine de örnek?
-15. Kabul edilebilir bir risk seviyesi nedir?
-16. Gartner, Magic Quadrant'larında satıcıları nasıl sıralıyor?
-17. Kurumsal veri güvenliğini tehdit eden en yaygın saldırı türleri nelerdir?
-18. Tehdit ile güvenlik açığı arasındaki fark nedir?
-19. Bana yaygın güvenlik açıklarına bir örnek verebilir misiniz?
+    ##### Gizlilik:
+    Bilginin yetkisiz kişilerin eline geçmeme ve yetkisiz erişime karşı korunmasıdır.
+    ##### Bütünlük: 
+    Bilginin yetkisiz kişiler tarafından değiştirilmemesidir.
+    ##### Erişilebilirlik: 
+    Bilginin yetkili kişilerce ihtiyaç duyulduğunda ulaşılabilir ve kullanılabilir durumda olmasıdır.
+    
+    Bu ilkeler, bir organizasyonun bilgi güvenliği stratejisinin temelini oluşturur ve güvenli bir bilgi altyapısının sürdürülebilirliğini sağlar. Her organizasyon, bu ilkeleri kendi özel     ihtiyaçlarına ve risk profiline göre uyarlamalıdır.
+
+7. #### İnkar etmeme (BT güvenliği için geçerli olduğu için) nedir?
+    İnkar etmeme (non-repudiation), bir eylemin veya bilginin gerçekleştiren tarafından inkar edilemeyecek şekilde belgelenebilmesini ifade eder. Örneğin, dijital imzalar ve günlük kayıtları bu prensibi destekler.
+
+8. #### Bilgi güvenliği ve veri kullanılabilirliği arasındaki ilişki nedir?
+    Bilgi Güvenliği: Bilgi güvenliği, bilgi varlıklarını koruma, yetkisiz erişimlere karşı savunma, bütünlüğü sağlama ve bilgiye güvenilirlik kazandırma sürecidir. Bu, siber saldırılara, veri kaybına ve yetkisiz erişimlere karşı önlemleri içerir.
+
+    Veri Kullanılabilirliği: Veri kullanılabilirliği, bilginin istendiği zaman doğru kişiler tarafından erişilebilir olma durumunu ifade eder. Veri kullanılabilirliği, verilere ulaşılabilirlik, performans ve sistem sürekliliği açısından odaklanır.
+
+    _İki Farklı Örnek_:
+    Güvenlik önlemleri, bazen yan etki olarak veri kullanılabilirliğini etkileyebilir. Örneğin, sıkı güvenlik politikaları veya şifreleme, veriye erişimi güvenli hale getirebilir, ancak aynı zamanda kullanıcılara erişimi karmaşıklaştırabilir veya bir miktar işlem gecikmesine neden olabilir.
+
+    Örneğin, verilerin yedeklenmesi ve sistem sürekliliği planlaması, veri kullanılabilirliğini artırırken aynı zamanda güvenliği de destekler. Veri kaybını önleme, veri bütünlüğünü koruma ve güvenli veri depolama, güvenlik ve kullanılabilirlik arasındaki dengeyi sağlamak önemlidir.
+
+9. #### Güvenlik politikası nedir ve neden buna ihtiyacımız var?
+
+    Güvenlik politikası, bir organizasyonun bilgi varlıklarını, bilgi sistemlerini ve süreçlerini korumak amacıyla belirlenen yönergelerin ve kuralların toplamını ifade eder. Bu politika, bilgi    güvenliğiyle ilgili hedefleri, standartları ve sorumlulukları belirler. Organizasyon içindeki tüm paydaşlar için güvenliği sağlama, riskleri yönetme ve uyumluluk sağlama amacı güder.
+
+    ##### Varlık Koruma:
+    Güvenlik politikaları, organizasyonun değerli varlıklarını (bilgi, sistemler, donanım, yazılım vb.) koruma stratejilerini belirler. Bu, yetkisiz erişimleri önleme, veri bütünlüğünü sağlama ve bilgilerin gizliliğini koruma gibi unsurları içerir.
+    
+    ##### Risk Yönetimi:
+    Güvenlik politikaları, organizasyonun karşılaştığı güvenlik risklerini belirleme, değerlendirme ve yönetme stratejilerini içerir. Bu, güvenlik açıklarını azaltma, saldırıları önleme ve felaket durumlarına karşı hazırlıklı olma anlamına gelir.
+    
+    ##### Uyumluluk ve Hukuki Yükümlülük:
+    Organizasyonlar genellikle belirli düzenleyici gerekliliklere uygunluk sağlamak zorundadır. Güvenlik politikaları, bu uyumluluğu sağlamak ve hukuki yükümlülüklere uygunluğu temin etmek amacıyla oluşturulur.
+
+
+10. Mantıksal ve fiziksel güvenlik arasındaki fark nedir? İkisine de örnek verebilir misin?
+
+    ##### Mantıksal Güvenlik:
+    Tanım: Mantıksal güvenlik, bilgi sistemlerini ve verileri yazılım tabanlı önlemlerle koruma stratejisidir. Bu, şifreleme, erişim kontrolü, güvenlik yazılımları ve ağ güvenliği gibi yazılım ve teknoloji odaklı önlemleri içerir. Örnek IPS IDS
+
+    ##### Fiziksel Güvenlik:
+
+    Tanım: Fiziksel güvenlik, bilgisayar sistemlerini ve veri merkezlerini donanım, yapısal ve fiziksel kontrollerle koruma stratejisidir. Bu, bina güvenliği, erişim kontrolü, kamera sistemleri ve biyometrik tanıma gibi fiziksel önlemleri içerir. Örnek güvenlik kameraları.
+> Sayfa 3    
+
+11. Kabul edilebilir bir risk seviyesi nedir?
+12. Gartner, Magic Quadrant'larında satıcıları nasıl sıralıyor?
+13. Kurumsal veri güvenliğini tehdit eden en yaygın saldırı türleri nelerdir?
+14. Tehdit ile güvenlik açığı arasındaki fark nedir?
+15. Bana yaygın güvenlik açıklarına bir örnek verebilir misiniz?
 20. ISO/IEC 27002 gibi herhangi bir güvenlik yönetimi çerçevesine aşina mısınız?
 21. Güvenlik kontrolü nedir?
 22. Farklı güvenlik denetimi türleri nelerdir?
