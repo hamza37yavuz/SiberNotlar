@@ -71,7 +71,7 @@
 
     ##### Eğitim
     Bilgi güvenliğinin önemi konusunda farkındalık yaratarak bilgi güvenliğini sağlamak için önemli bir unsurdur. Bu, çalışanların bilgi güvenliği politikaları ve prosedürleri hakkında eğitilmesi anlamına gelir.
-
+________________________________________ 
 > Sayfa 2
 6. #### Bilgi güvenliğinin temel ilkeleri nelerdir?
     ##### Gizlilik:
@@ -110,7 +110,7 @@
     Organizasyonlar genellikle belirli düzenleyici gerekliliklere uygunluk sağlamak zorundadır. Güvenlik politikaları, bu uyumluluğu sağlamak ve hukuki yükümlülüklere uygunluğu temin etmek amacıyla oluşturulur.
 
 
-10. Mantıksal ve fiziksel güvenlik arasındaki fark nedir? İkisine de örnek verebilir misin?
+10. #### Mantıksal ve fiziksel güvenlik arasındaki fark nedir? İkisine de örnek verebilir misin?
 
     ##### Mantıksal Güvenlik:
     Tanım: Mantıksal güvenlik, bilgi sistemlerini ve verileri yazılım tabanlı önlemlerle koruma stratejisidir. Bu, şifreleme, erişim kontrolü, güvenlik yazılımları ve ağ güvenliği gibi yazılım ve teknoloji odaklı önlemleri içerir. Örnek IPS IDS
@@ -118,13 +118,64 @@
     ##### Fiziksel Güvenlik:
 
     Tanım: Fiziksel güvenlik, bilgisayar sistemlerini ve veri merkezlerini donanım, yapısal ve fiziksel kontrollerle koruma stratejisidir. Bu, bina güvenliği, erişim kontrolü, kamera sistemleri ve biyometrik tanıma gibi fiziksel önlemleri içerir. Örnek güvenlik kameraları.
+
+________________________________________ 
 > Sayfa 3    
 
-11. Kabul edilebilir bir risk seviyesi nedir?
-12. Gartner, Magic Quadrant'larında satıcıları nasıl sıralıyor?
-13. Kurumsal veri güvenliğini tehdit eden en yaygın saldırı türleri nelerdir?
-14. Tehdit ile güvenlik açığı arasındaki fark nedir?
-15. Bana yaygın güvenlik açıklarına bir örnek verebilir misiniz?
+11. #### Kabul edilebilir bir risk seviyesi nedir?
+    
+    Kabul edilebilir bir risk seviyesi, organizasyonun risk toleransına, endüstri standartlarına, hedeflerine, finansal durumuna ve ilgili tarafların beklentilerine bağlı olarak değişir. Organizasyonlar, bu faktörleri göz önünde bulundurarak bilinçli bir şekilde risk kabul kararı almalıdır.
+        Risk puanı, risk olasılığı ile etkisinin çarpımıdır. Risk puanı belirlenen değerler için sınıflandırılır. Gösterim için genellikle bir matris tablosu kullanılır. Bu tabloda kritik olarak belirlediğimiz risk seviyeleri için aksiyon alınmalıdır. Diğer seviyeler için puanlarına bağlı olarak takvim oluşturulmalıdır.
+    Her organizasyonun kabul edilebilir bir risk seviyesini belirleme süreci benzersizdir ve yukarıdaki faktörlerin kombinasyonuna bağlı olarak değişiklik gösterir. Önemli olan, organizasyonların bu faktörleri dikkate alarak bilinçli bir şekilde risk kabul kararları almalarıdır.
+
+12. #### Gartner, Magic Quadrant'larında satıcıları nasıl sıralıyor?
+    
+Gartner Magic Quadrant raporları, bir endüstri veya teknoloji pazarındaki çeşitli sağlayıcıları değerlendiren ve bu sağlayıcıları bir matris içinde konumlandıran analitik araçlardır. Magic Quadrant raporları, iki ana kriter olan "Müşteri Vizyonu" ve "İdari Yürütme Yeteneği" üzerinden sağlayıcıları sıralar. Bu iki ana kriter, dört kategoriye ayrılan bir matris içinde görsel bir temsil ile sunulur:
+
+##### Liderler (Leaders):
+Liderler, hem müşteri vizyonu hem de idari yürütme yeteneği açısından güçlü performans sergileyen sağlayıcılardır. İnovasyon, pazar anlayışı ve güçlü bir yürütme stratejisi ile karakterizedirler.
+
+##### Zorlayıcılar (Challengers):
+Zorlayıcılar, idari yürütme yetenekleri güçlü olan, ancak müşteri vizyonunda zayıf olabilen sağlayıcılardır. Genellikle mevcut müşteri tabanları ve operasyonel yetenekleriyle dikkat çekerler.
+
+##### Gelişenler (Visionaries):
+Gelişenler, müşteri vizyonunda güçlü olan, ancak idari yürütme yeteneklerinde gelişme fırsatları bulunan sağlayıcılardır. İnovasyona ve geleceğe yönelik stratejilere odaklanabilirler.
+
+##### Niş Oyuncular (Niche Players):
+Niche Players, genellikle belirli bir pazar segmentine veya özelliğe odaklanan sağlayıcılardır. Müşteri vizyonu veya idari yürütme yetenekleri diğer kategorilere göre daha sınırlı olabilir.
+    
+13. #### Kurumsal veri güvenliğini tehdit eden en yaygın saldırı türleri nelerdir?
+    Bu saldırıları 4 başlıkta incelemek istersek :
+
+    *Phishing*
+    *Fidye yazılımı*
+    *SQL enjeksiyonu*
+    *DDoS saldırısı*
+    *IoT Cihazları Üzerinden Saldırılar*
+    
+14. #### Tehdit ile güvenlik açığı arasındaki fark nedir?
+
+    ##### Tehdit (Threat):
+    Tanım: Tehdit, bir sistemi, veriyi veya bilgi güvenliğini olumsuz etkileme potansiyeli olan herhangi bir olası tehlikeli durumu ifade eder. Tehditler, bilgisayar korsanları, kötü amaçlı yazılımlar, doğal felaketler, içeriden gelen tehditler (insider threats) gibi çeşitli kaynaklardan gelebilir.
+    *Örnek:* Bir bilgisayar korsanının ağa yetkisiz erişim sağlamak için saldırı başlatması bir tehdit oluşturabilir.
+
+    ##### Güvenlik Açığı veya Zafiyet (Vulnerability):   
+    Tanım: Güvenlik açığı veya zafiyet, bir sistemdeki veya yazılımın içindeki bir kusur veya eksiklik nedeniyle istenmeyen bir durumun oluşmasına neden olabilecek zayıf bir noktayı ifade eder. Bu kusurlar, güvenlik önlemlerinin ihlal edilmesine veya kötü amaçlı kişilerin yetkisiz erişim elde etmesine yol açabilir.
+    *Örnek:* Bir güvenlik açığı, bir web uygulamasının güvenlik önlemlerinin eksik olması nedeniyle yetkisiz bir kullanıcının verilere erişim sağlamasına neden olabilir.
+    
+15. #### IoT cihazlarının güvenlik riskleri nelerdir?
+
+    Güvenlik açıkları: IoT cihazları genellikle güvenlik açığı olan yazılımlarla birlikte gelir. Bu güvenlik açıkları, saldırganların cihazlara erişim ve kontrol elde etmelerini sağlayabilir.
+
+    Kimlik avı: IoT cihazları, kimlik avı saldırılarına karşı özellikle savunmasızdır. Bu saldırılarda, saldırganlar, kullanıcıları cihazlarının ayarlarını değiştirmeye veya hassas bilgileri paylaşmaya ikna etmek için sahte e-posta veya web siteleri kullanır.
+
+    Sahtecilik ve Kopya Cihazlar: Sahtecilik, IoT ekosistemine yanlış cihazların veya kopya ürünlerin dahil edilmesine yol açabilir. Bu durum, güvenilir olmayan cihazların ağa bağlanmasına neden olabilir.
+
+    Ağ Güvenliği Eksiklikleri: IoT cihazları genellikle bir ağa bağlanır ve bu cihazların ağ güvenliği eksikse, ağ üzerinden yapılan saldırılara açık hale gelirler.
+    
+    ________________________________________ 
+> Sayfa 4
+  
 20. ISO/IEC 27002 gibi herhangi bir güvenlik yönetimi çerçevesine aşina mısınız?
 21. Güvenlik kontrolü nedir?
 22. Farklı güvenlik denetimi türleri nelerdir?
