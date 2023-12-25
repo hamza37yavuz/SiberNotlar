@@ -176,16 +176,64 @@ Niche Players, genellikle belirli bir pazar segmentine veya özelliğe odaklanan
     ________________________________________ 
 > Sayfa 4
   
-20. ISO/IEC 27002 gibi herhangi bir güvenlik yönetimi çerçevesine aşina mısınız?
-21. Güvenlik kontrolü nedir?
-22. Farklı güvenlik denetimi türleri nelerdir?
-23. Bilgi yaşam döngüsünü tanımlayabilir misiniz? Bilgi güvenliğini nasıl sağlıyorsunuz?
-her aşamada?
-24. Bilgi Güvenliği Yönetişimi Nedir?
-25. Mesleki değerleriniz nelerdir? Mesleki etik neden önemlidir?
+15. #### Farklı güvenlik denetimi türleri nelerdir?
+    _Dış denetimler_
+    
+    _İç denetimler_
+
+    _Sızma testleri_
+    
+16. #### Bilgi yaşam döngüsünü tanımlayabilir misiniz? Bilgi güvenliğini her aşamada nasıl sağlıyorsunuz? 
+    Bilginin yaşam döngüsü sırasıyla: *Bilginin oluşma evresi*, *Toplanma aşaması*, *Depolama aşaması*, *İşleme aşaması*, *Aktarma aşaması*, *İmha aşaması*
+    
+17. #### Bilgi Güvenliği Yönetişimi Nedir?
+    Bilgi güvenliği yönetimi, bir kuruluşun bilgi varlıklarını korumak için tasarlanmış bir dizi politika, süreç ve uygulamadır. Bilgi güvenliği yönetiminin temel unsurları şunlardır:
+
+    *Risk yönetimi:* Bilgi güvenliği risklerini belirlemek, analiz etmek ve azaltmak için bir süreçtir.
+    *Politikalar ve prosedürler:* Bilgi güvenliği hedeflerini ve uygulamalarını tanımlayan yazılı kurallardır.
+    *Teknoloji:* Bilgi güvenliğini sağlamak için kullanılan araçlar ve yazılımlardır.
+    *Eğitim ve farkındalık:* Çalışanları bilgi güvenliği konusunda eğitmek ve farkındalık yaratmak için bir süreçtir.
+    *Denetimler:* Bilgi güvenliği kontrollerinin etkinliğini değerlendirmek için bir süreçtir.
+    
+18. #### Mesleki değerleriniz nelerdir? Mesleki etik neden önemlidir?
 bilgi güvenliği alanı?
-26. Coğrafi engelleme geçerli bir güvenlik denetimi midir?
-27. Açık kaynaklı projeler, tescilli projelerden daha mı yoksa daha az mı güvenli?
+
+19. #### Coğrafi engelleme geçerli bir güvenlik denetimi midir?
+    
+    Evet, coğrafi engelleme geçerli bir güvenlik denetimidir. Coğrafi engelleme, belirli bir coğrafi konumdan gelen kullanıcıların erişimini kısıtlayan bir güvenlik önlemidir. Bu, bir kuruluşun belirli bir coğrafi konumdaki tehditleri veya riskleri azaltmasına yardımcı olabilir.
+    Coğrafi engellemenin bazı faydaları şunlardır:
+
+    _Yetkisiz erişimi azaltılması_, _Riskleri azaltılması_, _Maliyetleri azaltılması_
+
+    Coğrafi engellemenin bazı dezavantajları şunlardır:
+    
+    _Kullanıcı deneyimini bozabilir_, _Yetersiz olabilir_
+
+    Coğrafi engellemeyi uygularken dikkat edilmesi gereken bazı faktörler şunlardır:
+
+    _Hedefler_, _Uygulanabilirlik_, _Nasıl Uygulanacak_ 
+    
+20. #### Açık kaynaklı projeler, tescilli projelerden daha mı yoksa daha az mı güvenli?
+    ##### Açık kaynaklı projelerin güvenlik avantajları şunlardır:
+ <u>Altı çizili yazı</u>
+    <u>*Daha fazla gözetim:*</u> Açık kaynaklı projeler, herkes tarafından incelenebilir ve test edilebilir. Bu, güvenlik açıklarının daha hızlı tespit edilmesine ve düzeltilmesine yardımcı olabilir.
+    <u>*Daha fazla uzmanlık:*</u> Açık kaynaklı projelere, çeşitli uzmanlık alanlarına sahip geliştiriciler katılabilir. Bu, güvenlik açıklarının daha iyi anlaşılmasına ve düzeltilmesine yardımcı olabilir.
+    *Daha fazla inovasyon:* Açık kaynaklı projeler, yeni güvenlik teknolojileri ve tekniklerinin geliştirilmesine katkıda bulunabilir.
+        ##### Açık kaynaklı projelerin güvenlik dezavantajları şunlardır:
+    *Kötü niyetli kod:* Açık kaynaklı projelere kötü niyetli kod eklemek mümkündür. Bu, güvenlik açıklarına neden olabilir veya verilerin ifşa edilmesine yol açabilir.(Topluluk Yönetimi)
+    *Yetersiz bilgi:* Açık kaynaklı projelere katkıda bulunan tüm geliştiricilerin aynı düzeyde güvenlik bilgisine sahip olmayabileceğini unutmayın. Bu, güvenlik açıklarının gözden kaçmasına neden olabilir.
+    ##### Tescilli projelerin güvenlik avantajları şunlardır:
+    *Daha fazla kontrol:* Tescilli projeler, yalnızca geliştiricilerin veya lisans sahiplerinin erişimine açıktır. Bu, kötü niyetli kodun eklenmesini daha zorlaştırabilir.
+    *Daha fazla gizlilik:* Tescilli projeler, daha gizli olabilir. Bu, güvenlik açıklarının kamuoyuna açıklanmasını ve kötüye kullanılmasını daha zorlaştırabilir.
+    ##### Tescilli projelerin güvenlik dezavantajları şunlardır:
+    *Daha az gözetim:* Tescilli projeler, yalnızca birkaç kişi tarafından incelenebilir ve test edilebilir. Bu, güvenlik açıklarının tespit edilmesini ve düzeltilmesini daha zorlaştırabilir.
+    *Daha az uzmanlık:* Tescilli projelere, yalnızca belirli bir alanda uzmanlığa sahip geliştiriciler katılabilir. Bu, güvenlik açıklarının daha iyi anlaşılmasını ve düzeltilmesini daha zorlaştırabilir.
+    *Daha az inovasyon:* Tescilli projeler, yeni güvenlik teknolojileri ve tekniklerinin geliştirilmesine daha az katkıda bulunabilir.
+    
+
+
+    ________________________________________ 
+> Sayfa 5
 28. Bilgi Güvenliği alanında kimi örnek alırsınız? Niye ya?
 29. Güvenlik haberlerinizi nereden alıyorsunuz?
 30. Simetrik ve açık anahtarlı şifreleme arasındaki fark nedir?
@@ -245,5 +293,6 @@ eller?
 78. APT'nin ne olduğunu tanımlayabilir misiniz?
 79. Neden fidye yazılım taleplerini sigorta şirketleri ödüyor?
 80. Bilgi savaşında ilk 3 ülke hangileri?
-81. Saldırganların AI kullandığı bazı yolları açıklayabilir misiniz?
-82. Siber sigorta primleri neden yükseliyor?
+81.  ISO/IEC 27002 kapsamını açıklayabilir misin?
+82. Saldırganların AI kullandığı bazı yolları açıklayabilir misiniz?
+83. Siber sigorta primleri neden yükseliyor?
