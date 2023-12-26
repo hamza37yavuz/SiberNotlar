@@ -9,7 +9,6 @@
 
 ## Genel
 1. #### Ortaya çıkan siber tehditlerden bazılarını adlandırabilir misiniz?
-    CEVAP:
     #### Malware (Kötü Amaçlı Yazılımlar):
     Virüsler, solucanlar, truva atları, fidye yazılımları, zararlı yazılımlar aracılığıyla bilgisayar sistemlerine zarar verme veya izinsiz erişim sağlama amacı güden kötü amaçlı yazılımlar.
     #### Fidye Yazılımları (Ransomware):
@@ -130,19 +129,19 @@ ________________________________________
 
 12. #### Gartner, Magic Quadrant'larında satıcıları nasıl sıralıyor?
     
-Gartner Magic Quadrant raporları, bir endüstri veya teknoloji pazarındaki çeşitli sağlayıcıları değerlendiren ve bu sağlayıcıları bir matris içinde konumlandıran analitik araçlardır. Magic Quadrant raporları, iki ana kriter olan "Müşteri Vizyonu" ve "İdari Yürütme Yeteneği" üzerinden sağlayıcıları sıralar. Bu iki ana kriter, dört kategoriye ayrılan bir matris içinde görsel bir temsil ile sunulur:
-
-##### Liderler (Leaders):
-Liderler, hem müşteri vizyonu hem de idari yürütme yeteneği açısından güçlü performans sergileyen sağlayıcılardır. İnovasyon, pazar anlayışı ve güçlü bir yürütme stratejisi ile karakterizedirler.
-
-##### Zorlayıcılar (Challengers):
-Zorlayıcılar, idari yürütme yetenekleri güçlü olan, ancak müşteri vizyonunda zayıf olabilen sağlayıcılardır. Genellikle mevcut müşteri tabanları ve operasyonel yetenekleriyle dikkat çekerler.
-
-##### Gelişenler (Visionaries):
-Gelişenler, müşteri vizyonunda güçlü olan, ancak idari yürütme yeteneklerinde gelişme fırsatları bulunan sağlayıcılardır. İnovasyona ve geleceğe yönelik stratejilere odaklanabilirler.
-
-##### Niş Oyuncular (Niche Players):
-Niche Players, genellikle belirli bir pazar segmentine veya özelliğe odaklanan sağlayıcılardır. Müşteri vizyonu veya idari yürütme yetenekleri diğer kategorilere göre daha sınırlı olabilir.
+    Gartner Magic Quadrant raporları, bir endüstri veya teknoloji pazarındaki çeşitli sağlayıcıları değerlendiren ve bu sağlayıcıları bir matris içinde konumlandıran analitik araçlardır. Magic Quadrant raporları, iki ana kriter olan "Müşteri Vizyonu" ve "İdari Yürütme Yeteneği" üzerinden sağlayıcıları sıralar. Bu iki ana kriter, dört kategoriye ayrılan bir matris içinde görsel bir temsil ile sunulur:
+    
+    ##### Liderler (Leaders):
+    Liderler, hem müşteri vizyonu hem de idari yürütme yeteneği açısından güçlü performans sergileyen sağlayıcılardır. İnovasyon, pazar anlayışı ve güçlü bir yürütme stratejisi ile karakterizedirler.
+    
+    ##### Zorlayıcılar (Challengers):
+    Zorlayıcılar, idari yürütme yetenekleri güçlü olan, ancak müşteri vizyonunda zayıf olabilen sağlayıcılardır. Genellikle mevcut müşteri tabanları ve operasyonel yetenekleriyle dikkat çekerler.
+    
+    ##### Gelişenler (Visionaries):
+    Gelişenler, müşteri vizyonunda güçlü olan, ancak idari yürütme yeteneklerinde gelişme fırsatları bulunan sağlayıcılardır. İnovasyona ve geleceğe yönelik stratejilere odaklanabilirler.
+    
+    ##### Niş Oyuncular (Niche Players):
+    Niche Players, genellikle belirli bir pazar segmentine veya özelliğe odaklanan sağlayıcılardır. Müşteri vizyonu veya idari yürütme yetenekleri diğer kategorilere göre daha sınırlı olabilir.
     
 13. #### Kurumsal veri güvenliğini tehdit eden en yaygın saldırı türleri nelerdir?
     Bu saldırıları 4 başlıkta incelemek istersek :
@@ -173,7 +172,7 @@ Niche Players, genellikle belirli bir pazar segmentine veya özelliğe odaklanan
 
     Ağ Güvenliği Eksiklikleri: IoT cihazları genellikle bir ağa bağlanır ve bu cihazların ağ güvenliği eksikse, ağ üzerinden yapılan saldırılara açık hale gelirler.
     
-    ________________________________________ 
+________________________________________ 
 > Sayfa 4
   
 15. #### Farklı güvenlik denetimi türleri nelerdir?
@@ -195,8 +194,7 @@ Niche Players, genellikle belirli bir pazar segmentine veya özelliğe odaklanan
     *Eğitim ve farkındalık:* Çalışanları bilgi güvenliği konusunda eğitmek ve farkındalık yaratmak için bir süreçtir.
     *Denetimler:* Bilgi güvenliği kontrollerinin etkinliğini değerlendirmek için bir süreçtir.
     
-18. #### Mesleki değerleriniz nelerdir? Mesleki etik neden önemlidir?
-bilgi güvenliği alanı?
+18. #### Mesleki değerleriniz nelerdir? Mesleki etik neden önemlidir? bilgi güvenliği alanı?
 
 19. #### Coğrafi engelleme geçerli bir güvenlik denetimi midir?
     
@@ -215,37 +213,90 @@ bilgi güvenliği alanı?
     
 20. #### Açık kaynaklı projeler, tescilli projelerden daha mı yoksa daha az mı güvenli?
     ##### Açık kaynaklı projelerin güvenlik avantajları şunlardır:
- <u>Altı çizili yazı</u>
-    <u>*Daha fazla gözetim:*</u> Açık kaynaklı projeler, herkes tarafından incelenebilir ve test edilebilir. Bu, güvenlik açıklarının daha hızlı tespit edilmesine ve düzeltilmesine yardımcı olabilir.
-    <u>*Daha fazla uzmanlık:*</u> Açık kaynaklı projelere, çeşitli uzmanlık alanlarına sahip geliştiriciler katılabilir. Bu, güvenlik açıklarının daha iyi anlaşılmasına ve düzeltilmesine yardımcı olabilir.
+    
+    *Daha fazla gözetim:* Açık kaynaklı projeler, herkes tarafından incelenebilir ve test edilebilir. Bu, güvenlik açıklarının daha hızlı tespit edilmesine ve düzeltilmesine yardımcı olabilir.
+    
+    *Daha fazla uzmanlık:* Açık kaynaklı projelere, çeşitli uzmanlık alanlarına sahip geliştiriciler katılabilir. Bu, güvenlik açıklarının daha iyi anlaşılmasına ve düzeltilmesine yardımcı olabilir.
+    
     *Daha fazla inovasyon:* Açık kaynaklı projeler, yeni güvenlik teknolojileri ve tekniklerinin geliştirilmesine katkıda bulunabilir.
-        ##### Açık kaynaklı projelerin güvenlik dezavantajları şunlardır:
+    
+    ##### Açık kaynaklı projelerin güvenlik dezavantajları şunlardır:
     *Kötü niyetli kod:* Açık kaynaklı projelere kötü niyetli kod eklemek mümkündür. Bu, güvenlik açıklarına neden olabilir veya verilerin ifşa edilmesine yol açabilir.(Topluluk Yönetimi)
+    
     *Yetersiz bilgi:* Açık kaynaklı projelere katkıda bulunan tüm geliştiricilerin aynı düzeyde güvenlik bilgisine sahip olmayabileceğini unutmayın. Bu, güvenlik açıklarının gözden kaçmasına neden olabilir.
+
     ##### Tescilli projelerin güvenlik avantajları şunlardır:
     *Daha fazla kontrol:* Tescilli projeler, yalnızca geliştiricilerin veya lisans sahiplerinin erişimine açıktır. Bu, kötü niyetli kodun eklenmesini daha zorlaştırabilir.
+    
     *Daha fazla gizlilik:* Tescilli projeler, daha gizli olabilir. Bu, güvenlik açıklarının kamuoyuna açıklanmasını ve kötüye kullanılmasını daha zorlaştırabilir.
+
     ##### Tescilli projelerin güvenlik dezavantajları şunlardır:
     *Daha az gözetim:* Tescilli projeler, yalnızca birkaç kişi tarafından incelenebilir ve test edilebilir. Bu, güvenlik açıklarının tespit edilmesini ve düzeltilmesini daha zorlaştırabilir.
+    
     *Daha az uzmanlık:* Tescilli projelere, yalnızca belirli bir alanda uzmanlığa sahip geliştiriciler katılabilir. Bu, güvenlik açıklarının daha iyi anlaşılmasını ve düzeltilmesini daha zorlaştırabilir.
+    
     *Daha az inovasyon:* Tescilli projeler, yeni güvenlik teknolojileri ve tekniklerinin geliştirilmesine daha az katkıda bulunabilir.
     
 
 
     ________________________________________ 
 > Sayfa 5
-28. Bilgi Güvenliği alanında kimi örnek alırsınız? Niye ya?
-29. Güvenlik haberlerinizi nereden alıyorsunuz?
-30. Simetrik ve açık anahtarlı şifreleme arasındaki fark nedir?
-31. Evde ne tür bir ağınız var?
-32. Hata ödül programlarının normal testlere göre sunduğu avantajlar nelerdir?
-uygulamalar?
-33. Bir Linux sunucusunu güvence altına alırken ilk üç adımınız nedir?
-34. Bir Windows sunucusunu güven altına alırken ilk üç adımınız nedir?
-35. Bir web uygulamasını güvence altına alırken ilk üç adımınız nedir?
-36. IoT cihazlarının güvenlik riskleri nelerdir?
-37. Bir kuruluş için kim daha tehlikelidir, içerdekiler mi yoksa dışarıdakiler mi?
-38. DNS izleme neden önemlidir?
+21. #### Güvenlik haberlerinizi nereden alıyorsunuz?
+    _SecurityWeek_  _The Hacker News_    _ThreatPost_
+
+22. #### Simetrik ve açık anahtarlı şifreleme arasındaki fark nedir?
+    ##### Anahtar Yönetimi:
+
+    Simetrik Şifreleme:
+    Aynı anahtar hem şifreleme hem de şifre çözme işlemlerinde kullanılır. İki taraf arasında aynı anahtarın güvenli bir şekilde paylaşılması gerekmektedir.
+    Açık Anahtarlı Şifreleme:
+    Farklı iki anahtar kullanılır: biri şifreleme için (genellikle genel anahtar), diğeri şifre çözme için (özel anahtar). Genel anahtar herkese açıkça yayınlanabilir, ancak özel anahtar sadece sahibi tarafından bilinir.
+    Anahtar Sayısı:
+    
+    Simetrik Şifreleme:
+    Bir anahtar kullanılır. Bu nedenle, anahtarın güvenli bir şekilde paylaşılması önemlidir.
+    Açık Anahtarlı Şifreleme: 
+    İki anahtar kullanılır: genel anahtar ve özel anahtar. Bu anahtarlar birbirinden türetilmiş, ancak birbirini kolayca tahmin edilemeyen matematiksel bir ilişkiye sahiptir.
+    ##### Hız:
+    
+    Simetrik Şifreleme: 
+    Genellikle açık anahtarlı şifrelemeden daha hızlıdır, bu nedenle geniş veri setlerini şifreleme ve çözme konusunda tercih edilebilir.
+    Açık Anahtarlı Şifreleme: 
+    Daha yavaş olabilir çünkü daha karmaşık matematiksel işlemleri içerir.
+    
+    ##### Kullanım Alanları:
+    Simetrik Şifreleme: 
+    Veri akışlarının şifrelenmesi, masaüstü uygulamaları ve yerel depolama gibi yerel güvenlik gerektiren durumlar için uygundur.
+    Açık Anahtarlı Şifreleme: 
+    Güvenli iletişim, dijital imzalar, güvenli oturum açma ve anahtar değişimi gibi durumlar için daha yaygın olarak kullanılır.
+
+    ##### Anahtar Dağıtımı:
+    
+    Simetrik Şifreleme: 
+    Anahtarın güvenli bir şekilde paylaşılması zorlu bir sorundur, özellikle büyük ağlarda.
+    Açık Anahtarlı Şifreleme: 
+    Herkes genel anahtarı kullanarak şifreleyebilir, ancak şifreyi çözmek için sadece özel anahtara sahip olan kişi.
+    
+    Her iki şifreleme türü de belirli kullanım durumlarına göre avantajlıdır ve çoğu güvenlik sistemleri, simetrik ve açık anahtarlı şifrelemeyi bir arada kullanarak en iyi güvenlik düzeyini sağlamaya çalışır.
+    
+23. #### Evde ne tür bir ağınız var?
+    Evde World Area Local Network yapısını kullanıyorum bir modemim var modemim aynı zamanda IPS modem özelliğine sahiptir. WPA WPA2 şifreleme seçeneklerine sahiptir.
+    
+24. #### Hata ödül programlarının normal testlere göre sunduğu avantajlar nelerdir? uygulamalar?
+    Hata ödül programları (bug bounty programları), güvenlik araştırmacılarının, yazılım veya donanımdaki güvenlik açıklarını bulması ve bildirmesi için teşvik edildiği bir programdır. Bu programlar, şirketlerin güvenlik duruşlarını iyileştirmelerine yardımcı olmak için etkili bir yoldur.
+    _Güvenlik açıklarının erken tespiti_   _Daha düşük maliyet_   _Geniş kapsama_   _Topluluk Gücü_ 
+
+25. #### DNS izleme neden önemlidir?
+    Amaçları sıralayalım: _Güvenlik Tehditlerinin Tespiti_  _Veri Sızıntısının Önlenmesi_   _Zararlı Web Sitelerine Karşı Koruma_   _Gizlilik ve Uygunsuz İçerik Kontrolü_  _Phishing Saldırılarına Karşı Savunma_
+
+________________________________________  
+> Sayfa 6
+
+25. Bir Linux sunucusunu güvence altına alırken ilk üç adımınız nedir?
+35. Bir Windows sunucusunu güven altına alırken ilk üç adımınız nedir?
+36. Bir web uygulamasını güvence altına alırken ilk üç adımınız nedir?
+37. IoT cihazlarının güvenlik riskleri nelerdir?
+
 ________________________________________  
 
 > Sayfa 2
