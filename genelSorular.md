@@ -175,17 +175,17 @@ ________________________________________
 ________________________________________ 
 > Sayfa 4
   
-15. #### Farklı güvenlik denetimi türleri nelerdir?
+16. #### Farklı güvenlik denetimi türleri nelerdir?
     _Dış denetimler_
     
     _İç denetimler_
 
     _Sızma testleri_
     
-16. #### Bilgi yaşam döngüsünü tanımlayabilir misiniz? Bilgi güvenliğini her aşamada nasıl sağlıyorsunuz? 
+17. #### Bilgi yaşam döngüsünü tanımlayabilir misiniz? Bilgi güvenliğini her aşamada nasıl sağlıyorsunuz? 
     Bilginin yaşam döngüsü sırasıyla: *Bilginin oluşma evresi*, *Toplanma aşaması*, *Depolama aşaması*, *İşleme aşaması*, *Aktarma aşaması*, *İmha aşaması*
     
-17. #### Bilgi Güvenliği Yönetişimi Nedir?
+18. #### Bilgi Güvenliği Yönetişimi Nedir?
     Bilgi güvenliği yönetimi, bir kuruluşun bilgi varlıklarını korumak için tasarlanmış bir dizi politika, süreç ve uygulamadır. Bilgi güvenliği yönetiminin temel unsurları şunlardır:
 
     *Risk yönetimi:* Bilgi güvenliği risklerini belirlemek, analiz etmek ve azaltmak için bir süreçtir.
@@ -194,9 +194,9 @@ ________________________________________
     *Eğitim ve farkındalık:* Çalışanları bilgi güvenliği konusunda eğitmek ve farkındalık yaratmak için bir süreçtir.
     *Denetimler:* Bilgi güvenliği kontrollerinin etkinliğini değerlendirmek için bir süreçtir.
     
-18. #### Mesleki değerleriniz nelerdir? Mesleki etik neden önemlidir? bilgi güvenliği alanı?
+19. #### Mesleki değerleriniz nelerdir? Mesleki etik neden önemlidir? bilgi güvenliği alanı?
 
-19. #### Coğrafi engelleme geçerli bir güvenlik denetimi midir?
+20. #### Coğrafi engelleme geçerli bir güvenlik denetimi midir?
     
     Evet, coğrafi engelleme geçerli bir güvenlik denetimidir. Coğrafi engelleme, belirli bir coğrafi konumdan gelen kullanıcıların erişimini kısıtlayan bir güvenlik önlemidir. Bu, bir kuruluşun belirli bir coğrafi konumdaki tehditleri veya riskleri azaltmasına yardımcı olabilir.
     Coğrafi engellemenin bazı faydaları şunlardır:
@@ -210,34 +210,6 @@ ________________________________________
     Coğrafi engellemeyi uygularken dikkat edilmesi gereken bazı faktörler şunlardır:
 
     _Hedefler_, _Uygulanabilirlik_, _Nasıl Uygulanacak_ 
-    
-20. #### Açık kaynaklı projeler, tescilli projelerden daha mı yoksa daha az mı güvenli?
-    ##### Açık kaynaklı projelerin güvenlik avantajları şunlardır:
-    
-    *Daha fazla gözetim:* Açık kaynaklı projeler, herkes tarafından incelenebilir ve test edilebilir. Bu, güvenlik açıklarının daha hızlı tespit edilmesine ve düzeltilmesine yardımcı olabilir.
-    
-    *Daha fazla uzmanlık:* Açık kaynaklı projelere, çeşitli uzmanlık alanlarına sahip geliştiriciler katılabilir. Bu, güvenlik açıklarının daha iyi anlaşılmasına ve düzeltilmesine yardımcı olabilir.
-    
-    *Daha fazla inovasyon:* Açık kaynaklı projeler, yeni güvenlik teknolojileri ve tekniklerinin geliştirilmesine katkıda bulunabilir.
-    
-    ##### Açık kaynaklı projelerin güvenlik dezavantajları şunlardır:
-    *Kötü niyetli kod:* Açık kaynaklı projelere kötü niyetli kod eklemek mümkündür. Bu, güvenlik açıklarına neden olabilir veya verilerin ifşa edilmesine yol açabilir.(Topluluk Yönetimi)
-    
-    *Yetersiz bilgi:* Açık kaynaklı projelere katkıda bulunan tüm geliştiricilerin aynı düzeyde güvenlik bilgisine sahip olmayabileceğini unutmayın. Bu, güvenlik açıklarının gözden kaçmasına neden olabilir.
-
-    ##### Tescilli projelerin güvenlik avantajları şunlardır:
-    *Daha fazla kontrol:* Tescilli projeler, yalnızca geliştiricilerin veya lisans sahiplerinin erişimine açıktır. Bu, kötü niyetli kodun eklenmesini daha zorlaştırabilir.
-    
-    *Daha fazla gizlilik:* Tescilli projeler, daha gizli olabilir. Bu, güvenlik açıklarının kamuoyuna açıklanmasını ve kötüye kullanılmasını daha zorlaştırabilir.
-
-    ##### Tescilli projelerin güvenlik dezavantajları şunlardır:
-    *Daha az gözetim:* Tescilli projeler, yalnızca birkaç kişi tarafından incelenebilir ve test edilebilir. Bu, güvenlik açıklarının tespit edilmesini ve düzeltilmesini daha zorlaştırabilir.
-    
-    *Daha az uzmanlık:* Tescilli projelere, yalnızca belirli bir alanda uzmanlığa sahip geliştiriciler katılabilir. Bu, güvenlik açıklarının daha iyi anlaşılmasını ve düzeltilmesini daha zorlaştırabilir.
-    
-    *Daha az inovasyon:* Tescilli projeler, yeni güvenlik teknolojileri ve tekniklerinin geliştirilmesine daha az katkıda bulunabilir.
-    
-
 
     ________________________________________ 
 > Sayfa 5
@@ -292,16 +264,97 @@ ________________________________________
 ________________________________________  
 > Sayfa 6
 
-25. Bir Linux sunucusunu güvence altına alırken ilk üç adımınız nedir?
-35. Bir Windows sunucusunu güven altına alırken ilk üç adımınız nedir?
-36. Bir web uygulamasını güvence altına alırken ilk üç adımınız nedir?
-37. IoT cihazlarının güvenlik riskleri nelerdir?
+26. #### Bir Linux sunucusunu güvence altına alırken ilk üç adımınız nedir?
 
+    ##### BAZI GEREKSİZ TOOLLAR
+    Bazı gereksiz toolları silerim çünkü bu toollar güvenlik açığı oluşturabilirler. Örneğin çoğu sunucuda git gcc vb. toollar gerekli değildir.
+
+    ##### KULLANICI ADLARI VE ŞİFRE GİRİŞLERİ
+    Bir bilgisayar sisteminin kırılmasında izlenen yolların büyük çoğunluğu, makine üzerinde geçerli bir kullanıcı hesabına sahip olunmasından geçer. Güvenlik açıklarından faydalanmayı amaçlayan kötü niyetli kişiler bu sunucu üzerinde bulunan hesaplardan bir tanesini eline geçirdiğinde işi büyük ölçüde kolaylaşmaktadır. Bu nedenle ana makine üzerindeki bütün şifrelerin en az root kullanıcının şifresi kadar iyi korunması gereklidir. Sistemde kullanılan şifrelerin genel özelliklerini kısıtlamak mümkündür. Örneğin sistemdeki bütün şifrelerin minimum 5 karakter ile kısıtlı olması sağlanabilir. Bunun için /etc/login.defs dosyasına PASS_MIN_LEN n gibi bir ibare girilmesi gereklidir. Buradaki n sayısı şifrelerin minimum uzunluğunu belirtmektedir. Çok sık yapılan hatalardan bir tanesi de bir kullanıcının sisteme bağlanması ve uzun süre bağlı kalmasıdır. Bunu engellemek için de /etc/profiles dosyası içerisine TMOUT =7200 yazılması bağlı olan kullanıcının hiçbir işlem yapmadan geçirdiği 7200 saniye sonunda otomatikman sistemden atılmasını sağlar. 
+
+    ##### SHADOW ve PASSWD
+    passwd ve shadow dosyaları birlikte, kullanıcı şifreleri ve hesapları hakkında ayrıntılı bilgiyi barındırır. Bu nedenle korunmasına özel önem verilmelidir. Internet’ te yer alan pek çok hack- warez sitesinde, bir Linux sistemi kırmakla ilgili dokümanda bu dosyaların bir şekilde ele geçirilmesi ve ardından bir brute force programı yazılımı ile bu şifrenin güçlü bir bilgisayarda deneme yanılma yöntemi ile kırılması anlatılmaktadır. Bunun önüne geçmek gerçekten çok kolaydır. Yapılması gereken /etc/shadow dosyasının okuma haklarını normal kullanıcılardan kaldırmak olmalıdır. Bu işlem şu komutla gerçekleştirilir. 
+    chmod 600 /etc/shadow
+
+    FTP kapatıp SFTP kullanmak
+
+27. #### Bir Windows sunucusunu güven altına alırken ilk üç adımınız nedir?
+    Destek verilen güncel Windows işletim sistemleri kullanının.
+    
+    Basic Input Output System(BIOS) ayarları alanını parola ile koruyun.
+    
+    Sunucuları yerel modda kullanmaya çalışın(mümkünse).
+    
+    Otomatik Güncellemeleri aktif etmeli, SSCM kullanılmalı(mümkünse).
+    
+    Sunucu üzerinde yetkileri belirleyen listeler olmalı ve bu hiyerarjiye uyulmalı.
+    
+    Sunucuların düzenli olarak yedekleri alınmalı.
+    
+    Sunucular Active Directory üzerine aktarılmalı.
+
+    Sunucular arası iletişim için VPN kullanılmalı.
+    
+    Parolaların sık aralıklarla değiştilmesi (3–6 Ay).
+    
+    Büyük ve küçük harfler, sayılar ve özel karakterler (!, #, $ Ve% gibi) içeren en az 12 ila 14 karakterden oluşan güçlü parolalar kullanılmalı.
+    
+    Belli bir zaman aralığında 3 ya da daha fazla geçersiz parola denemesinde user devre dışı bırakılmalı.
+    
+    Logların belli aralıklar ile takip edilmeli.
+    
+    Açıklardan faydalanılmasının önüne geçmek için EMET vb. uygulamalar kurulmalı.
+    
+    Mümkün olduğunca 3. parti yazılımlar kurulmamalı, kurulur ise güvenlik güncellemeleri takip edilmeli.
+    
+    Anti-Virüs uygulamaları kullanılmalı.
+    
+28. #### Bir web uygulamasını güvence altına alırken ilk üç adımınız nedir?
+    SSL protokollerini kullanın
+    
+    Güvenli bir web hosting (ağ sağlayıcısı) edinin
+    
+    Yönetici ayarlarını belirleyin
+    
+    Sitenizi yedekleyin
+    
+    Varsayılan CMS ayarlarını değiştirin
+    
+    Güçlü şifreler seçin
+    
+29. #### IoT cihazlarının güvenlik riskleri nelerdir?
+    Cihazların güncellenmemesi problemi: IoT cihazları genellikle yalnızca üreticiler tarafından yapılan güncellemelerle yenilenir. Fakat, cihazların sahipleri bu güncellemeleri yapamadığı için cihazların güncel olmaması, cihazların korsan saldırılara ve veri hırsızlığına karşı daha açık hale gelmesine neden olabilir.
+    
+    Parolaların zayıf olması: IoT cihazlarının varsayılan parolaları genellikle kolayca tahmin edilebilir ve kırılabilir. Bu nedenle, cihazların parolalarının güçlendirilmemesi, cihazı saldırılara açık hale getirebilir.
+    
+    Kablosuz ağların yetersiz olması: IoT cihazları genellikle kablosuz ağlar üzerinden haberleşir ve bu nedenle kablosuz ağların yetersiz güvenliği cihazları tehlikeye atabilir.
+    
+    Çoklu cihazların yönetimi sorunu: IoT cihazları genellikle birçok cihaz arasında haberleşir ve bu nedenle çoklu cihazların yönetimi, cihazların güvenliğini sağlamak için zor olabilir.
+    
+    Endpoint cihazlarının izleme ve denetleme: IoT cihazlarının yerleşim yeri veya işlemleri günümüzde yeterince izlenemeyebilir ve denetlenemeyebilir. Bu nedenle, sistemlerdeki olası açıklıklar veya kötüye kullanım saldırılara zemin hazırlayabilir.
+
+30. #### Traceroute, iletişimdeki bir arızanın nerede olduğunu bulmanıza nasıl yardımcı olur?
+    Traceroute, bir arızanın nedenini belirlemek için kullanılamaz. Ancak, arızanın nerede meydana geldiğini belirlemek için kullanılabilir. Bu bilgi, sorunu gidermeye yardımcı olabilir.
+
+    Ağ Rotasını Belirleme:
+
+    Traceroute, bir hedefe ulaşmak için izlenen ağ rotasını belirler. Her bir hop, paketin bir ağ cihazından diğerine geçiş süresini (delay) gösterir.
+    Eğer belirli bir hop'ta (ağ cihazında) bir anormallik varsa veya süreler normalden belirgin şekilde farklıysa, bu, bir potansiyel arıza noktasını gösterir.
+
+    Zaman Uçurumları:
+    Traceroute çıktısındaki süre değerleri, paketin o hop'a ulaşma süresini gösterir. Normalde, her hop'taki süreler belirli bir artış gösterir. Eğer bir hop'ta süreler beklenenden çok daha yüksekse veya hop'tan hop'a büyük dalgalanmalar varsa, bu, ağdaki bir sorunu işaret edebilir.
+
+    Time Exceeded veya Hedefe Ulaşılamama Mesajları:
+    Traceroute sırasında eğer bir hop'a ulaşılamazsa veya belirli bir süre içinde geçilemezse, "Time Exceeded" (Zaman Aşımı) mesajları alınabilir. Bu durum, o noktada bir sorun olduğunu gösterebilir.
+    Traceroute sonuçlarına bakarak, hangi hop'ta bu tür mesajların alındığını belirleyebilir ve bu noktada bir sorun olduğunu düşünebilirsiniz.
+    Hedefe Ulaşma Sorunları:
+    
+    Eğer Traceroute'un sonunda hedefe ulaşılamıyorsa, bu, iletişimin bir noktasında bir sorun olduğunu gösterir. Bu noktada, iletişimi sağlayan ağ cihazları veya hizmet sağlayıcısı ile iletişime geçilmesi gerekebilir.
 ________________________________________  
 
 > Sayfa 2
 
-39. Traceroute, iletişimdeki bir arızanın nerede olduğunu bulmanıza nasıl yardımcı olur?
+
 40. Neden bir Windows PC'den SSH kullanmak istersiniz?
 41. POST kodunun ne anlama geldiğini nasıl anlarsınız?
 42. Siyah şapka ile beyaz şapka arasındaki fark nedir?
