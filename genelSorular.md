@@ -351,52 +351,94 @@ ________________________________________
     
     Eğer Traceroute'un sonunda hedefe ulaşılamıyorsa, bu, iletişimin bir noktasında bir sorun olduğunu gösterir. Bu noktada, iletişimi sağlayan ağ cihazları veya hizmet sağlayıcısı ile iletişime geçilmesi gerekebilir.
 ________________________________________  
+> Sayfa 7
 
-> Sayfa 2
+31. #### Neden bir Windows PC'den SSH kullanmak istersiniz?
+    
+    Bir Windows PC'den SSH kullanmak için birçok neden vardır. İşte bunlardan bazıları:
+    
+    Uzak bir sunucuya güvenli bir şekilde bağlanmak: SSH, şifreli bağlantılar sağlayarak uzak bir sunucuya güvenli bir şekilde bağlanmanıza olanak tanır. Bu, hassas verileri aktarmanız veya uzak bir sunucudaki işlemleri yönetmeniz gerektiğinde önemlidir.
+    Uzak bir makinede komutlar çalıştırmak: SSH, uzak bir makinede komutlar çalıştırmanıza olanak tanır. Bu, uzak bir makinede sorun gidermeniz veya bakım yapmanız gerektiğinde kullanışlıdır.
+    Uzak bir makinenin dosyalarını kopyalamak veya taşımak: SSH, uzak bir makinenin dosyalarını kopyalamak veya taşımanıza olanak tanır. Bu, dosyalarınızı yedeklemek veya bir makineden diğerine taşımak istediğinizde kullanışlıdır.
+    
+    İşte bir Windows PC'den SSH kullanmanın bazı özel örnekleri:
+    Bir web geliştiricisiyseniz, SSH'yi uzak bir sunucuda barındırılan web sitenizi yönetmek için kullanabilirsiniz.
+    Bir sistem yöneticisiyseniz, SSH'yi uzaktaki sunucuları yönetmek için kullanabilirsiniz.
+    Bir BT uzmanıysanız, SSH'yi uzaktaki makinelerde sorun gidermek için kullanabilirsiniz.
+    
+32. #### Silinen veriler, sildiğinizde neden gerçekten kaybolmuyor?
 
+    Silinen veriler, sildiğinizde gerçekten kaybolmaz çünkü bilgisayarlar verileri tek tek bit olarak depolar. Bir dosyayı sildiğinizde, bilgisayar dosyadaki tüm bitleri silmez. Bunun yerine, dosyanın bulunduğu veri bloklarına yeni bir dosya için yer açmak için bir işaret koyar. Bu işaret, dosyanın artık kullanılmadığını gösterir, ancak veriler hala fiziksel olarak diskte kalır. Diskteki veriyi silmek için en doğru olan aynı adrese defalarca kez yazmaktır. 
+    
+    Dosya silindiğinde, veriler hala diskte kalır, ancak bunlar artık erişilemez. Bu, dosyaların kurtarma yazılımı kullanılarak geri alınabileceği anlamına gelir. Kurtarma yazılımı, silinen dosyaları bulmak için diskteki boş alanları tarayabilir.
+    
+    Silinen verileri tamamen yok etmek için, diskteki tüm verileri yeni veri ile yazmak gerekir. Bu, verilerin üzerine yazma veya diski fiziksel olarak imha etme gibi yöntemlerle yapılabilir.
+    
+    Verilerin üzerine yazma, silinen verileri yeni verilerle değiştirerek çalışır. Bu, verilerin kurtarılmasını zorlaştırır, ancak onları tamamen yok etmez. Verilerin üzerine yazmak için, sildiğiniz dosyayı aynı boyutta veya daha küçük bir dosyayla değiştirmeniz gerekir.
+    
+    Diski fiziksel olarak imha etmek, diski kırarak veya yakarak yapılır. Bu, verilerin tamamen yok edilmesini sağlar, ancak diski yeniden kullanamazsınız.
+    
+33. #### Gözetim Zinciri Nedir?
+    Siber güvenlikte gözetim zinciri, bir siber güvenlik olayının veya ihlalinin kanıtlarını toplamak, korumak ve analiz etmek için kullanılan bir süreçtir. Bu süreç, aşağıdaki dört aşamadan oluşur:
 
-40. Neden bir Windows PC'den SSH kullanmak istersiniz?
-41. POST kodunun ne anlama geldiğini nasıl anlarsınız?
-42. Siyah şapka ile beyaz şapka arasındaki fark nedir?
-43. Facebook ve LinkedIn gibi sosyal ağ siteleri hakkında ne düşünüyorsunuz?
-44. Neden iç tehditler genellikle dış tehditlerden daha başarılıdır?
-45. Silinen veriler, sildiğinizde neden gerçekten kaybolmuyor?
-46. Gözetim Zinciri Nedir?
-47. Yanlış yere düşen veri tehdidini kalıcı olarak nasıl ortadan kaldırırsınız?
-eller?
-48. Sızma nedir?
-49. Ev kablosuz erişim noktanızı nasıl korursunuz?
-50. Veritabanı tabanlı bir web sitesine girecek olsaydınız, bunu nasıl yapardınız?
-51. CIA üçgeni nedir?
-52. Bilgi koruma ve bilgi güvencesi arasındaki fark nedir?
-53. Bir mobil cihazı nasıl kilitlersiniz?
-54. Telefonunuzdaki mobil uygulamanın kullanımının güvenli olup olmadığını nasıl kontrol edebilirsiniz?
-55. Hangisi daha güvenli Android veya iOS, neden?
-56. Kapalı kaynak ile açık kaynak arasındaki fark nedir? Hangisi daha iyi?
-57. Anonymous gibi hacktivist gruplar hakkında ne düşünüyorsunuz?
-58. Derin sahte tehdidini nasıl açıklarsınız?
-59. Hangisi daha güvenli, güçlü bir parola mı yoksa biyometrik kimlik doğrulama mı?
-60. Deep web ile dark web arasındaki fark nedir?
-61. Fidye yazılımı neden mobil cihazları etkilemiyor?
-62. GÖNYE SALDIRISI Nedir?
-63. CISO, CIO'ya veya CEO'ya rapor vermeli mi ve neden böyle?
-64. Ananas cihazı nedir?
-65. Ahududulu Turta Nedir?
-66. Kubernetes nedir?
-67. Yapay zeka ve makine öğreniminin bilgi güvenliğindeki rolü nedir?
-68. Mobil cihazlar arasında güvenli bir şekilde iletişim kurmak için hangi uygulamayı kullanırdınız?
-69. Vekil ne yapar?
-70. Ortadaki adam saldırısını açıklayabilir misiniz?
-71. En güvenli kimlik doğrulama metodolojisi nedir, neden?
-72. BT ve güvenlik ekipleri neden aracıları sevmiyor?
-73. Yakın zamanda gerçekleşen birkaç güvenlik ihlalinden bahsedebilir misiniz?
-74. GDPR nedir ve sizi etkiler mi?
-75. Otomasyonun bilgi güvenliğindeki rolü nedir?
-76. SIEM ve UEBA arasındaki fark nedir?
-77. Tedarik zinciri saldırısına bir örnek verebilir misiniz?
-78. APT'nin ne olduğunu tanımlayabilir misiniz?
-79. Neden fidye yazılım taleplerini sigorta şirketleri ödüyor?
-80. Bilgi savaşında ilk 3 ülke hangileri?
-81.  ISO/IEC 27002 kapsamını açıklayabilir misin?
-82. Saldırganların AI kullandığı bazı yolları açıklayabilir misiniz?
-83. Siber sigorta primleri neden yükseliyor?
+    Toplama: Bu aşamada, olay veya ihlal ile ilgili tüm kanıtlar toplanır. Bu kanıtlar, ağ günlükleri, sistem günlükleri, uygulama kayıtları, e-postalar ve diğer belgeler gibi çeşitli kaynaklardan gelebilir.
+
+    Koruma: Bu aşamada, toplanan kanıtlar korunur. Bu, kanıtların yetkisiz erişimden, değiştirilmeden veya silinmeden korunmasını içerir.
+
+    Analiz: Bu aşamada, toplanan kanıtlar analiz edilir. Bu, olayın veya ihlalin nedenini, zamanlamasını ve kapsamını belirlemeyi içerir.
+    
+    Dağıtım: Bu aşamada, analiz sonuçları ilgili kişilerle paylaşılır. Bu, olay müdahale ekiplerini, yöneticileri ve düzenleyici kurumları içerebilir.
+    
+34. #### Sızma nedir?
+    Siber güvenlikte, bir sızıntı, bir saldırganın bir kuruluşun veya bireyin bilgisayar sistemlerine veya ağlarına yetkisiz erişim elde ettiği bir olaydır. Bu erişim, hassas verileri ele geçirmek, sisteme zarar vermek veya sistemi ele geçirmek için kullanılabilir. 
+
+    Sızıntılar, aşağıdakiler gibi çeşitli şekillerde meydana gelebilir:
+
+    Kötü amaçlı yazılım: Kötü amaçlı yazılım, bir saldırganın bilgisayar sistemlerine veya ağlarına erişim elde etmesini sağlayan bir tür yazılımdır. Kötü amaçlı yazılım, bir e-posta eki veya bir web sitesi bağlantısı yoluyla bir sisteme bulaştırılabilir.
+    
+    Zayıflıklar: Güvenlik açıkları, bir bilgisayar sisteminin veya ağının güvenliğini tehlikeye atan zayıflıklardır. Güvenlik açıkları, yazılım hatalarından, yanlış yapılandırmalardan veya kötü amaçlı yazılımdan kaynaklanabilir.
+    
+    Sosyal mühendislik: Sosyal mühendislik, bir saldırganın insanların güvenini kazanarak hassas bilgileri veya erişim bilgilerini elde etmesini sağlayan bir tekniktir. Sosyal mühendislik, sahte e-postalar, telefon aramaları veya yüz yüze etkileşim yoluyla gerçekleştirilebilir.
+    
+35. #### Ev kablosuz erişim noktanızı nasıl korursunuz?
+    Modemin varsayılan şifresini değiştiriyorum. Sonrasında modemin arayüzünün varsayılan şifresini değiştirerek arayüze iç ağdan bağlantıyı zorlaştırıyorum. Ağ ayarlarından lşifrelemey WPA2 ya da WPA3 olarak ayarlıyorum. Ayrıca modemi herkesin erişemeyeceği bir noktaya koyarak modemin resetlenmesi ve üzerindeki bilgilerin okunmasını engelliyorum. Modemimi ve modemin yazılımını güncel tutmaya çalışıyorum.
+    Bunun yanında başka önlemler de alınabilir bu önlemleri:
+        VPN kullanılabilir.
+        SSID gizleme yapılabilir.
+
+________________________________________  
+> Sayfa 8
+
+36. Veritabanı tabanlı bir web sitesine girecek olsaydınız, bunu nasıl yapardınız?
+37. CIA üçgeni nedir?
+38. Bilgi koruma ve bilgi güvencesi arasındaki fark nedir?
+39. Bir mobil cihazı nasıl kilitlersiniz?
+40. Telefonunuzdaki mobil uygulamanın kullanımının güvenli olup olmadığını nasıl kontrol edebilirsiniz?
+41. Hangisi daha güvenli Android veya iOS, neden?
+42. Kapalı kaynak ile açık kaynak arasındaki fark nedir? Hangisi daha iyi?
+43. Derin sahte tehdidini nasıl açıklarsınız?
+44. Hangisi daha güvenli, güçlü bir parola mı yoksa biyometrik kimlik doğrulama mı?
+45. Deep web ile dark web arasındaki fark nedir?
+46. Fidye yazılımı neden mobil cihazları etkilemiyor?
+47. GÖNYE SALDIRISI Nedir?
+48. CISO, CIO'ya veya CEO'ya rapor vermeli mi ve neden böyle?
+49. Ananas cihazı nedir?
+50. Ahududulu Turta Nedir?
+51. Kubernetes nedir?
+52. Yapay zeka ve makine öğreniminin bilgi güvenliğindeki rolü nedir?
+53. Mobil cihazlar arasında güvenli bir şekilde iletişim kurmak için hangi uygulamayı kullanırdınız?
+54. Vekil ne yapar?
+55. Ortadaki adam saldırısını açıklayabilir misiniz?
+56. En güvenli kimlik doğrulama metodolojisi nedir, neden?
+57. BT ve güvenlik ekipleri neden aracıları sevmiyor?
+58. Yakın zamanda gerçekleşen birkaç güvenlik ihlalinden bahsedebilir misiniz?
+59. GDPR nedir ve sizi etkiler mi?
+60. Otomasyonun bilgi güvenliğindeki rolü nedir?
+61. SIEM ve UEBA arasındaki fark nedir?
+62. Tedarik zinciri saldırısına bir örnek verebilir misiniz?
+63. APT'nin ne olduğunu tanımlayabilir misiniz?
+64. Neden fidye yazılım taleplerini sigorta şirketleri ödüyor?
+65. Bilgi savaşında ilk 3 ülke hangileri?
+66.  ISO/IEC 27002 kapsamını açıklayabilir misin?
+67. Saldırganların AI kullandığı bazı yolları açıklayabilir misiniz?
+68. Siber sigorta primleri neden yükseliyor?
