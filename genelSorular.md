@@ -409,36 +409,79 @@ ________________________________________
 ________________________________________  
 > Sayfa 8
 
-36. Veritabanı tabanlı bir web sitesine girecek olsaydınız, bunu nasıl yapardınız?
-37. CIA üçgeni nedir?
-38. Bilgi koruma ve bilgi güvencesi arasındaki fark nedir?
-39. Bir mobil cihazı nasıl kilitlersiniz?
-40. Telefonunuzdaki mobil uygulamanın kullanımının güvenli olup olmadığını nasıl kontrol edebilirsiniz?
-41. Hangisi daha güvenli Android veya iOS, neden?
-42. Kapalı kaynak ile açık kaynak arasındaki fark nedir? Hangisi daha iyi?
-43. Derin sahte tehdidini nasıl açıklarsınız?
-44. Hangisi daha güvenli, güçlü bir parola mı yoksa biyometrik kimlik doğrulama mı?
-45. Deep web ile dark web arasındaki fark nedir?
-46. Fidye yazılımı neden mobil cihazları etkilemiyor?
-47. GÖNYE SALDIRISI Nedir?
-48. CISO, CIO'ya veya CEO'ya rapor vermeli mi ve neden böyle?
-49. Ananas cihazı nedir?
-50. Ahududulu Turta Nedir?
-51. Kubernetes nedir?
-52. Yapay zeka ve makine öğreniminin bilgi güvenliğindeki rolü nedir?
-53. Mobil cihazlar arasında güvenli bir şekilde iletişim kurmak için hangi uygulamayı kullanırdınız?
-54. Vekil ne yapar?
-55. Ortadaki adam saldırısını açıklayabilir misiniz?
-56. En güvenli kimlik doğrulama metodolojisi nedir, neden?
-57. BT ve güvenlik ekipleri neden aracıları sevmiyor?
-58. Yakın zamanda gerçekleşen birkaç güvenlik ihlalinden bahsedebilir misiniz?
-59. GDPR nedir ve sizi etkiler mi?
-60. Otomasyonun bilgi güvenliğindeki rolü nedir?
-61. SIEM ve UEBA arasındaki fark nedir?
-62. Tedarik zinciri saldırısına bir örnek verebilir misiniz?
-63. APT'nin ne olduğunu tanımlayabilir misiniz?
-64. Neden fidye yazılım taleplerini sigorta şirketleri ödüyor?
-65. Bilgi savaşında ilk 3 ülke hangileri?
-66.  ISO/IEC 27002 kapsamını açıklayabilir misin?
-67. Saldırganların AI kullandığı bazı yolları açıklayabilir misiniz?
-68. Siber sigorta primleri neden yükseliyor?
+36. #### Veritabanı tabanlı bir web sitesine girecek olsaydınız, bunu nasıl yapardınız?
+    SQL injection: Bu, SQL ifadelerinin web sitesine girilerek veritabanından verilere erişme veya değişiklik yapma yöntemidir.
+    
+    Cross-site scripting (XSS): Bu, kötü amaçlı kodun web sitesine yerleştirilerek kullanıcıların bilgisayarlarına bulaşmasını sağlama yöntemidir.
+    
+    Man-in-the-middle (MITM): Bu, saldırganın, kullanıcının web sitesiyle iletişimini dinleyerek ve değiştirerek veritabanına erişmesini sağlama yöntemidir.
+    
+37. #### CIA üçgeni nedir?
+    
+     ##### Gizlilik (Confidentiality):
+    Bilgiye yetkisiz kişilerin erişimini sınırlama anlamına gelir. Bilgi, sadece yetkili kişiler veya sistemler tarafından erişilebilecek ve kullanılabilecek şekilde korunmalıdır. Gizlilik, duyarsız veya özel bilgilerin yetkisiz kişiler tarafından ele geçirilmesini veya ifşa edilmesini önlemeye odaklanır.
+    
+    ##### Bütünlük (Integrity):
+    Bilgi veya veri bütünlüğü, bilginin doğruluğunu, doğruluğunu ve güvenilirliğini koruma anlamına gelir. Bilgiye yapılan değişikliklerin yalnızca yetkililer tarafından yapılmasını sağlamak için önlemler alınmalıdır. Bu, veri bütünlüğünü bozabilecek veya değiştirebilecek her türlü tehdide karşı koruma sağlamayı içerir.
+
+    ##### Erişilebilirlik (Availability):
+    Bilgi veya sistemlere yetkili kullanıcıların gerektiğinde güvenli bir şekilde erişim sağlama anlamına gelir. Bu, sistem veya hizmetlerin planlandığı gibi çalışmasını ve kullanıcıların ihtiyaç duydukları zaman bilgiye ulaşmalarını sağlamayı içerir. Erişilebilirlik, doğal afetler, siber saldırılar veya teknik sorunlar gibi olaylara karşı direnç sağlamayı amaçlar.
+    
+38. #### Bilgi koruma ve bilgi güvencesi arasındaki fark nedir?
+    Bilgi Koruma (Information Protection):
+
+    Bilgi koruma, genel olarak, bilgi varlıklarını çeşitli tehditlere karşı koruma sürecini ifade eder. Bu, bilgiye yetkisiz erişimi önlemek, veri bütünlüğünü sağlamak ve bilgi sistemlerini çeşitli tehditlere karşı korumak için alınan önlemleri içerir. Bilgi koruma, güvenlik politikaları, erişim kontrolleri, şifreleme ve güvenlik yazılımları gibi çeşitli stratejileri içerir.
+    Bilgi Güvencesi (Information Assurance):
+    
+    Bilgi güvencesi, geniş bir perspektif sunan ve bilgi varlıklarının güvenliğini sağlamaya odaklanan bir terimdir. Bilgi güvencesi, bilgi korumasının yanı sıra bilgi sistemlerinin ve süreçlerinin genel güvenilirliği, bütünlüğü ve kullanılabilirliğini de içerir. Bu, siber güvenlik, risk yönetimi, uyumluluk ve sürekli iyileştirme gibi geniş bir kapsamı kucaklar.
+    
+39. #### Telefonunuzdaki mobil uygulamanın kullanımının güvenli olup olmadığını nasıl kontrol edebilirsiniz?
+    
+    Uygulamanın geliştiricisini ve uygulamanın amacını araştırın. Uygulamanın tanınmış bir geliştirici tarafından oluşturulduğundan ve güvenilir bir amaç için kullanıldığından emin olun.
+    
+    Uygulamanın izinlerini inceleyin. Uygulamanın erişmesi gereken verileri ve izinleri gözden geçirin. Uygulamanın ihtiyaç duymadığı verilere veya izinlere erişmesine izin vermeyin.
+
+    Uygulamanın yorumlarını ve derecelendirmelerini okuyun. Diğer kullanıcıların deneyimlerinden öğrenin. Olumsuz yorumlar veya düşük derecelendirmeler varsa, uygulamadan kaçınmak isteyebilirsiniz.
+
+    Uygulamanın güvenlik değerlendirmesini okuyun. Bazı uygulamaların güvenlik uzmanları tarafından yapılan güvenlik değerlendirmeleri vardır. Bu değerlendirmeler, uygulamanın güvenlik açıklarını ve olası riskleri belirlemeye yardımcı olabilir.
+
+    Cihazınızın güvenlik ayarlarını kullanın. Cihazınızın güvenlik ayarlarını kullanarak, uygulamaların erişebileceği verileri ve izinleri kısıtlayabilirsiniz.
+
+40. #### Hangisi daha güvenli Android veya iOS, neden?
+    Android, daha açık bir sistemdir. Bu, geliştiricilerin Android cihazlar için kendi uygulamalarını ve yazılımlarını oluşturmasına olanak tanır. Ancak, bu aynı zamanda kötü amaçlı yazılım ve diğer güvenlik tehditlerinin daha kolay yayılabileceği anlamına gelir.
+
+    Android ve iOS arasındaki bazı güvenlik farklılıkları şunlardır:
+
+    Güncellemeler: Apple, iOS güncellemelerini genellikle Android'den daha hızlı yayınlar. Bu, güvenlik açıklarını daha hızlı gidermeye ve kullanıcıları korumaya yardımcı olur.
+
+    Uygulama mağazaları: Apple, App Store'u sıkı bir şekilde kontrol eder ve yalnızca güvenilir uygulamaların mağazaya kabul edilmesini sağlar. Google, Google Play Store'u daha az sıkı bir şekilde kontrol eder ve bazı kötü amaçlı uygulamaların mağazaya girmesine izin verebilir.
+
+    Güvenlik özellikleri: Hem Android hem de iOS, güvenlik özellikleri sunar. Ancak, iOS'un bazı güvenlik özellikleri daha gelişmiştir. Örneğin, iOS, kullanıcıların bilinmeyen kaynaklardan uygulamaları yüklemesini engelleyen bir "Uygulamaları Bilinmeyen Kaynaklardan Yükle" seçeneği sunar.
+    
+41. Kapalı kaynak ile açık kaynak arasındaki fark nedir? Hangisi daha iyi?
+42. Derin sahte tehdidini nasıl açıklarsınız?
+43. Hangisi daha güvenli, güçlü bir parola mı yoksa biyometrik kimlik doğrulama mı?
+44. Deep web ile dark web arasındaki fark nedir?
+45. Fidye yazılımı neden mobil cihazları etkilemiyor?
+49. GÖNYE SALDIRISI Nedir?
+50. CISO, CIO'ya veya CEO'ya rapor vermeli mi ve neden böyle?
+51. Ananas cihazı nedir?
+52. Ahududulu Turta Nedir?
+53. Kubernetes nedir?
+54. Yapay zeka ve makine öğreniminin bilgi güvenliğindeki rolü nedir?
+55. Mobil cihazlar arasında güvenli bir şekilde iletişim kurmak için hangi uygulamayı kullanırdınız?
+56. Vekil ne yapar?
+57. Ortadaki adam saldırısını açıklayabilir misiniz?
+58. En güvenli kimlik doğrulama metodolojisi nedir, neden?
+59. BT ve güvenlik ekipleri neden aracıları sevmiyor?
+60. Yakın zamanda gerçekleşen birkaç güvenlik ihlalinden bahsedebilir misiniz?
+61. GDPR nedir ve sizi etkiler mi?
+62. Otomasyonun bilgi güvenliğindeki rolü nedir?
+63. SIEM ve UEBA arasındaki fark nedir?
+64. Tedarik zinciri saldırısına bir örnek verebilir misiniz?
+65. APT'nin ne olduğunu tanımlayabilir misiniz?
+66. Neden fidye yazılım taleplerini sigorta şirketleri ödüyor?
+67. Bilgi savaşında ilk 3 ülke hangileri?
+68.  ISO/IEC 27002 kapsamını açıklayabilir misin?
+69. Saldırganların AI kullandığı bazı yolları açıklayabilir misiniz?
+70. Siber sigorta primleri neden yükseliyor?
