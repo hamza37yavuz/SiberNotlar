@@ -458,16 +458,96 @@ ________________________________________
 
     Güvenlik özellikleri: Hem Android hem de iOS, güvenlik özellikleri sunar. Ancak, iOS'un bazı güvenlik özellikleri daha gelişmiştir. Örneğin, iOS, kullanıcıların bilinmeyen kaynaklardan uygulamaları yüklemesini engelleyen bir "Uygulamaları Bilinmeyen Kaynaklardan Yükle" seçeneği sunar.
     
-41. Kapalı kaynak ile açık kaynak arasındaki fark nedir? Hangisi daha iyi?
-42. Derin sahte tehdidini nasıl açıklarsınız?
-43. Hangisi daha güvenli, güçlü bir parola mı yoksa biyometrik kimlik doğrulama mı?
-44. Deep web ile dark web arasındaki fark nedir?
-45. Fidye yazılımı neden mobil cihazları etkilemiyor?
-49. GÖNYE SALDIRISI Nedir?
-50. CISO, CIO'ya veya CEO'ya rapor vermeli mi ve neden böyle?
+________________________________________  
+> Sayfa 9
+
+41. #### Hangisi daha güvenli, güçlü bir parola mı yoksa biyometrik kimlik doğrulama mı?
+    Güçlü parolaların avantajları:
+    
+    Oldukça güvenli: Kaba kuvvet saldırılarına karşı oldukça dirençlidir.
+    Uygun maliyetli: Uygulaması ve bakımı nispeten kolaydır.
+    Kullanımı kolay: Kullanıcılar, parolalarını hatırlama ve kullanma konusunda genellikle rahattır.
+
+    Güçlü parolaların dezavantajları:
+    
+    İnsan hatası potansiyeli: Kullanıcılar, parolalarını unutma veya şifreleme standartlarını ihlal etme riskiyle karşı karşıyadır.
+    Yönetim zorluğu: Çok sayıda kullanıcı parolası yönetmek zor olabilir.
+
+    Biyometrik kimlik doğrulamanın avantajları:
+
+    Parolalardan daha güvenli: Ele geçirilmesi daha zordur.
+    Kullanımı kolay: Kullanıcılar, biyometrik özelliklerini kullanma konusunda genellikle rahattır.
+    Yönetim kolaylığı: Tek bir kullanıcının biyometrik verilerini yönetmek nispeten kolaydır.
+    
+    Biyometrik kimlik doğrulamanın dezavantajları:
+    
+    Daha pahalı: Uygulaması ve bakımı güçlü parolalardan daha pahalıdır.
+    Teknolojinin sınırlamaları: Biyometrik veriler, yanlış pozitif ve yanlış negatif sonuçlar gibi sorunlara yol açabilecek teknolojik sınırlamalara tabidir.
+
+    Biyometrik kimlik doğrulama, daha güvenli bir seçenektir, ancak daha pahalı ve karmaşık olabilir. Ayrıca, biyometrik verilerin ele geçirilmesi durumunda, kullanıcıların hesaplarına erişimi kaybetme riski daha yüksektir. Ayrıca son zamanlarda çıkan SSO uygulaması bu iki durumun hibrit olarak birleşmesi sonucu hem maliyetten tasarruf ederek hem de güvenliği kolaylaştırma maksadıyla kullanılabilir.
+
+42. #### Deep web ile dark web arasındaki fark nedir?
+    Deep Web:
+
+    Deep web, genel olarak internetin indekslenmemiş veya genel arama motorları tarafından erişilemeyen bölümünü ifade eder. Bu, örneğin özel veritabanları, şifreli içerikler, ücretli aboneliklerle erişilen siteler gibi, genel internet arama motorları tarafından taranmayan ancak meşru ve yasal içeriğe sahip olan alanları içerir. Deep web, genellikle günlük internet kullanıcısının erişimine kapalıdır.
+
+    Dark Web:
+    
+    Dark web, genellikle yasadışı ve anonim faaliyetlerin gerçekleştirildiği, şifreli ve gizli ağlara atıfta bulunur. Bu ağlar, genellikle Tor gibi özel ağlar veya diğer şifreleme yöntemleri kullanılarak erişilebilir. Dark web üzerinde çeşitli illegal mal ve hizmetlere, siber suç faaliyetlerine, şifreli iletişime ve anonim ticarete dair çeşitli aktiviteler gerçekleştirilebilir.
+    
+    Özetle, deep web, genel arama motorları tarafından tarama yapılmayan, ancak meşru ve yasal içeriğe sahip olan internetin bir bölümünü ifade ederken, dark web genellikle illegal faaliyetlere odaklanan şifreli ve anonim ağlardan oluşan bir alt kümedir. Dark web üzerindeki faaliyetler genellikle illegal olduğu için dikkat çeker ve bu tür ağlara erişmek ve kullanmak yasalara aykırı olabilir.
+    
+43. #### Fidye yazılımı neden mobil cihazları etkilemiyor?
+    Fidye yazılımları genellikle bilgisayar sistemlerini hedef alsa da, mobil cihazlara yönelik fidye yazılımları da mevcuttur. Ancak, mobil cihazlar ve bilgisayarlar arasındaki farklılıklar nedeniyle, mobil fidye yazılımları bilgisayar tabanlı fidye yazılımları kadar yaygın değildir. İşte bu farklılıkları anlamak için bazı önemli noktalar:
+
+    İşletim Sistemi Farkı:
+    
+    Bilgisayarlar genellikle Windows, macOS veya Linux tabanlı işletim sistemlerini kullanırken, mobil cihazlar genellikle iOS, Android veya başka mobil işletim sistemlerini kullanır. Fidye yazılımları, hedef aldığı sistemdeki zafiyetlere özgü olarak tasarlanır. Bu nedenle, bir fidye yazılımının bilgisayar veya mobil cihazda etkili olabilmesi için hedef aldığı işletim sistemine uygun olması gerekir.
+
+    Uygulama Mağazaları ve Güvenlik Önlemleri:
+    
+    Mobil cihazlar, uygulama indirmeleri için genellikle resmi uygulama mağazalarını kullanır. Bu mağazalar, uygulamaları denetleyip güvenlik kontrollerinden geçirerek kötü amaçlı yazılımları sınırlamaya çalışır. Bilgisayarlar genellikle daha serbest bir ortama sahip olduğundan, kullanıcılar kendi başlarına indirilen dosyaları çalıştırabilirler, bu da fidye yazılımlarının yayılma potansiyelini artırır.
+
+    Kullanıcı Davranışı:
+    
+    Mobil cihaz kullanıcıları genellikle farklı bir davranış sergiler. Örneğin, mobil cihazlarda dosya paylaşımı ve indirme eğilimi daha düşüktür. Bu, fidye yazılımlarının mobil cihazlarda yayılma şansını azaltabilir.
+    
+    Ek Güvenlik Katmanları:
+    
+    Mobil cihazlar genellikle ek güvenlik katmanlarına sahiptir. Örneğin, birçok mobil cihazda bulunan biyometrik kimlik doğrulama (parmak izi tarayıcıları, yüz tanıma) ve şifreleme özellikleri, cihazın güvenliğini artırır.
+    
+44. #### GÖNYE SALDIRISI Nedir?
+    Gönyeli saldırı, bir bilgisayar korsanının, bir kurbanın bilgisayarına bir veya daha fazla kötü amaçlı yazılım dosyasını yüklemek için bir e-posta veya web sitesi aracılığıyla bir gönyeli dosya gönderdiği bir tür siber saldırıdır. Gönyeli dosyalar, genellikle bir zafiyetten yararlanarak bir bilgisayara girer ve daha sonra, bilgisayar korsanının kontrolünü ele geçirmesine veya verilerini çalmasına izin veren diğer kötü amaçlı yazılımları yükler.
+    
+45. #### CISO, CIO'ya veya CEO'ya rapor vermeli mi ve neden böyle?
+    CISO (Chief Information Security Officer), CIO (Chief Information Officer) veya CEO'ya rapor vermeli mi konusu, kuruluşun yapısına, büyüklüğüne, sektörüne ve güvenlik stratejisine bağlı olarak değişebilir. Ancak, genel olarak CISO'nun üst düzey yöneticilere rapor vermesi şu avantajları sağlayabilir:
+
+    Stratejik Uyum ve Yönetim:
+    
+    CISO'nun üst düzey yöneticilere rapor vermesi, bilgi güvenliği stratejilerini kuruluşun genel stratejilerine entegre etmeyi kolaylaştırabilir. Bu, bilgi güvenliği politikalarının iş hedefleriyle uyumlu olmasını sağlar.
+    
+    Risk Yönetimi:
+    
+    CISO, üst düzey yöneticilere organizasyonun karşılaştığı güvenlik risklerini düzenli olarak rapor ederek, bu risklere karşı alınan önlemleri ve risk azaltma stratejilerini paylaşabilir. Bu, yöneticilere etkili bir risk yönetimi sağlar.
+
+    Stratejik Yatırım Kararları:
+    
+    CISO, üst düzey yöneticilere mevcut güvenlik durumu, güvenlik yatırımları ve güncel tehditler hakkında bilgi vererek, güvenlik bütçesinin ve kaynaklarının etkili bir şekilde yönetilmesine yardımcı olabilir. Bu da stratejik yatırım kararlarının doğru bir şekilde alınmasını sağlar.
+
+    İletişim ve Farkındalık:
+    
+    CISO'nun üst düzey yöneticilere rapor vermesi, güvenlik konularının organizasyonun en üst düzeyinde anlaşılmasına ve güvenlik farkındalığının artmasına yardımcı olabilir. Bu, güvenlik kültürünün oluşturulması ve sürdürülmesine katkı sağlar.
+    Acil Durum Yönetimi:
+    
+    CISO, üst düzey yöneticilere güvenlik olayları veya acil durumlar hakkında hızlı ve doğru bilgi sağlayarak, organizasyonun bu tür durumlarla etkili bir şekilde başa çıkmasını destekleyebilir.
+    Ancak, CISO'nun rapor verme sorumluluğu organizasyonların yapısına göre değişebilir. Bazı durumlarda CISO, CIO'ya doğrudan rapor verirken, diğer durumlarda CEO'ya doğrudan rapor verebilir. Önemli olan, güvenlik konularının üst düzey yönetimle etkili bir iletişim içinde olması ve güvenlik stratejisinin organizasyonun genel stratejisiyle uyumlu olmasıdır.
+
+________________________________________  
+> Sayfa 10
+
 51. Ananas cihazı nedir?
 52. Ahududulu Turta Nedir?
-53. Kubernetes nedir?
+53. Kubernetes nedir? Docker nedir? İlişkiyi açıklar mısın?
 54. Yapay zeka ve makine öğreniminin bilgi güvenliğindeki rolü nedir?
 55. Mobil cihazlar arasında güvenli bir şekilde iletişim kurmak için hangi uygulamayı kullanırdınız?
 56. Vekil ne yapar?
@@ -485,3 +565,4 @@ ________________________________________
 68.  ISO/IEC 27002 kapsamını açıklayabilir misin?
 69. Saldırganların AI kullandığı bazı yolları açıklayabilir misiniz?
 70. Siber sigorta primleri neden yükseliyor?
+71. Birthday attack nedir?
