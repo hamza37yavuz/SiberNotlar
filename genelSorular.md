@@ -545,13 +545,71 @@ ________________________________________
 ________________________________________  
 > Sayfa 10
 
-51. Ananas cihazı nedir?
-52. Ahududulu Turta Nedir?
-53. Kubernetes nedir? Docker nedir? İlişkiyi açıklar mısın?
-54. Yapay zeka ve makine öğreniminin bilgi güvenliğindeki rolü nedir?
-55. Mobil cihazlar arasında güvenli bir şekilde iletişim kurmak için hangi uygulamayı kullanırdınız?
-56. Vekil ne yapar?
-57. Ortadaki adam saldırısını açıklayabilir misiniz?
+46. Wifi Pineapple cihazı nedir?
+    Wifi Pineapple, bir Wi-Fi ağını taklit ederek, ortadaki adam saldırılarına olanak tanıyan bir donanımdır. Bu cihaz, genellikle güvenlik testleri için kullanılır, ancak kötü amaçlı amaçlar için de kullanılabilir.
+
+    Wifi Pineapple, aşağıdakiler dahil olmak üzere çeşitli özelliklere sahiptir:
+    
+    Kablosuz ağları taklit etme: Wifi Pineapple, bir Wi-Fi ağı oluşturarak, kullanıcıların ona bağlanmasını ve kimlik bilgilerini girmesini sağlayabilir.
+    Handshake dosyaları yakalama: Wifi Pineapple, kullanıcıların bir Wi-Fi ağına bağlandığı anda oluşturulan Handshake dosyalarını yakalayabilir. Bu dosyalar, kullanıcıların şifrelerini ve diğer hassas bilgilerini içerebilir.
+    Ağ trafiğini izleme: Wifi Pineapple, bir ağdaki tüm trafiği izleyebilir. Bu, kötü amaçlı yazılımların veya diğer saldırıların tespit edilmesinde yardımcı olabilir.
+
+47. #### Kubernetes nedir? Docker nedir? İlişkiyi açıklar mısın?
+    
+    Kubernetes, konteyner tabanlı uygulamaların dağıtımını, ölçeklendirmesini ve yönetimini otomatikleştirmek için kullanılan açık kaynaklı bir platformdur. Kubernetes, konteynerlerin nasıl oluşturulacağını, dağıtılacağını, yönetileceğini ve güncelleneceğini tanımlayan bir set kural ve API sağlar.
+    
+    Docker ise, konteyner oluşturma, dağıtma ve yönetme için kullanılan bir araçtır. Docker, bir uygulamayı ve ihtiyaç duyduğu tüm bağımlılıkları tek bir pakette bir araya getirir. Bu, uygulamaların farklı ortamlarda kolayca taşınmasını ve dağıtılmasını sağlar.
+
+    Örnek
+
+    Bir web uygulaması düşünün. Bu uygulama, bir web sunucu, bir veritabanı ve bir ön uç uygulamadan oluşuyor. Kubernetes ve Docker kullanarak, bu uygulamayı aşağıdaki gibi dağıtabilirsiniz:
+    
+    Docker kullanarak, web sunucusunu, veritabanını ve ön uç uygulamasını konteynerlere paketleyin.
+    Kubernetes kullanarak, bu konteynerleri bir Kubernetes kümesine dağıtın.
+    Kubernetes, konteynerleri otomatik olarak dağıtacak ve yönetecektir. Bu, web uygulamasını farklı ortamlarda kolayca dağıtmanıza ve yönetmenize olanak tanır.
+    
+48. #### Mobil cihazlar arasında güvenli bir şekilde iletişim kurmak için hangi uygulamayı kullanırdınız?
+    Bu konuda açık kaynaklı projeleri tespit etmeye özen gösterirdim. Açık kaynaklı IOS ve android tarafında uygulaması bulunan signal adlı iletişim aracını tercih ederdim.
+    
+49. #### Proxy nedir ne yapar? VPN nedir? Aralarındaki temel farklar nelerdir?
+    "Vekil sunucu" ya da "ara sunucu" olarak da bilinen Proxy, bağlanmak istediğiniz siteye başka bir kanal kullanarak geçmenize yarayan bir araçtır. Kullanıcı olarak site adresinizi doğrudan İnternet tarayıcısına yazmak yerine, ücretsiz veya ücretli vekil sunucu hizmeti veren siteye yazabilirsiniz. Sunucu o sayfaya girer ve sizinle sayfanın içeriğini paylaşır. Bağlantı, ara sunucunun IP adresi üzerinden yapılarak, sizin IP adresiniz bağlantı için kullanılmaz.
+
+    VPN, bir kullanıcının internet trafiğini, bir şifreli tünel üzerinden uzak bir sunucuya yönlendiren bir teknolojidir. Bu, kullanıcının IP adresini gizleyerek ve çevrimiçi etkinliklerini şifreleyerek gizliliğini artırmaya yardımcı olur. 
+
+    Temel İşlev:
+
+    Proxy (Vekil Sunucu): Bir proxy, kullanıcının internet trafiğini yönlendirdiği bir ara sunucudur. Proxy, genellikle kullanıcının IP adresini gizlemek, içerik filtreleme, erişim kontrolü gibi belirli ihtiyaçları karşılamak amacıyla kullanılır.
+    VPN (Sanal Özel Ağ): Bir VPN, kullanıcının internet trafiğini şifreleyerek ve bir sunucu aracılığıyla yönlendirerek güvenli bir bağlantı oluşturan bir teknolojidir. VPN, kullanıcının internete güvenli ve şifreli bir bağlantı kurmasına olanak tanır.
+
+    Gizlilik ve Güvenlik:
+    
+    Proxy: Temelde IP adresini gizleme ve belirli içeriklere erişimi engelleme gibi işlevleri yerine getirir, ancak bağlantı şifreleme özelliği genellikle bulunmaz.
+    VPN: VPN, trafiği şifreleyerek kullanıcının internet bağlantısını güvenli hale getirir. Bu, kişisel gizliliği artırır ve bağlantının güvenliği sağlanır.
+
+    Şifreleme:
+    
+    Proxy: Genellikle trafiği şifrelemez; bu nedenle, iletilen veriler açık bir şekilde görülebilir.
+    VPN: VPN, end-to-end şifreleme sağlar. Bu, verilerin güvenli bir şekilde iletilmesini ve üçüncü tarafların görmesini önler.
+
+    Uygulama Düzeyi ve Sistem Düzeyi:
+    
+    Proxy: Genellikle belirli uygulamalara yönelik olarak yapılandırılır. Sadece belirli trafiği yönlendirir.
+    VPN: VPN, genellikle tüm sistem düzeyinde çalışır. Tüm internet trafiğini kapsar ve tüm uygulamalara yönlendirilebilir.
+
+    Bağlantı Türü:
+    
+    Proxy: Tipik olarak HTTP, HTTPS, FTP gibi belirli protokolleri destekler.
+    VPN: Genellikle tüm internet trafiğini kapsayan genel bir bağlantı sağlar.
+
+50. #### Ortadaki adam (Man In The Middle) saldırısını açıklayabilir misiniz?
+    Man in the middle saldırısı ağda, iki bağlantı arasındaki iletişimin dinlenmesi ile çeşitli verilerin ele geçirilmesi veya iletişimi dinlemekle kalmayıp her türlü değişikliğin yapılmasını da kapsayan bir saldırı yöntemidir. MITM’de iki taraf arasındaki iletişim kesilebilir ya da yanıltıcı bir iletişim oluşturulabilir. Bu saldırı ağ üzerindeki paketleri yakalayarak manipüle etmek olarak özetlenebilir.
+
+    Kablosuz ağlarda ise paketler tamamen broadcast olarak yayıldığı için herhangi bir ön işleme gerek olmaksızın tüm paketler saldırgan tarafından yakalanabilir. Bu sebeple Ücretsiz Wi-Fi sağlayan alanlar, MiTM saldırısının gerçekleştirilmesi için en uygun alanlardır. Şifrelenmemiş paketlerin içerikleri kolaylıkla okunabilir. Wifi alanlarındaki saldırganlar network trafiğini kendi üzerlerinden geçecek şekilde yönlendirirler. Böylece o ağdaki kişilerin trafiği saldırgan üzerinden akmaya başlar. Bu trafiği ele geçiren saldırgan buradan birçok kişisel veri şifre vs. elde edebilir.
+    
+    Saldırganın gerçekleştirdiği saldırıda hedef ile ağ unsurları (sunucu, switch, router ya da modem) arasında geçen trafiği dinlemek ve İletişim ağı üzerinde serbestçe dolaşan veri paketlerini ele geçirmek yerel ağda veya uzak bir ağda gerçekleştirebilir. Aşağıdakiler dâhilinde birçok farklı çeşidi de bulunmaktadır.
+________________________________________  
+> Sayfa 10
+
 58. En güvenli kimlik doğrulama metodolojisi nedir, neden?
 59. BT ve güvenlik ekipleri neden aracıları sevmiyor?
 60. Yakın zamanda gerçekleşen birkaç güvenlik ihlalinden bahsedebilir misiniz?
