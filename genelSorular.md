@@ -610,17 +610,81 @@ ________________________________________
 ________________________________________  
 > Sayfa 10
 
-58. En güvenli kimlik doğrulama metodolojisi nedir, neden?
-59. BT ve güvenlik ekipleri neden aracıları sevmiyor?
-60. Yakın zamanda gerçekleşen birkaç güvenlik ihlalinden bahsedebilir misiniz?
-61. GDPR nedir ve sizi etkiler mi?
-62. Otomasyonun bilgi güvenliğindeki rolü nedir?
-63. SIEM ve UEBA arasındaki fark nedir?
-64. Tedarik zinciri saldırısına bir örnek verebilir misiniz?
-65. APT'nin ne olduğunu tanımlayabilir misiniz?
-66. Neden fidye yazılım taleplerini sigorta şirketleri ödüyor?
-67. Bilgi savaşında ilk 3 ülke hangileri?
-68.  ISO/IEC 27002 kapsamını açıklayabilir misin?
-69. Saldırganların AI kullandığı bazı yolları açıklayabilir misiniz?
-70. Siber sigorta primleri neden yükseliyor?
-71. Birthday attack nedir?
+51. #### En güvenli kimlik doğrulama metodolojisi nedir, neden?
+    En güvenli kimlik doğrulama metodolojisi, çok faktörlü kimlik doğrulama (MFA)'dır. MFA, kullanıcıların kimliklerini doğrulamak için birden fazla faktör kullanmasını gerektirir. Bu faktörler, aşağıdakilerden herhangi biri olabilir:
+
+    Bilgi: Kullanıcı adı, şifre, güvenlik sorusu gibi bilgiler.
+    
+    Eşya: Kullanıcının fiziksel olarak sahip olduğu bir öğe, örneğin akıllı kart, USB anahtarı veya mobil cihaz.
+    
+    Biyometri: Kullanıcının fiziksel özellikleri, örneğin parmak izi, yüz tanıma veya iris tanıma.
+    
+    MFA, tek faktörlü kimlik doğrulamadan (SFA) daha güvenlidir çünkü, saldırganların kullanıcı kimliğini doğrulamak için kullanabilecekleri bir faktörü ele geçirmelerini zorlaştırır. Örneğin, bir saldırgan bir kullanıcının şifresini ele geçirebilir, ancak bu, kullanıcının ayrıca bir akıllı kart veya mobil cihaza sahip olması durumunda kullanıcının sistemine erişmesini engellemez.
+    
+    MFA'nın bazı yaygın örnekleri şunlardır:
+    
+    İki faktörlü kimlik doğrulama (2FA): Kullanıcıların şifrelerinin yanı sıra, bir e-posta, SMS veya OTP (tek kullanımlık şifre) gibi ek bir faktör sağlamasını gerektirir.
+    
+    Üç faktörlü kimlik doğrulama (3FA): Kullanıcıların şifrelerinin, bir ek faktörün yanı sıra, bir fiziksel cihaz veya biyometrik özellik gibi üçüncü bir faktör sağlamasını gerektirir.
+
+    MFA'nın bazı avantajları şunlardır:
+
+    Güvenliği artırır: MFA, tek faktörlü kimlik doğrulamadan daha güvenlidir çünkü, saldırganların kullanıcı kimliğini doğrulamak için kullanabilecekleri bir faktörü ele geçirmelerini zorlaştırır.
+    
+    Kullanıcı deneyimini iyileştirir: MFA, kullanıcılara daha güvenli bir kimlik doğrulama deneyimi sunar. Kullanıcılar, şifrelerini hatırlamak veya her seferinde yeni bir şifre oluşturmak zorunda kalmaz.
+    
+    Yaygın olarak desteklenir: MFA, birçok uygulama ve hizmet tarafından desteklenmektedir. Bu, kullanıcıların MFA'yı kullanmaya başlamasını kolaylaştırır.
+    
+    MFA'nın bazı dezavantajları şunlardır:
+    
+    Karmaşıklık: MFA, kullanıcılar için biraz karmaşık olabilir. Kullanıcıların, MFA'yı nasıl kullanacaklarını öğrenmeleri gerekebilir.
+    
+    Maliyet: MFA, ek donanım veya yazılım gerektirebileceğinden, maliyetli olabilir.
+
+52. #### Yakın zamanda gerçekleşen birkaç güvenlik ihlalinden bahsedebilir misiniz?
+    GTA 5 kodları sızdırıldı.
+53. #### GDPR nedir ve sizi etkiler mi?
+    Eğer avrupa birliği kapsamına bir ürün (örneğin yazılım) hazırlıyorsak ürünümüz veri'nin kullanımı korunması saklanması konusunda AB yasası olan GDPR teknolojilerine bağlıdır.
+54. #### Otomasyonun bilgi güvenliğindeki rolü nedir?
+    Otomasyon, bilgi güvenliğinde aşağıdaki alanlarda kullanılabilir:
+
+    Risk yönetimi: Otomasyon, risk yönetimi süreçlerini otomatikleştirerek, güvenlik risklerini daha hızlı ve daha verimli bir şekilde belirlemeye yardımcı olabilir.
+    
+    Uygulama güvenliği: Otomasyon, uygulama güvenliği süreçlerini otomatikleştirerek, uygulamaların güvenlik açıklarını daha hızlı ve daha verimli bir şekilde tespit etmeye yardımcı olabilir.
+    
+    Ağ güvenliği: Otomasyon, ağ güvenliği süreçlerini otomatikleştirerek, ağları güvenlik tehditlerine karşı daha iyi korumaya yardımcı olabilir.
+    
+    Erişim kontrolü: Otomasyon, erişim kontrolü süreçlerini otomatikleştirerek, kullanıcıların sistemlere ve kaynaklara erişimini daha güvenli bir şekilde yönetmeye yardımcı olabilir.
+    
+    Güvenlik eğitimi: Otomasyon, güvenlik eğitimi süreçlerini otomatikleştirerek, çalışanların bilgi güvenliği konusundaki farkındalığını artırmaya yardımcı olabilir.
+
+
+55. #### SIEM ve UEBA arasındaki fark nedir?
+
+    SIEM ve UEBA, bilgi güvenliğinde kullanılan iki önemli araçtır. Her iki araç da, güvenlik olaylarını tespit etmek ve yanıt vermek için kullanılır. Ancak, bu araçlar farklı bir yaklaşım benimser ve farklı güçlü yönlere sahiptir.
+    
+    SIEM (Security Information and Event Management), günlük verilerini toplar, analiz eder ve güvenlik olaylarını izler. Ağ güvenlik cihazları, sunucular, uygulamalar ve diğer kaynaklardan gelen verileri birleştirir. Temel amacı günlük yönetimi, tehdit tespiti ve uyumluluk gereksinimleri gibi daha genel güvenlik operasyonlarını karşılamaktır.
+    
+    UEBA (User and Entity Behavior Analytics), kullanıcıların ve varlıkların davranışlarını izler ve anormal aktiviteleri tespit eder. Bu, iç tehditlerin tespiti, kimlik hırsızlığına karşı koruma ve veri sızıntısı tespiti gibi kullanım senaryolarına odaklanır. Davranış modellemesi ve makine öğrenme teknikleriyle çalışır ve anormal davranışları tespit eder.
+    
+    SIEM ve UEBA arasındaki temel farklılıklar şunlardır:
+    
+    Odak: SIEM, günlük verilerini toplar ve analiz ederken, UEBA kullanıcıların ve varlıkların davranışlarını izler.
+    
+    Amaçlar: SIEM, günlük yönetimi, tehdit tespiti ve uyumluluk gereksinimlerini karşılamayı hedeflerken, UEBA iç tehditlerin tespiti, kimlik hırsızlığına karşı koruma ve veri sızıntısı tespiti gibi kullanım senaryolarına odaklanır.
+    
+    Teknoloji: SIEM, kural tabanlı analiz ve korelasyon gibi geleneksel güvenlik tekniklerini kullanırken, UEBA davranış modellemesi ve makine öğrenme gibi gelişmiş analitik teknikleri kullanır.
+    
+    Veri kaynakları: SIEM, ağ güvenlik cihazları, sunucular, uygulamalar ve diğer kaynaklardan gelen verileri birleştirirken, UEBA kullanıcı hesapları, cihazlar, uygulamalar ve diğer kaynaklardan gelen verileri birleştirir.
+    
+    SIEM ve UEBA, birlikte kullanılarak daha güçlü bir güvenlik çözümü oluşturabilir. SIEM, günlük verilerini toplamak ve analiz etmek için kullanılabilirken, UEBA anormal davranışları tespit etmek için kullanılabilir. Bu, güvenlik ekiplerinin tehditleri daha hızlı ve daha doğru bir şekilde tespit etmelerine yardımcı olabilir.
+________________________________________  
+> Sayfa 11
+    
+66. Tedarik zinciri saldırısına bir örnek verebilir misiniz?
+67. APT'nin ne olduğunu tanımlayabilir misiniz?
+68. Neden fidye yazılım taleplerini sigorta şirketleri ödüyor?
+69. Bilgi savaşında ilk 3 ülke hangileri?
+70.  ISO/IEC 27002 kapsamını açıklayabilir misin?
+72. Siber sigorta primleri neden yükseliyor?
+73. Birthday attack nedir?
