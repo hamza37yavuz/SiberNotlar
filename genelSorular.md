@@ -681,10 +681,81 @@ ________________________________________
 ________________________________________  
 > Sayfa 11
     
-66. Tedarik zinciri saldırısına bir örnek verebilir misiniz?
-67. APT'nin ne olduğunu tanımlayabilir misiniz?
-68. Neden fidye yazılım taleplerini sigorta şirketleri ödüyor?
-69. Bilgi savaşında ilk 3 ülke hangileri?
-70.  ISO/IEC 27002 kapsamını açıklayabilir misin?
-72. Siber sigorta primleri neden yükseliyor?
-73. Birthday attack nedir?
+56. #### Tedarik zinciri saldırısına bir örnek verebilir misiniz?
+    Tabii ki. Tedarik zinciri saldırılarına en iyi örnek, 2020'de SolarWinds'e yapılan saldırıdır. SolarWinds, BT sistemleri izleme ve yönetim yazılımları sağlayan bir şirkettir. Saldırganlar, SolarWinds'in Orion platformuna sızarak, kullanılan bir dll yazılımına backdoor eklemiştir. Backdoor yazılımı, yazılımı kullanan firmalara (Fireeye, Microsoft vb), yazılım güncelleme aracılığıyla dağılmış. Bu sayede, saldırganlar, SolarWinds'in müşterilerinin sistemlerine uzaktan erişebilmiştir.
+
+    SolarWinds saldırısı, tedarik zinciri saldırılarının potansiyel olarak ne kadar yıkıcı olabileceğini gösteren bir örnektir. Bu saldırı, ABD hükümeti ve Fortune 500 şirketlerinin yanı sıra, dünya çapında birçok kuruluşu etkilemiştir.
+
+    Tedarik zinciri saldırılarına karşı korunmak için, kuruluşlar aşağıdaki önlemleri alabilir:
+
+    Tedarikçilerini dikkatlice seçin ve düzenli olarak değerlendirin.
+    
+    Tedarikçilerinizin güvenlik uygulamalarını değerlendirin.
+    
+    Tedarikçilerinizden, yazılımlarını ve donanımlarını düzenli olarak güncellemelerini isteyin.
+    
+    Tedarikçilerinizden, güvenlik olayları hakkında sizi bilgilendirmelerini isteyin.
+    
+    Tedarik zinciri saldırıları, giderek daha yaygın hale gelen bir tehdittir. Bu nedenle, kuruluşlar, bu saldırılara karşı korunmak için gerekli önlemleri almalıdır.
+    
+57. #### APT'nin ne olduğunu tanımlayabilir misiniz?
+    Tabii ki. APT, "gelişmiş kalıcı tehdit" anlamına gelen bir kısaltmadır. APT'ler, belirli bir hedefe uzun süreli ve gizli erişim elde etmek için tasarlanmış siber saldırılardır. APT'ler genellikle devletler, büyük şirketler veya suç örgütleri tarafından gerçekleştirilir.
+
+    APT'ler, aşağıdakiler de dahil olmak üzere çok çeşitli hedeflere yönelik olabilir:
+
+    Hükümetler: APT'ler, hükümetlerin gizli bilgilerini çalmak, siyasi istikrarı bozmak veya ekonomik zarara neden olmak için kullanılabilir.
+    
+    Şirketler: APT'ler, şirketlerin ticari sırlarını çalmak, mali zarara neden olmak veya operasyonlarını sabote etmek için kullanılabilir.
+    
+    Bireysel kullanıcılar: APT'ler, bireylerin kişisel bilgilerini çalmak, itibarlarını zedelemek veya fidye talep etmek için kullanılabilir.
+    
+    APT'ler, çok tehlikeli ve yıkıcı olabilir. Bu saldırılara karşı korunmak için, kuruluşlar aşağıdaki önlemleri alabilir:
+    
+    Güvenlik farkındalığını artırın: Çalışanları, APT'lerin riskleri ve belirtileri konusunda eğitin.
+    
+    Güvenlik önlemlerini güncel tutun: İşletim sistemlerini, yazılımları ve güvenlik duvarlarını düzenli olarak güncelleyin.
+    
+    Güvenlik açıklarını giderin: Güvenlik açıklarını mümkün olan en kısa sürede giderin.
+    
+    Kayıtları izleyin: Güvenlik olaylarını izlemek ve şüpheli aktiviteleri tespit etmek için bir güvenlik izleme çözümü kullanın.
+    
+    APT'ler, siber güvenlik için önemli bir tehdit oluşturmaktadır. Kuruluşların, bu saldırılara karşı korunmak için gerekli önlemleri alması önemlidir.
+    
+58. #### Neden fidye yazılım taleplerini sigorta şirketleri ödüyor?
+
+    Sigorta şirketleri, fidye yazılım taleplerini ödüyor çünkü bu, müşterilerinin veri kaybından kaynaklanan mali kayıpları azaltmanın bir yoludur. Fidye yazılımı saldırıları, işletmeler için ciddi bir tehdit oluşturmaktadır. Saldırganlar, verileri şifreler ve fidye talep eder. Müşteriler fidyeyi ödemezse, verilere erişemezler. Bu da, iş kesintisine, itibar kaybına ve hatta iflasa yol açabilir.
+
+    Sigorta şirketleri, fidye yazılımı saldırılarının neden olduğu mali kayıpları karşılamak için fidye yazılımı sigortası sunmaktadır. Bu sigorta, müşterilerin fidye ödemelerini karşılamanın yanı sıra, veri kurtarma ve itibar yönetimi gibi masrafları da karşılayabilir.
+    
+    Sigorta şirketleri, fidye yazılımı taleplerini ödemeyi tercih ediyor çünkü bu, müşterilerinin mali kayıplarını azaltmanın ve müşteri memnuniyetini artırmanın bir yoludur. Ayrıca, fidye ödemeleri, saldırganları teşvik etmemek için de önemlidir. Fidye ödemeleri arttıkça, saldırganlar daha fazla fidye yazılımı saldırısı gerçekleştirmeye teşvik edilebilir.
+    
+59. #### Bilgi savaşında ilk 3 ülke hangileri?
+    ABD Çin ve Rusya
+60. #### ISO/IEC 27002 kapsamını açıklayabilir misin?
+    
+    ISO/IEC 27002, "Information technology - Security techniques - Code of practice for information security controls" standardının bir parçasıdır. Bu standart, bilgi güvenliği kontrolleri için bir rehber olarak hizmet eder ve genellikle ISO/IEC 27001 standardı ile birlikte kullanılır. ISO/IEC 27001, bir bilgi güvenliği yönetim sistemini kurma ve sürdürme gereksinimlerini belirtirken, ISO/IEC 27002, bu sistemin uygulanabilir kontrollerini sağlar.
+    
+    ISO/IEC 27002'nin kapsamı, bilgi varlıklarını, bilgi güvenliği politikalarını, organizasyonel güvenlik yapısını, iş süreçlerini ve bilgi güvenliği yönetim sistemini içerir. Standart, bir dizi kontrol alanını tanımlar ve bu alanlarda uygulanması önerilen güvenlik kontrollerini sağlar. Aşağıda, ISO/IEC 27002'nin kapsamına dair başlıca konular yer almaktadır:
+    
+    ##### Organizasyonel Kontroller:
+    ##### Varlık Yönetimi İle İlgili Kontroller:
+    ##### Erişim Kontrolleri:
+    ##### İletişim ve İş Sürekliliği İle İlgili Kontroller:
+    ##### Fiziksel ve Çevresel Güvenlik İle İlgili Kontroller:
+    ##### Bilgi Sistemleri Geliştirme ve Bakımı İle İlgili Kontroller:
+    ##### Tedbirler İle İlgili Kontroller:
+
+62. #### Birthday attack nedir?
+
+    Doğum günü saldırısı (birthday attack) kriptografide kullanılan karma fonksiyonlarını hedef alan bir tekniktir. Amacı, bir çarpışma (collision) yaratmaktır, yani aynı karma değerine (hash) sahip farklı iki çıktı üretmektir. Bu çarpışmayı kullanarak, bir dijital imza saldırısı ya da kimlik doğrulama sistemi gibi güvenlik uygulamalarında sahtecilik yapmak mümkündür.
+    
+    Doğum günü saldırısının çalışma prensibi, olasılık teorisindeki doğum günü problemiyle yakından ilişkilidir. Bu problem, rastgele seçilen n kişiden ikisinin aynı doğum gününe sahip olma olasılığını hesaplar. Olasılık, n arttıkça hızla yükselir ve yaklaşık olarak n² / 2 ile tahmin edilebilir. Doğum günü saldırısı da aynı ilkeyi kullanır, ancak çarpışmayı bulmak için olasılık yerine rastgele hesaplamalarla çıktıları üretir.
+    
+    Karma fonksiyonlarının amacı, her bir girdiye benzersiz bir karma değeri atayarak veri bütünlüğünü ve kimlik doğrulamasını sağlamaktır. Ancak, karma fonksiyonunun çıktı uzunluğu yeterince büyük değilse, doğum günü saldırısıyla çarpışma yaratma ihtimali artar. Bu da karma fonksiyonunun güvenliğini tehdit eder.
+    
+    Doğum günü saldırısı tehdidiyle mücadele etmek için, karma fonksiyonu çıktısının uzunluğunu yeterince büyük seçmek önemlidir. Genel olarak, güvenli bir karma fonksiyonunun çıktı uzunluğu, saldırının maliyetini makul olmayan seviyelere çıkaracak kadar büyüktür. Ayrıca, farklı saldırı çeşitlerine karşı daha dayanıklı yeni karma fonksiyonu tasarımları araştırılmaktadır.
+    
+    Özetle, doğum günü saldırısı, karma fonksiyonlarının güvenliğini tehdit eden önemli bir saldırı tekniğidir. Ancak, doğru çıktı uzunluğu seçimi ve yeni algoritmaların geliştirilmesiyle bu saldırıya karşı mücadele etmek mümkündür.
+
+
+#### GENEL BİLGİLER
