@@ -757,5 +757,42 @@ ________________________________________
     
     Özetle, doğum günü saldırısı, karma fonksiyonlarının güvenliğini tehdit eden önemli bir saldırı tekniğidir. Ancak, doğru çıktı uzunluğu seçimi ve yeni algoritmaların geliştirilmesiyle bu saldırıya karşı mücadele etmek mümkündür.
 
+________________________________________  
+> Sayfa 12
 
 #### GENEL BİLGİLER
+
+#### SIK KULLANILAN PORTLAR:
+
+##### FTP 21
+##### SSH 22
+##### TELNET 23
+##### SMTP 25
+##### DNS 53
+##### HTTP 80
+##### POP3 110:
+Emailleri serverdan çekip lokalde saklamamıza imkân veren, çektiğimiz zaman bu mailleri serverdan silmemize olanak sağlayan, webmail ve diğer email sağlayıcıları tarafından başka bilgisayarlardan erişim sağlanamayan email protokolüdür. 3 rakamı, protokolün sürüm numarasıdır. POP3 kolaylığı ve görevleri az hata oranıyla yerine getirmesiyle oldukça popülerdir. Email alımı içinde genel olarak 110 portu kullanır.
+
+##### SFTP 115
+##### NetBIOS 139: 
+LAN üzerinde farklı bilgisayarların birbiri ile iletişim kurmasını sağlayan bir protokoldür. LAN üzerinde iki bilgisayar arasında veri paylaşımı için kullanılan bu port 139 portu olarak geçmektedir.
+
+##### IMAP 143: 
+POP3 gibi mailleri yerel email istemcilerine almak için kullanılır. Bu protokolde POP3’e göre en büyük fark, sadece email header bilgisi indirilmesidir. Çift yönlü iletişime sahiptir.
+
+##### SNMP (Simple Network Management Protocol) 161:
+Basit ağ yönetim protokolüdür. Ağı yönetmede, ağ yöneticisine yardımcı olan basit bir protokoldür. Geniş ağlarda, cihazların yönetimini ve denetimini kolaylaştırmak için tasarlanmıştır.
+
+##### HTTPS 443
+##### SMB 445
+##### SMTPS 465
+##### SYSLOG 514 :
+Server-client arasındaki iletişimi sağlayan bir protokol. Paylaşılan dosyalara erişimi, ağlar, yazıcılar ve çeşitli bağlantıları sağlar. SMB istemci-sunucu uygulamasıdır.
+
+##### POP3S 995
+##### IMAPS 993
+##### FTPS 990
+##### MySQL 3306
+##### RDP 3389
+##### PostgreSQL 5432
+
