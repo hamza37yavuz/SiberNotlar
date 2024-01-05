@@ -762,7 +762,7 @@ ________________________________________
 
 #### GENEL BİLGİLER
 
-#### SIK KULLANILAN PORTLAR:
+### SIK KULLANILAN PORTLAR:
 
 ##### FTP 21
 ##### SSH 22
@@ -796,3 +796,53 @@ Server-client arasındaki iletişimi sağlayan bir protokol. Paylaşılan dosyal
 ##### RDP 3389
 ##### PostgreSQL 5432
 
+### SIK KULLANILAN PROTOKOL NUMARALARI
+
+##### ICMP 1
+##### IGMP 2
+##### TCP 6
+##### UDP 17
+##### RDP 27
+##### SMP 121
+
+### SIK KULLANILAN KISALTMALAR VE TANIMLAMALAR
+
+__*WAN*__: Wide Area Network, anlamına gelir ve birbirinden uzakta bulunan cihazları ve bilgisayar ağlarını birbirine bağlayan büyük bir ağ türüdür. Bir şehrin ya da hatta bir ülkenin tamamını kapsayan ağlar WAN olarak adlandırılır.
+
+__*ISP*__: İnternet Servis Sağlayıcı (Internet Service Provider) anlamına gelir ve bireysel kullanıcılar ya da kurumlara internet bağlantısı sağlayan firmalardır.
+
+__*OSCP*__: Offensive Security Certified Professional, Offensive Security tarafından verilen bir sızma testi sertifikasıdır. OSCP, sızma testi alanındaki en saygın sertifikasyonlardan biridir ve sızma testi becerilerini ve bilgi birikimini kanıtlamak isteyen kişiler için idealdir.
+
+__*VDOM*__: Sanal Etki Alanı anlamına gelir ve bir ağ güvenlik duvarı (firewall) üzerinde birden fazla ayrı ağ ortamı oluşturmak için kullanılan bir özelliktir. VDOM'ler, farklı ağlara veya iş birimlerine özel güvenlik politikaları uygulamak için kullanılabilir.
+
+__*QOS*__: Quality Of Service
+
+__*BYOD*__: Bring Your Own Device
+
+__*ZTNA*__: Zero Trust Network Acces
+
+__*CVE*__: Common Vulnerabilities and Exposures: bilinen zaafiyetler ve açıklar
+
+__*CTI*__: Cyber Threat Intelligence
+
+__*DLP*__: Data Loss Prevention: Veri Kaybı Önleme
+
+__*EPS*__: Event Per Second: Saniye Başına Olay Sayısı
+
+__*SOAR*__: Security Orchestration Automation and Response
+
+__*SIEM*__: Security Information and Event Management
+
+__*CMS*__: Central Management System
+
+__*WMI*__: Windows Management Instrumentation: Windows Yönetim Araçları
+
+__*NAC*__ : Network Access Control
+
+__*RADIUS*__: Remote Authentication Dial-In User Service: ağlara uzaktan erişimi kontrol etmek için kullanılan bir protokoldür.
+
+__*WAF*__: Web Application Firewall
+
+__*NAT*__: Network Adress Translation: Aynı ağ içerisinde bulunan birden fazla cihazın aynı public IP’yi kullanarak internete erişebilmesini sağlayan yöntemdir.
+
+__*LAN*__: Local Area Network,     *WLAN*: Wireless LAN, *VLAN*: Virtual LAN, 
