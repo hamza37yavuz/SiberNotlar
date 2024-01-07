@@ -845,4 +845,36 @@ __*WAF*__: Web Application Firewall
 
 __*NAT*__: Network Adress Translation: Aynı ağ içerisinde bulunan birden fazla cihazın aynı public IP’yi kullanarak internete erişebilmesini sağlayan yöntemdir.
 
-__*LAN*__: Local Area Network,     *WLAN*: Wireless LAN, *VLAN*: Virtual LAN, 
+__*LAN*__: Local Area Network,     *WLAN*: Wireless LAN, *VLAN*: Virtual LAN
+
+__**PAM**__: Privilege Access Management
+
+__**IAM**__: Identity Access Management
+
+__**EPM**__: Endpoint Management
+
+__**HA**__: High Avalibility
+
+__**On-prem**__: On-Premises: Yerinde şirket içinde (sunucu)
+
+__**MAM**__: Mobile Application Management (Kulllanıcının kendi telefonundan şirket işlerini yönetmesini sağlayan sistemin özeti)
+
+   __**MDM**__: Mobile Device Management (Kullanıcının şirket telefonu yönetimi)
+
+   __**MCM**__: Mobile Content Management
+
+   __**EMM**__: Enterprise Mobility Management
+    
+   __**EFSS**__: Enterprise File Snyc and Share
+
+   __**RFS**__: Remote File Storage
+
+   __**UEM**__: Unified Endpoint Management (bütün her şeyi tek panelden yönetme)
+
+   __**UAG**__: Unified Access Gateway
+
+   
+
+   __**CRE**__: Content Rendering Engine
+   
+
