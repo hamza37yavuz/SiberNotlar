@@ -171,3 +171,42 @@ Daha az hata: VTP, VLAN bilgilerinin otomatik olarak paylaşılmasını sağlar.
 Daha fazla güvenlik: VTP, VLAN bilgilerinin yetkisiz erişime karşı korunmasına yardımcı olur.
 
 VTP Domain: VTP domain, aynı VTP protokolünü kullanan anahtarların oluşturduğu bir gruptur. Bir VTP domain'de, anahtarlar VLAN bilgilerini birbirleriyle paylaşır.
+
+### Firewall:
+
+Ağ Güvenlik Duvarı (Firewall), bir ağdaki cihazları yetkisiz erişime ve saldırılara karşı korumak için kullanılan bir güvenlik cihazıdır. Ağ güvenlik duvarları, gelen ve giden ağ trafiğini analiz ederek, izin verilen trafiği içeri alır ve izin verilmeyen trafiği engeller. Kendi loglarını üzerinde de tutabilir farklı bir cihazda da tutabilir. Ayrıca IP reputation ve antibot sağlar. IP reputation, bir IP adresinin geçmişteki davranışlarına dayanarak güvenilirliğini tahmin etmek için kullanılan bir tekniktir. Antibot, kötü amaçlı yazılım içeren web sitelerine ve kaynaklara erişimi engellemek için kullanılan bir tekniktir.
+
+Güvenlik, Yönetilebilirlik, Ölçeklendirme, Politikalandırma ve Zafiyet Önlemi sağlar
+
+VPN: SSL VPN, bir cihazın bir VPN sunucusu aracılığıyla bir ağdaki diğer cihazlara güvenli bir şekilde bağlanmasına olanak tanıyan bir VPN protokolüdür. SSL VPN, güvenli soket katmanı (SSL) protokolünü kullanır ve genellikle web tarayıcıları aracılığıyla kullanılır.
+IPSEC, bir cihazın bir VPN sunucusu aracılığıyla bir ağdaki diğer cihazlara güvenli bir şekilde bağlanmasına olanak tanıyan bir VPN protokolüdür. IPSEC, IPSec protokolünü kullanır ve genellikle ağ geçitleri veya özel yazılım aracılığıyla kullanılır.
+SSL VPN'nin portu 10443'tür. Bu port, SSL VPN bağlantılarını kabul etmek için kullanılır.
+
+SSL VPN, yerel bir cihazda, bir etki alanı denetleyicisinde veya bir RADIUS sunucusunda kullanılabilir.
+
+IPSEC yapılandırma ağ public ve static olmalıdır. Bu, IPSEC bağlantısının her iki ucundaki cihazların da birbirleriyle iletişim kurabilmesi için bir halka ağda olması gerektiği anlamına gelir. Ayrıca, her iki ucundaki cihazların da statik IP adresleri olması gerekir.
+
+IPSEC bağlantısının her iki ucundaki şifreleme ve kimlik doğrulama yöntemleri de aynı olmalıdır. Bu, bağlantının güvenli ve güvenilir olmasını sağlamak için önemlidir.
+
+**Firewall Kullanım Amaçları:**
+
+UTM koruması: UTM koruması, bir güvenlik duvarının bir dizi güvenlik özelliğini sağlamasıdır. Bu özellikler, URL filtreleme, uygulama denetimi, IPS ve diğer güvenlik önlemlerini içerebilir.
+
+QOS: QOS, bir ağda belirli paketlere öncelik verilmesine olanak tanıyan bir tekniktir. Bu, ağ performansını iyileştirmek veya belirli uygulamalara veya hizmetlere öncelik vermek için kullanılabilir.
+
+SD-WAN: SD-WAN, bir kuruluşun birden fazla geniş alan ağ (WAN) bağlantısını yönetmesine olanak tanıyan bir teknolojidir. SD-WAN, hat yedeklemesi, kesintisiz erişim ve SLA yönetimi gibi özellikleri sağlayabilir.
+NAT:
+
+NAT, bir cihazın yerel ağındaki özel IP adreslerini, bir halka ağdaki genel IP adreslerine dönüştüren bir tekniktir. Bu, bir kuruluşun birden fazla cihazı tek bir halka IP adresine sahip bir İnternet bağlantısı aracılığıyla dışarıya bağlamasına olanak tanır.
+
+NAT, yerel ağınızın tüm cihazlarının tek bir public IP adresini kullanmasına olanak tanır.
+Aynı zamanda birden fazla cihaz başka bir ağa tek bir ip den çıkış yapabilir. Bu, NAT'ın bir başka özelliğidir. NAT, bir cihazın IP adresini değiştirerek, birden fazla cihazın aynı IP adresini kullanarak aynı ağa bağlanmasına olanak tanır.
+
+Örnek:
+
+Şirketin yerel ağında 100 cihaz vardır. Bu cihazların tümü 10.0.0.0 ile 10.255.255.255 arasındaki IP adreslerini kullanır. Şirket, bu cihazların hepsinin İnternet'e erişmesini istiyor.
+
+Şirket, NAT'ı kullanarak bu sorunu çözebilir. NAT, yerel ağın tüm cihazlarının tek bir halka IP adresini kullanmasına olanak tanır. Bu durumda, halka IP adresi 10.0.0.1 olabilir.
+
+Şirket, NAT'ı kullanarak aynı zamanda birden fazla cihazın aynı ağa bağlanmasına da olanak tanıyabilir. Örneğin, şirket, bir web sunucusunun 10.0.0.10 IP adresini kullanmasını ister. Şirket, NAT'ı kullanarak bu web sunucusunun IP adresini 10.0.0.1'e değiştirebilir. Bu, web sunucusunun başka bir ağa bağlanan diğer cihazlarla aynı IP adresini kullanmasına olanak tanır.
+
