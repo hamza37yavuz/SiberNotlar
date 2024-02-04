@@ -757,7 +757,7 @@ ________________________________________
     
     Özetle, doğum günü saldırısı, karma fonksiyonlarının güvenliğini tehdit eden önemli bir saldırı tekniğidir. Ancak, doğru çıktı uzunluğu seçimi ve yeni algoritmaların geliştirilmesiyle bu saldırıya karşı mücadele etmek mümkündür.
 
-#### Cyber Kill Chain Siber Ölüm Zincirinin ne olduğunu tanımlayabilir misiniz?
+63. #### Cyber Kill Chain Siber Ölüm Zincirinin ne olduğunu tanımlayabilir misiniz?
 "Cyber Kill Chain" kavramı, siber saldırıların aşamalarını tanımlayan bir modeldir. Bu model, saldırganların bir sistemi hedef alıp hedeflerine ulaşana kadarki adımları açıklar.
 
 Aşamalar:
