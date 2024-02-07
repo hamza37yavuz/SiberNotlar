@@ -6,12 +6,15 @@
 
 Network: En az iki cihazın birbiri ile haberleşmesi Network olarak adlandırılır
 
+__*Ağ Bileşenleri:*__
+Switch, Router, Access point, Modem, Kablo
+
 ### SWITCH:
 Ağ içerisinde bulunan cihazlar birbiri ile haberleşmesi ve veri transferi yapılmasını sağlayan, ağ anahtarı olarak da bilinen bir ağ cihazıdır. 
 
-Yönetilebilir Switch: WLAN tanımı oluşturabilme, portların ayarlarını yapabilme, ağ trafiğini izleyebilme gibi özellikleri bulunan, layer 2 ve layer 3 olarak iki katmanda çalışan bir switch türüdür. Layer 3 switchler, routing yapabilme özelliğine sahiptir. 
+__*Yönetilebilir Switch:*__ WLAN tanımı oluşturabilme, portların ayarlarını yapabilme, ağ trafiğini izleyebilme gibi özellikleri bulunan, layer 2 ve layer 3 olarak iki katmanda çalışan bir switch türüdür. Genelde layer 3 switchler, routing yapabilme özelliğine sahiptir. 
 
-Yönetilemez Switch: WLAN tanımı oluşturama, portların ayarlarını yapama, ağ trafiğini izleyememe gibi özellikleri bulunmayan, sadece layer 2 katmanında çalışan bir switch türüdür. Routing yapamaz.
+__*Yönetilemez Switch:*__ WLAN tanımı oluşturama, portların ayarlarını yapama, ağ trafiğini izleyememe gibi özellikleri bulunmayan, sadece layer 2 katmanında çalışan bir switch türüdür. Routing yapamaz.
 
 | Özellik | Yönetilebilir Switch | Yönetilemez Switch |
 |---|---|---|
@@ -25,7 +28,9 @@ Yönetilemez Switch: WLAN tanımı oluşturama, portların ayarlarını yapama, 
 | Fiyat | **Daha yüksek** | **Daha düşük** |
 
 ### ROUTER:
-Bir kullanıcının internete bağlanabilmesi için gerekli yönlendirmeyi sağlar. Genel yapı şu şekildedir: WAN ->Router->Switch-> user
+Bir kullanıcının internete bağlanabilmesi için gerekli yönlendirmeyi sağlar. Genel yapı şu şekildedir: WAN -> Router-> Switch -> User
+
+Router üzerinde her port farklı bir ağ barındrırır. Genellikle ISP'ler tarafından kullanılır.
 
 **Static Routing:** Statik yönlendirme, bir yönlendiricinin yönlendirme tablosuna manuel olarak rotalar eklediği bir yönlendirme türüdür. Statik rotalar, yönlendirici tarafından değiştirilemez veya güncellenemez.
 
@@ -63,15 +68,19 @@ Access point'ler, farklı SSID'ler ve subnet'ler oluşturabilir. Bu, farklı kul
 Örneğin, bir ofiste, çalışanlar için bir SSID ve misafirler için bir SSID oluşturulabilir. Çalışanlar SSID'si, çalışanlar için ayrılmış bir subnet'e bağlanır. Misafirler SSID'si ise, misafirler için ayrılmış bir subnet'e bağlanır.
 
 ### MODEM: MODULATOR DEMOTULATOR
-Modulator: Dijital veriyi analog veriye dönüştürür.
+__*Modulator:*__ Dijital veriyi analog veriye dönüştürür.
 
-Demodulator: Analog veriyi dijital veriye dönüştürür.
+__*Demodulator:*__ Analog veriyi dijital veriye dönüştürür.
 
 ADSL: Asimetrik Sayısal Abone Hattı, dijital verilerin bakır telefon hatları üzerinden iletilmesini sağlayan bir bağlantı teknolojisidir. ADSL, yüksek bant genişliği sunar, ancak uzun mesafe için performansı daha iyidir (VDSL'e göre). 
 
 VDSL: Çoklu Hizmetli Sayısal Abone Hattı, dijital verilerin bakır telefon hatları üzerinden daha yüksek hızlarda iletilmesini sağlayan bir bağlantı teknolojisidir. VDSL, ADSL'den daha hızlıdır, ancak mesafeye bağlı olarak performansı düşer.
 
 Ev modemleri, modulator, demodulator, access point, switch ve router gibi özellikleri bir arada toplayan cihazlardır. Ev modemleri, ev kullanıcılarının internete bağlanmasına ve diğer cihazlarla iletişim kurmasına olanak tanır.
+
+Ev modemleri iç ağdan kendisine gelen istekleri internete yönlendirir. (Router)
+Kablosuz bağlantı yayını yapar. (Access Point)
+Her cihaza özel bağlantı oluşturur ve her cihazın bağlantısını bağımsız olarak yönetir. (Switch)
 
 ### Kablolar ve Kablo tipleri:
 STP(Shilded Twisted Pair): Korumalı kablo olarak adlandırılır. Genelde çok fazla kablonun bulunduğu yerlerde kullanılır. Sinyal karışmasını önleyici bir koruma sağlar
@@ -96,19 +105,19 @@ Tree, bus, yıldız veya halka topolojilerinin bir kombinasyonunu kullanan bir y
 Hybrid, iki veya daha fazla topolojinin bir kombinasyonunu kullanan bir yapıdır. Hibrit topolojiler, farklı ihtiyaçları karşılamak için kullanılabilir.  
 
 ### OSI REFERANS MODELİ:
-Uygulama Katmanı: google.com   HTTP HTTPS DNS isteği başladı
+Uygulama Katmanı: google.com   HTTP HTTPS DNS FTP isteği başladı
   
-Sunum Katmanı: Sıkıştırma ve şifrelemeler	
+Sunum Katmanı: Sıkıştırma ve şifrelemeler
  
-Oturum Katmanı: oturum bilgisinin tutulduğu katman 
+Oturum Katmanı: oturum bilgisinin tutulduğu katman (Bütün işlemlerin ve oturumların tutulduğu yer) 
  
-Taşıma Katmanı: TCP 6 ,UDP 17, 	
+Taşıma Katmanı: TCP 6 ,UDP 17, 	Gelen isteğin neyle gideceği belli olur.
  
 Ağ Katmanı: ICMP 1 , IP ,ARP protokolü ,AP, modem ve yönetilebilir switch
  
 Veri İletim Katmanı: mac adresi burada pakete ekleniyor, 802.3 wifi  802.11 ethernet, Yönetilemez switch 
  
-Fiziki Katman: Kablolar
+Fiziki Katman: Kablolar UTP STP Fiberoptik
 
 ### IP Address, OSI LAYER 3: IPV4 8 bitlik 4 oktet
 Başlangıçta herkese public ip ler dağıtıldı sonrasında ip sayısı tükenmeye başlayınca private ve public ayrımı yapılmaya başlandı.
@@ -129,7 +138,7 @@ E sınıfı IP 240 ile 254 arasında ip adresi tanımlanabilir. Alt ağ maskesi 
 **Broadcast adres**, bir ağdaki tüm cihazlara aynı anda veri göndermek için kullanılan özel bir IP adresidir. Broadcast adresleri, 255.255.255.255 olarak tanımlanır.Broadcast adresleri, ağlar arasında da kullanılabilir. Örneğin, bir yönlendirici, yayın adresini kullanarak bir sonraki yönlendiriciye bir paketi iletmesini isteyebilir. Kısaca broadcast adresleri bir ağdaki tüm cihazlara aynı anda veri göndermek için kullanılan özel IP adresleridir. Broadcast adresleri, ağlar içerisinde ve ağlar arasında kullanılabilir.
 Tüm cihazların bir yanıt vermesini sağlamak için: Örneğin, bir DHCP sunucusu, yayın adresini kullanarak tüm cihazlardan IP adresi taleplerini alabilir. 
 
-**Default Gateway Örnkele Açıklama:** Bir bilgisayarın varsayılan ağ geçidi 192.168.1.1 olarak ayarlanmıştır. Bilgisayar, 192.168.1.0/24 ağı içinde bir web sitesine erişmek istediğinde, paketi doğrudan web sitesine gönderebilir. Ancak, bilgisayar 192.168.1.0/24 ağının dışındaki bir web sitesine erişmek istediğinde, paketi varsayılan ağ geçidi 192.168.1.1'e göndermelidir. Varsayılan ağ geçidi, paketi web sitesine yönlendirir.
+**Default Gateway Örnkele Açıklama:** Bir bilgisayarın default gateway 192.168.1.1 olarak ayarlanmıştır. Bilgisayar, 192.168.1.0/24 ağı içinde bir web sitesine erişmek istediğinde, paketi doğrudan web sitesine gönderebilir. Ancak, bilgisayar 192.168.1.0/24 ağının dışındaki bir web sitesine erişmek istediğinde, paketi varsayılan ağ geçidi 192.168.1.1'e göndermelidir. Varsayılan ağ geçidi, paketi web sitesine yönlendirir. Default gateway genelde .254 ya da .1 şeklinde tanımlanır. Arada bir ip olarak da tanımlanabilir ama bu ip'nin başka bir bilgisayardan alınmamasına dikkat edilmelidir.
 
 ### SUBNET
 Subnetting, bir IP adres aralığını daha küçük aralıklara bölme işlemidir. Subnetting, bir ağdaki cihaz sayısını artırmaya, güvenlik katmanları oluşturmaya ve ağ performansını iyileştirmeye yardımcı olabilir.
@@ -138,11 +147,11 @@ Subnetting, bir IP adres aralığını daha küçük aralıklara bölme işlemid
 
 16 farklı subnet, her biri 16 IP adresi içerir. Bu, her subnet için 15 kullanılabilir IP adresi bırakır.
 
-Her subnet için 1 IP adresi varsayılan ağ geçidi olarak ayarlanır. Bu, cihazların diğer ağlara erişmesine izin verir.
+Her subnet için 1 IP adresi varsayılan ağ geçidi (default gateway) olarak ayarlanır. Bu, cihazların diğer ağlara erişmesine izin verir.
 
-Her subnet için 1 IP adresi yayın adresi olarak ayarlanır. Bu, bir subnetteki tüm cihazlara bir mesaj göndermek için kullanılır.
+Her subnet için 1 IP adresi yayın adresi (broadcast) olarak ayarlanır. Bu, bir subnetteki tüm cihazlara bir mesaj göndermek için kullanılır.
 
-Özetle, cümle, 192.168.3.0/24 ağını /28 subnet maskesi kullanarak 16 farklı subnete nasıl böleceğimizi anlatmaktadır.
+Özetle, 192.168.3.0/24 ağını /28 subnet maskesi kullanarak 16 farklı subnete nasıl böleceğimizi anlatmaktadır.
 
 Örnek:
 
@@ -157,10 +166,14 @@ VLAN, bir yerel alan ağında (LAN) bulunan cihazları mantıksal olarak gruplan
 
 VLAN'ların avantajları:
 
-Güvenlik: VLAN'lar, bir ağdaki cihazları fiziksel konumuna göre değil, işlevselliğine göre gruplandırarak güvenlik katmanları oluşturabilir. Örneğin, bir ofiste, çalışanlar ve ziyaretçiler farklı VLAN'larda gruplandırılabilir. Bu, çalışanların verilerinin ziyaretçiler tarafından erişilmesini engellemeye yardımcı olur.
-Ölçeklenebilirlik: VLAN'lar, bir ağın ölçeklenebilirliğini artırabilir. Örneğin, bir ağın fiziksel boyutu büyüdükçe, VLAN'lar, ağ trafiğini tek bir noktadan yönetmeyi kolaylaştırabilir.
+__*Güvenlik:*__ VLAN'lar, bir ağdaki cihazları fiziksel konumuna göre değil, işlevselliğine göre gruplandırarak güvenlik katmanları oluşturabilir. Örneğin, bir ofiste, çalışanlar ve ziyaretçiler farklı VLAN'larda gruplandırılabilir. Bu, çalışanların verilerinin ziyaretçiler tarafından erişilmesini engellemeye yardımcı olur. Farklı vlanlar için farklı kurallar yazılabilir.
+__*Ölçeklenebilirlik:*__ VLAN'lar, bir ağın ölçeklenebilirliğini artırabilir. Örneğin, bir ağın fiziksel boyutu büyüdükçe, VLAN'lar, ağ trafiğini tek bir noktadan yönetmeyi kolaylaştırabilir.
 Kontrol: VLAN'lar, bir ağdaki cihazların erişimini kontrol edebilir. Örneğin, bir ofiste, çalışanlar ve ziyaretçiler farklı VLAN'larda gruplandırılabilir. Bu, çalışanların yalnızca kendi VLAN'larında bulunan kaynaklara erişmesine izin verir.
-Performans: VLAN'lar, bir ağdaki performansı iyileştirebilir. Örneğin, bir ağda, ses ve video gibi farklı türde trafik için ayrı VLAN'lar oluşturulabilir. Bu, farklı türdeki trafiklerin birbirini etkilemesini engellemeye yardımcı olur.
+__*Performans:*__ VLAN'lar, bir ağdaki performansı iyileştirebilir. Örneğin, bir ağda, ses ve video gibi farklı türde trafik için ayrı VLAN'lar oluşturulabilir. Bu, farklı türdeki trafiklerin birbirini etkilemesini engellemeye yardımcı olur.
+
+Trunk
+Access
+Default
 
 **VTP:** VTP, birden fazla anahtarın bulunduğu ağlarda VLAN'ları yönetmek için kullanılan bir protokoldür. VTP, anahtarların VLAN bilgilerini birbirleriyle paylaşmasını sağlar. Bu, VLAN'ları tek bir yerden yönetmeyi kolaylaştırır.
 
@@ -206,7 +219,7 @@ Aynı zamanda birden fazla cihaz başka bir ağa tek bir ip den çıkış yapabi
 
 Şirketin yerel ağında 100 cihaz vardır. Bu cihazların tümü 10.0.0.0 ile 10.255.255.255 arasındaki IP adreslerini kullanır. Şirket, bu cihazların hepsinin İnternet'e erişmesini istiyor.
 
-Şirket, NAT'ı kullanarak bu sorunu çözebilir. NAT, yerel ağın tüm cihazlarının tek bir halka IP adresini kullanmasına olanak tanır. Bu durumda, halka IP adresi 10.0.0.1 olabilir.
+Şirket, NAT'ı kullanarak bu sorunu çözebilir. NAT, yerel ağın tüm cihazlarının tek bir halka açık IP adresini kullanmasına olanak tanır. Bu durumda, halka IP adresi 10.0.0.1 olabilir.
 
 Şirket, NAT'ı kullanarak aynı zamanda birden fazla cihazın aynı ağa bağlanmasına da olanak tanıyabilir. Örneğin, şirket, bir web sunucusunun 10.0.0.10 IP adresini kullanmasını ister. Şirket, NAT'ı kullanarak bu web sunucusunun IP adresini 10.0.0.1'e değiştirebilir. Bu, web sunucusunun başka bir ağa bağlanan diğer cihazlarla aynı IP adresini kullanmasına olanak tanır.
 
