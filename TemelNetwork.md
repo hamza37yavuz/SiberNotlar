@@ -187,7 +187,7 @@ VTP Domain: VTP domain, aynı VTP protokolünü kullanan anahtarların oluşturd
 
 ### Firewall:
 
-Ağ Güvenlik Duvarı (Firewall), bir ağdaki cihazları yetkisiz erişime ve saldırılara karşı korumak için kullanılan bir güvenlik cihazıdır. Ağ güvenlik duvarları, gelen ve giden ağ trafiğini analiz ederek, izin verilen trafiği içeri alır ve izin verilmeyen trafiği engeller. Kendi loglarını üzerinde de tutabilir farklı bir cihazda da tutabilir. Ayrıca IP reputation ve antibot sağlar. IP reputation, bir IP adresinin geçmişteki davranışlarına dayanarak güvenilirliğini tahmin etmek için kullanılan bir tekniktir. Antibot, kötü amaçlı yazılım içeren web sitelerine ve kaynaklara erişimi engellemek için kullanılan bir tekniktir.
+Ağ Güvenlik Duvarı (Firewall), bir ağdaki cihazları yetkisiz erişime ve saldırılara karşı korumak için kullanılan bir güvenlik cihazıdır. IPS IDS görevi görür. Ağ güvenlik duvarları, gelen ve giden ağ trafiğini analiz ederek, izin verilen trafiği içeri alır ve izin verilmeyen trafiği engeller. Kendi loglarını üzerinde de tutabilir farklı bir cihazda da tutabilir. Ayrıca IP reputation ve antibot sağlar. IP reputation, bir IP adresinin geçmişteki davranışlarına dayanarak güvenilirliğini tahmin etmek için kullanılan bir tekniktir. Antibot, kötü amaçlı yazılım içeren web sitelerine ve kaynaklara erişimi engellemek için kullanılan bir tekniktir.
 
 Güvenlik, Yönetilebilirlik, Ölçeklendirme, Politikalandırma ve Zafiyet Önlemi sağlar
 
@@ -203,14 +203,13 @@ IPSEC bağlantısının her iki ucundaki şifreleme ve kimlik doğrulama yöntem
 
 **Firewall Kullanım Amaçları:**
 
-UTM koruması: UTM koruması, bir güvenlik duvarının bir dizi güvenlik özelliğini sağlamasıdır. Bu özellikler, URL filtreleme, uygulama denetimi, IPS ve diğer güvenlik önlemlerini içerebilir.
+__*UTM koruması:*__ UTM koruması, bir güvenlik duvarının bir dizi güvenlik özelliğini sağlamasıdır. Bu özellikler, URL filtreleme, uygulama denetimi, IPS ve diğer güvenlik önlemlerini içerebilir. Firewall üzerinde UTP profilleri oluştururuz. Bu oluşturduğumuz profillere göre kurallar yazabilme imkanına sahip oluruz.
 
-QOS: QOS, bir ağda belirli paketlere öncelik verilmesine olanak tanıyan bir tekniktir. Bu, ağ performansını iyileştirmek veya belirli uygulamalara veya hizmetlere öncelik vermek için kullanılabilir.
+__*QOS:*__ QOS, bir ağda belirli paketlere öncelik verilmesine olanak tanıyan bir tekniktir. Bu, ağ performansını iyileştirmek veya belirli uygulamalara veya hizmetlere öncelik vermek için kullanılabilir.
 
-SD-WAN: SD-WAN, bir kuruluşun birden fazla geniş alan ağ (WAN) bağlantısını yönetmesine olanak tanıyan bir teknolojidir. SD-WAN, hat yedeklemesi, kesintisiz erişim ve SLA yönetimi gibi özellikleri sağlayabilir.
-NAT:
+__*SD-WAN:*__ SD-WAN, bir kuruluşun birden fazla geniş alan ağ (WAN) bağlantısını yönetmesine olanak tanıyan bir teknolojidir. SD-WAN, hat yedeklemesi, kesintisiz erişim ve SLA yönetimi gibi özellikleri sağlayabilir. Uzak konumlarda farklı IPSEC bağlantıları kurmak için kullanılabilir.
 
-NAT, bir cihazın yerel ağındaki özel IP adreslerini, bir halka ağdaki genel IP adreslerine dönüştüren bir tekniktir. Bu, bir kuruluşun birden fazla cihazı tek bir halka IP adresine sahip bir İnternet bağlantısı aracılığıyla dışarıya bağlamasına olanak tanır.
+__*NAT:*__ Public IP'ler artık yetersiz gelmeye başladı. Nat bir cihazın yerel ağındaki özel IP adreslerini, bir halka ağdaki genel IP adreslerine dönüştüren bir tekniktir. Bu, bir kuruluşun birden fazla cihazı tek bir halka IP adresine sahip bir İnternet bağlantısı aracılığıyla dışarıya bağlamasına olanak tanır.
 
 NAT, yerel ağınızın tüm cihazlarının tek bir public IP adresini kullanmasına olanak tanır.
 Aynı zamanda birden fazla cihaz başka bir ağa tek bir ip den çıkış yapabilir. Bu, NAT'ın bir başka özelliğidir. NAT, bir cihazın IP adresini değiştirerek, birden fazla cihazın aynı IP adresini kullanarak aynı ağa bağlanmasına olanak tanır.
