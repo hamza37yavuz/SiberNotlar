@@ -33,3 +33,28 @@ Inctivity (Bağlı olmama) durumuna göre ise cihazın bir ağda aktif olmadan b
 __*MAC Address Filtering (MAC Adres Filtreleme):*__ Yalnızca belirli MAC adreslerinin ağa erişmesine izin veren bir filtreleme politikası uygulamak.
 
 __*Network Monitoring (Ağ İzleme):*__ Ağ trafiğini sürekli olarak izleyen ve anormal aktiviteleri tespit eden bir ağ izleme sistemi kullanmak.
+
+## VLAN HOPING SALDIRISI:
+
+__*TRUNK MOD NEDİR*__
+
+Saldırı tiplerine ve tanımlamalarına geçmeden önce trunk modunun ne işe yaradığından bahsedelim. "Trunk modu" (trunk mode), bilgisayar ağlarında kullanılan bir terimdir ve genellikle Ethernet anahtarlarında ve yönlendiricilerinde bulunur. Bu mod, ağ cihazının belirli bir portunun birden fazla VLAN (sanal yerel ağ) trafiğini taşımasını sağlar. Trunk modu, VLAN tabanlı ağlarda ağ trafiğinin yönetimini kolaylaştırmak için kullanılır. Özellikle büyük ağlarda departmanlara ayrılmış ağ trafiğini yönetmek için kullanılır.
+
+Trunk modu, IEEE 802.1Q veya ISL (Inter-Switch Link) gibi protokollerle etiketlenmiş VLAN trafiğini taşır. Bu etiketler, her paketin hangi VLAN'a ait olduğunu belirtir ve alıcı cihazda doğru şekilde yönlendirilmesini sağlar.
+
+Trunk modu, belirli bir portun birden fazla VLAN'a ait trafiği iletebilmesini sağlar. Bu, aynı fiziksel bağlantı üzerinden farklı VLAN'lara ait verilerin taşınabilmesini sağlar. 
+
+Vlan Hoping saldırısının 3 farklı çeşidi vardır:
+
+### SWITCH SPOOFING
+Özellikle CISCO Switch'lerde DTP (Dynamic Trunk Protokol) isimli protokol bulunur. Bu protokol şu şekilde işler switch'in belirli bir portuna bağlanan diğer switch trunk moda alınırsa switch bağlantı sağlanan o portu trunk moda çeker. Bu bağlantıyı yeni bir VLAN olarak tanımlar. Bu protokol kötü niyetli kullanıcılara yeni bir kapı açıyor. Saldırgan switch'in bir portuna bağlanıyor bilgisayarını swtich olarak göstererek bağlantı portunu trunk moda çekiyor. Sonrasında yeni bir VLAN oluşturma yetkisine VLAN değiştirme yetkisine sahip oluyor. Örneğin server VLAN'ına bağlanma imkanını elde ediyor.
+
+### DOUBLE TAGGING ATTACK
+Saldırgan, cihazını swith gibi yapılandırıyor. IEEE 802.1Q standardına uygun olarak VLAN etiketlerini çift olarak etiketler. Bu şekilde, saldırgan kendi etiketini (outer tag) kullandıktan sonra hedef VLAN'ın etiketini (inner tag) ekler. Bu şekilde, saldırgan fiziksel ağın bir parçasıymış gibi görünür ve hedef VLAN'a erişebilir.
+
+### NATIVE VLAN EXPLOITATION:
+Bilgisayar ağlarında, VLAN'lar (Sanal Yerel Ağlar) ağ trafiğini segmente etmek ve yönetmek için kullanılır. Cisco Switch'ler gibi birçok ağ cihazı, VLAN trafiğini yönlendirmek için IEEE 802.1Q protokolünü kullanır. Bu protokolde, VLAN etiketleriyle işaretlenmiş paketler ağ üzerinde taşınır. Cisco Switch'lerde, "native VLAN" olarak adlandırılan özel bir VLAN bulunur. Bu VLAN, ağ cihazlarının VLAN etiketi bulunmayan trafiği taşımasını sağlar. Genellikle, switch yapılandırması varsayılan olarak bu yerel VLAN olarak tanımlanır. Saldırgan bu yapıyı kullanır ve fiziksel olarak erişebildiği bir switch'e bağlanarak yerel VLAN üzerinden trafiği dinleyebilir hatta etkileyebilir. Daha da kötüsü, saldırganlar yerel VLAN üzerinden trafiği yönlendirebilir ve ağdaki diğer cihazlarla iletişim kurabilir.
+
+
+
+
