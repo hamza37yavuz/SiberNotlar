@@ -56,5 +56,40 @@ Saldırgan, cihazını swith gibi yapılandırıyor. IEEE 802.1Q standardına uy
 Bilgisayar ağlarında, VLAN'lar (Sanal Yerel Ağlar) ağ trafiğini segmente etmek ve yönetmek için kullanılır. Cisco Switch'ler gibi birçok ağ cihazı, VLAN trafiğini yönlendirmek için IEEE 802.1Q protokolünü kullanır. Bu protokolde, VLAN etiketleriyle işaretlenmiş paketler ağ üzerinde taşınır. Cisco Switch'lerde, "native VLAN" olarak adlandırılan özel bir VLAN bulunur. Bu VLAN, ağ cihazlarının VLAN etiketi bulunmayan trafiği taşımasını sağlar. Genellikle, switch yapılandırması varsayılan olarak bu yerel VLAN olarak tanımlanır. Saldırgan bu yapıyı kullanır ve fiziksel olarak erişebildiği bir switch'e bağlanarak yerel VLAN üzerinden trafiği dinleyebilir hatta etkileyebilir. Daha da kötüsü, saldırganlar yerel VLAN üzerinden trafiği yönlendirebilir ve ağdaki diğer cihazlarla iletişim kurabilir.
 
 
+## DHCP SALDIRILARI
+
+Öncelikle DHCP'nin nasıl çalıştığını inceleyelim sornasında saldırı tiplerini açıklayalım.
+
+DHCP (Dynamic Host Configuration Protocol), ağdaki cihazlara IP adresleri ve diğer ağ yapılandırma bilgilerini otomatik olarak sağlamak için kullanılan bir iletişim protokolüdür. DHCP sunucuları, ağdaki cihazlara dinamik olarak IP adresi tahsis eder ve bu cihazlara gerekli diğer ağ yapılandırma bilgilerini sağlar. DHCP, ağ yöneticilerinin IP adresi tahsisini otomatikleştirmesini ve ağ yapılandırmasını kolaylaştırmasını sağlar.
+
+CLIENT ------> SWITCH --------> DHCP SERVER
+
+Genel olarak, DHCP işleyişi şu adımları izler:
+
+DHCP Discover (Keşif): Yeni bir cihaz ağa bağlandığında veya IP adresini yenilemek istediğinde, DHCP istemcisi (genellikle bilgisayar veya diğer ağ cihazları) ağdaki DHCP sunucularını keşfetmek için bir DHCP Keşif iletişi yayınlar.
+
+DHCP Offer (Teklif): DHCP sunucuları, DHCP Keşif mesajını alır ve mevcut IP adreslerinden birini veya bir dizi IP adresini ve diğer ağ yapılandırma bilgilerini içeren bir DHCP Teklif mesajıyla yanıt verir.
+
+DHCP Request (İstek): İstemci, DHCP Teklif mesajını alır ve sunucudan belirli bir IP adresini talep etmek için bir DHCP İstek mesajı gönderir.
+
+DHCP Acknowledge (Doğrulama): DHCP sunucusu, istemcinin isteğini doğrular ve belirtilen IP adresini tahsis eder. Ardından, DHCP İstemcisine bir DHCP Onay mesajı gönderir. İstemci bu onayı aldığında, ağ yapılandırması tamamlanır ve istemci ağa katılır.
+
+### *__DHCP Saldırı Türleri__*
+
+*__DHCP Spoofing (Sahte DHCP):__*
+
+Saldırgan, ağdaki DHCP sunucusunun yanıtlarını taklit ederek DHCP iletişimini manipüle eder. Discover paketi sonrası saldırganın paketi istemciye ilk yanıtı verir. Saldırgan kullanıcıya kendisinin gateway olduğu bir IP adresi verebilir. Ya da saldırgan kendi bilgisayarını DNS Server olarak gösterme şansı yakalayabilir. 
+Bu saldırı, ağdaki istemcilerin güvenliğini ve veri gizliliğini tehlikeye atar. Bu durumu DHCP Snooping ile engelleyebiliriz. Switch'in DHCP portu güvenilir port olarak istemcilerin portları ise güvensiz port olarak ayarlanabilir. Bu durumda discover paketi sonrası güvensiz portlar arası iletişim olmaması sağlanır. Aynı zamanda bu ayarlamalar sırasında VLAN bazında bir kullancının kaç discover paketi atabileceğine limit konulabilir. Bu limit sayesinde DHCP Starvationa da engellenebilir.
+
+*__DHCP Starvation (DHCP Açlığı):__*
+
+Saldırgan, DHCP sunucusuna ağdaki tüm IP adreslerini tüketmesi için sürekli sahte mac adreslerini değiştirir. Devamlı IP adresi isteyerek VLAN'daki tüm IP'leri doldurur.
+Bu şekilde, mevcut IP adresleri tükendiğinde, yeni cihazlar IP adresi alamaz ve ağa katılamazlar.
+Ağdaki hizmetin kesilmesine neden olur ve ağ erişimini engeller. Switch'lerde yapılan port güvenliği işlemleri bu saldırının önüne geçebilir. 
 
 
+*__DHCP Rogue Server (Sahte DHCP Sunucusu):__*
+
+Saldırgan, mevcut DHCP sunucularına benzeyen sahte bir DHCP sunucusu kurar. Burada sunucunun kendisi taklit edilir. Eğer sunucunun verdiği yanıtlar taklit edilirse bu DHCP Spoofing olur.
+Bu sahte sunucu, ağdaki istemcilere yanlış IP adresleri veya zararlı yapılandırma bilgileri sağlar.
+Ağ trafiğini yönlendirir ve saldırganın kontrolü altına alınmış bir ortam yaratır. Bu durumun önüne geçmek için DHCP Snooping, DHCP Authentication ve Port Security yapılabilir.
