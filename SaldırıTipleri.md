@@ -93,3 +93,38 @@ Ağdaki hizmetin kesilmesine neden olur ve ağ erişimini engeller. Switch'lerde
 Saldırgan, mevcut DHCP sunucularına benzeyen sahte bir DHCP sunucusu kurar. Burada sunucunun kendisi taklit edilir. Eğer sunucunun verdiği yanıtlar taklit edilirse bu DHCP Spoofing olur.
 Bu sahte sunucu, ağdaki istemcilere yanlış IP adresleri veya zararlı yapılandırma bilgileri sağlar.
 Ağ trafiğini yönlendirir ve saldırganın kontrolü altına alınmış bir ortam yaratır. Bu durumun önüne geçmek için DHCP Snooping, DHCP Authentication ve Port Security yapılabilir.
+
+## ARP SALDIRISI:
+
+Öncelikle ARP nasıl çalışıyor onu bilmemiz gerekir. Kısaca bahsedelim: Bir ağda bulunan x cihazı y cihazının bilgilerini bilmiyor ve o cihazla iletişim kurmak istiyor. Bu durumda aradıağı cihazın cevap vermesi için ağda bir arp paketi yayımlıyor. Bu paketin içerisinde yer alan MAC adresi bir cihazla eşleşiyor sonrasında y cihazı arananın kendisi olduğunu fark ederek x cihazına geri paket gönderiyor. x cihazı da gelen paket üzerine y cihazının bilgilerini ARP tablosuna kaydediyor. Peki saldırganlar nasıl bu protokolden istifade ediyor açıklayalım:
+
+__*ARP Spoofing (ARP Zehirlenmesi):*__
+
+ARP zehirlenmesi, saldırganların ağdaki diğer cihazları yanıltmak için sahte ARP cevapları gönderdiği bir saldırı türüdür. 
+A bilgisayarı yönlendiriciye bağlanmak ve internete çıkmak için bir ARP paketi yayımlar.
+Bu paket saldırgan ve yönlendirici dahil herkese iletilir. Saldırgan daha öncesinde yönlendiriciyi kendi ARP tablosuna kaydetmiştir ve bilgisine sahiptir.
+Bu sayede saldırgan yönlendiricinin göndereceği cevabı taklit edebilir. Yönlendiriciden önce a bilgisayarına kendi bilgilerini gönderir.
+Kendine a bilgisayarından gelen paketleri tekrar yönlendiriciye yollar. Bu sayede a bilgisayarı internete çıkmış olur.
+
+Kısaca saldırganlar, hedef cihazları kendi MAC adresleriyle ilişkilendirmek için sahte ARP yanıtları gönderirler. Böylece, ağdaki diğer cihazlar, aslında saldırganın cihazının MAC adresine doğru IP adresi eşleştirmiş olurlar.
+
+ARP zehirlenmesi, saldırganların ağ trafiğini dinlemesine, izlemesine ve hatta manipüle etmesine olanak tanır. Örneğin, saldırganlar, kullanıcı adları, şifreler veya diğer hassas bilgiler gibi ağ trafiğinde iletilen bilgilere erişebilirler.
+
+Bu saldırıya ve aşağıdaki diğer saldırılara önlem olarak switch üzerinde dhcp snooping yapılandırması yapılmalıdır. Bu sayede IP-MAC eşleştirmeleri yapılır. Şüpheli paketler ARP inspection sayesinde engellenir.
+
+__*ARP Cache Poisoning (ARP Önbellek Zehirlenmesi):*__
+
+ARP önbellek zehirlenmesi, saldırganların hedef cihazların ARP önbelleklerini manipüle ederek ağ trafiğini yönlendirdiği bir saldırı türüdür. Bu saldırı, ağdaki diğer cihazların ARP tablolarına yanlış eşleştirmeler ekleyerek gerçekleştirilir.
+
+Saldırganlar genellikle ağa katılan bir cihazın ARP yanıtlarını yanlış yönlendirirler. Örneğin, saldırgan, hedef cihazın IP adresine kendi MAC adresini ekleyerek, ağ trafiğinin saldırganın kontrolü altına girmesini sağlar. Bu durumda, hedef cihaz, doğru hedefe gönderilmesi gereken veriyi saldırganın cihazına yönlendirecektir.
+
+Bu tür bir saldırı, saldırganın ağdaki veriyi izlemesine ve hatta manipüle etmesine olanak tanır. Örneğin, saldırganlar, hassas verileri ele geçirmek veya iletişimi engellemek için bu yöntemi kullanabilirler.
+
+__*ARP Flood Attack (ARP Taşkını Saldırısı):*__
+
+ARP taşkını saldırısı, ağdaki cihazların ARP önbelleklerini doldurarak ağ trafiğini engellediği veya etkisiz hale getirdiği bir saldırı türüdür. Bu saldırı, saldırganların ağa büyük miktarda sahte ARP istekleri göndererek gerçekleştirilir.
+
+Saldırganlar, ağdaki diğer cihazların ARP önbelleklerini doldurarak, bu cihazların doğru hedeflere yönlendirilmesini engellerler. Bu durumda, ağ trafiği normal şekilde işlenemez ve ağ performansı ciddi şekilde etkilenir.
+
+ARP taşkını saldırıları genellikle ağ kaynaklarını tüketerek ağdaki iletişimi durdurmayı veya etkisiz hale getirmeyi amaçlar. Bu tür saldırılar, ağın kullanılabilirliğini ciddi şekilde etkileyebilir ve hizmet kesintilerine neden olabilir.
+
