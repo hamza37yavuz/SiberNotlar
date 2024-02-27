@@ -128,3 +128,22 @@ Saldırganlar, ağdaki diğer cihazların ARP önbelleklerini doldurarak, bu cih
 
 ARP taşkını saldırıları genellikle ağ kaynaklarını tüketerek ağdaki iletişimi durdurmayı veya etkisiz hale getirmeyi amaçlar. Bu tür saldırılar, ağın kullanılabilirliğini ciddi şekilde etkileyebilir ve hizmet kesintilerine neden olabilir.
 
+## STP SALDIRISI:
+
+Öncelikle, STP'nin (Spanning Tree Protocol) nasıl çalıştığını anlayalım. Ağımızda 3 farklı switch olduğunu düşünelim. Bu switch'lerin STP yapılandırması yapılmadıysa, switch'ler gelen veriyi aldığı port dışında tüm portlarından gönderirler. Bu durumda ağdaki 3 switch birbiriyle örüntü (mesh) yapıda bağlanmışsa, burada döngü oluşabilir ve sistem çökebilir. OSI katman modeline göre, bu durumun engellenmesi için 3. katmanda TTL (Time to Live) değerleri kullanılarak bu durumun önüne geçilmeye çalışılır. Ancak STP yapılandırması ile bu durum daha alt katmanda çözülür. STP yapılandırıldığında, döngünün tamamlanması için bazı paketler engellenir. Eğer örüntü yapıdaki bir ağda herhangi bir kabloda hasar meydana gelirse, engellenen paketlerin geçmesine izin verilmeye başlar. Bu yapı nasıl sağlanır sorusuna gelirsek, switch'lerin içinden birini kök switch (root switch) olarak yapılandırırız. Bu yapılandırma sonrasında, kök switch'ten çıkan portlar "Designed port" olarak adlandırılır. Diğer switch'lerin kök switch'e bağlı olan portları ise "root port" olarak adlandırılır. Port isimleri birbiri ile aynı olduğunda, veri aktarımı engellenir ve böylelikle döngü oluşumu önlenmiş olur. Bu durum aşağıdaki resme bakarak durum daha net anlaşılabilir.
+
+![STP](https://github.com/hamza37yavuz/SiberNotlar/blob/main/stp.jpeg)
+
+Temel bir saldırı senaryosu oluşturalım: Saldırgan iki tane swiwtche bağlantıyı sağlıyor. Kendini switch olarak gösteriyor ve root switch olarak yapılandırıyor. Bu 2 Switch'i kullanıp internete bağlanmak isteyen bir kişi saldırganın bilgisayarı üzerinden geçmeden internete bağlanamaz duruma geliyor. Çünkü saldırganın bağlandığı iki switch arasında port'ların ikisi de design port oluyor. 
+
+Bu senaryoyu önlemek için root bridge olma durumunu varsayılan ayarlarda bırakmamak gerekir. Ayrıca bir ağ yapısında bir tane root switch olması için root guard yapılandırmasının da tamamlanması gerekir.
+
+### *__STP Saldırı Türleri__*
+
+*__STP Kök Saldırısı (STP Root Attack):__* Bu saldırıda, saldırganlar ağdaki STP kök köprüsünü değiştirerek kendilerini kök köprüsü olarak tanıtabilirler. Bu, ağ trafiğini yönlendirmek ve ağdaki cihazları yanıltmak için kullanılabilir.
+
+*__STP Saldırıları (BPDU Flooding):__* Saldırganlar, ağa BPDUs (Bridge Protocol Data Units) adı verilen STP ile ilgili iletileri sürekli olarak göndererek ağı etkileyebilirler. Bu, ağdaki normal trafiği engelleyebilir ve kaynak tüketimine neden olabilir.
+
+*__STP Köprü Düzleştirme (STP Bridge Spoofing):__* Bu saldırıda, saldırganlar STP BPDU'ları göndererek kendilerini köprü olarak tanıtabilirler. Bu, ağ topolojisinin bozulmasına ve veri akışının istenmeyen yönlere yönlendirilmesine neden olabilir.
+
+*__STP Port Saldırıları (STP Port Attack):__* Bu saldırıda, saldırganlar ağdaki belirli portlara yönelik STP iletişimini etkilerler. Örneğin, bir portun devre dışı bırakılması veya portun kök port olarak atanması gibi saldırılar gerçekleştirebilirler.
