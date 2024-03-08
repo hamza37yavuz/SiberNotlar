@@ -545,7 +545,7 @@ ________________________________________
 ________________________________________  
 > Sayfa 10
 
-46. Wifi Pineapple cihazı nedir?
+46. #### Wifi Pineapple cihazı nedir?
     Wifi Pineapple, bir Wi-Fi ağını taklit ederek, ortadaki adam saldırılarına olanak tanıyan bir donanımdır. Bu cihaz, genellikle güvenlik testleri için kullanılır, ancak kötü amaçlı amaçlar için de kullanılabilir.
 
     Wifi Pineapple, aşağıdakiler dahil olmak üzere çeşitli özelliklere sahiptir:
@@ -641,11 +641,7 @@ ________________________________________
     
     Maliyet: MFA, ek donanım veya yazılım gerektirebileceğinden, maliyetli olabilir.
 
-52. #### Yakın zamanda gerçekleşen birkaç güvenlik ihlalinden bahsedebilir misiniz?
-    GTA 5 kodları sızdırıldı.
-53. #### GDPR nedir ve sizi etkiler mi?
-    Eğer avrupa birliği kapsamına bir ürün (örneğin yazılım) hazırlıyorsak ürünümüz veri'nin kullanımı korunması saklanması konusunda AB yasası olan GDPR teknolojilerine bağlıdır.
-54. #### Otomasyonun bilgi güvenliğindeki rolü nedir?
+52. #### Otomasyonun bilgi güvenliğindeki rolü nedir?
     Otomasyon, bilgi güvenliğinde aşağıdaki alanlarda kullanılabilir:
 
     Risk yönetimi: Otomasyon, risk yönetimi süreçlerini otomatikleştirerek, güvenlik risklerini daha hızlı ve daha verimli bir şekilde belirlemeye yardımcı olabilir.
@@ -659,7 +655,7 @@ ________________________________________
     Güvenlik eğitimi: Otomasyon, güvenlik eğitimi süreçlerini otomatikleştirerek, çalışanların bilgi güvenliği konusundaki farkındalığını artırmaya yardımcı olabilir.
 
 
-55. #### SIEM ve UEBA arasındaki fark nedir?
+53. #### SIEM ve UEBA arasındaki fark nedir?
 
     SIEM ve UEBA, bilgi güvenliğinde kullanılan iki önemli araçtır. Her iki araç da, güvenlik olaylarını tespit etmek ve yanıt vermek için kullanılır. Ancak, bu araçlar farklı bir yaklaşım benimser ve farklı güçlü yönlere sahiptir.
     
@@ -681,7 +677,7 @@ ________________________________________
 ________________________________________  
 > Sayfa 11
     
-56. #### Tedarik zinciri saldırısına bir örnek verebilir misiniz?
+54. #### Tedarik zinciri saldırısına bir örnek verebilir misiniz?
     Tabii ki. Tedarik zinciri saldırılarına en iyi örnek, 2020'de SolarWinds'e yapılan saldırıdır. SolarWinds, BT sistemleri izleme ve yönetim yazılımları sağlayan bir şirkettir. Saldırganlar, SolarWinds'in Orion platformuna sızarak, kullanılan bir dll yazılımına backdoor eklemiştir. Backdoor yazılımı, yazılımı kullanan firmalara (Fireeye, Microsoft vb), yazılım güncelleme aracılığıyla dağılmış. Bu sayede, saldırganlar, SolarWinds'in müşterilerinin sistemlerine uzaktan erişebilmiştir.
 
     SolarWinds saldırısı, tedarik zinciri saldırılarının potansiyel olarak ne kadar yıkıcı olabileceğini gösteren bir örnektir. Bu saldırı, ABD hükümeti ve Fortune 500 şirketlerinin yanı sıra, dünya çapında birçok kuruluşu etkilemiştir.
@@ -698,7 +694,7 @@ ________________________________________
     
     Tedarik zinciri saldırıları, giderek daha yaygın hale gelen bir tehdittir. Bu nedenle, kuruluşlar, bu saldırılara karşı korunmak için gerekli önlemleri almalıdır.
     
-57. #### APT'nin ne olduğunu tanımlayabilir misiniz?
+55. #### APT'nin ne olduğunu tanımlayabilir misiniz?
     Tabii ki. APT, "gelişmiş kalıcı tehdit" anlamına gelen bir kısaltmadır. APT'ler, belirli bir hedefe uzun süreli ve gizli erişim elde etmek için tasarlanmış siber saldırılardır. APT'ler genellikle devletler, büyük şirketler veya suç örgütleri tarafından gerçekleştirilir.
 
     APT'ler, aşağıdakiler de dahil olmak üzere çok çeşitli hedeflere yönelik olabilir:
@@ -721,7 +717,7 @@ ________________________________________
     
     APT'ler, siber güvenlik için önemli bir tehdit oluşturmaktadır. Kuruluşların, bu saldırılara karşı korunmak için gerekli önlemleri alması önemlidir.
     
-58. #### Neden fidye yazılım taleplerini sigorta şirketleri ödüyor?
+56. #### Neden fidye yazılım taleplerini sigorta şirketleri ödüyor?
 
     Sigorta şirketleri, fidye yazılım taleplerini ödüyor çünkü bu, müşterilerinin veri kaybından kaynaklanan mali kayıpları azaltmanın bir yoludur. Fidye yazılımı saldırıları, işletmeler için ciddi bir tehdit oluşturmaktadır. Saldırganlar, verileri şifreler ve fidye talep eder. Müşteriler fidyeyi ödemezse, verilere erişemezler. Bu da, iş kesintisine, itibar kaybına ve hatta iflasa yol açabilir.
 
@@ -729,9 +725,7 @@ ________________________________________
     
     Sigorta şirketleri, fidye yazılımı taleplerini ödemeyi tercih ediyor çünkü bu, müşterilerinin mali kayıplarını azaltmanın ve müşteri memnuniyetini artırmanın bir yoludur. Ayrıca, fidye ödemeleri, saldırganları teşvik etmemek için de önemlidir. Fidye ödemeleri arttıkça, saldırganlar daha fazla fidye yazılımı saldırısı gerçekleştirmeye teşvik edilebilir.
     
-59. #### Bilgi savaşında ilk 3 ülke hangileri?
-    ABD Çin ve Rusya
-60. #### ISO/IEC 27002 kapsamını açıklayabilir misin?
+57. #### ISO/IEC 27002 kapsamını açıklayabilir misin?
     
     ISO/IEC 27002, "Information technology - Security techniques - Code of practice for information security controls" standardının bir parçasıdır. Bu standart, bilgi güvenliği kontrolleri için bir rehber olarak hizmet eder ve genellikle ISO/IEC 27001 standardı ile birlikte kullanılır. ISO/IEC 27001, bir bilgi güvenliği yönetim sistemini kurma ve sürdürme gereksinimlerini belirtirken, ISO/IEC 27002, bu sistemin uygulanabilir kontrollerini sağlar.
     
@@ -745,7 +739,7 @@ ________________________________________
     ##### Bilgi Sistemleri Geliştirme ve Bakımı İle İlgili Kontroller:
     ##### Tedbirler İle İlgili Kontroller:
 
-62. #### Birthday attack nedir?
+58. #### Birthday attack nedir?
 
     Doğum günü saldırısı (birthday attack) kriptografide kullanılan karma fonksiyonlarını hedef alan bir tekniktir. Amacı, bir çarpışma (collision) yaratmaktır, yani aynı karma değerine (hash) sahip farklı iki çıktı üretmektir. Bu çarpışmayı kullanarak, bir dijital imza saldırısı ya da kimlik doğrulama sistemi gibi güvenlik uygulamalarında sahtecilik yapmak mümkündür.
     
@@ -757,7 +751,7 @@ ________________________________________
     
     Özetle, doğum günü saldırısı, karma fonksiyonlarının güvenliğini tehdit eden önemli bir saldırı tekniğidir. Ancak, doğru çıktı uzunluğu seçimi ve yeni algoritmaların geliştirilmesiyle bu saldırıya karşı mücadele etmek mümkündür.
 
-63. #### Cyber Kill Chain Siber Ölüm Zincirinin ne olduğunu tanımlayabilir misiniz?
+59. #### Cyber Kill Chain Siber Ölüm Zincirinin ne olduğunu tanımlayabilir misiniz?
 "Cyber Kill Chain" kavramı, siber saldırıların aşamalarını tanımlayan bir modeldir. Bu model, saldırganların bir sistemi hedef alıp hedeflerine ulaşana kadarki adımları açıklar.
 
 Aşamalar:
