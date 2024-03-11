@@ -366,19 +366,7 @@ ________________________________________
     Bir sistem yöneticisiyseniz, SSH'yi uzaktaki sunucuları yönetmek için kullanabilirsiniz.
     Bir BT uzmanıysanız, SSH'yi uzaktaki makinelerde sorun gidermek için kullanabilirsiniz.
     
-32. #### Silinen veriler, sildiğinizde neden gerçekten kaybolmuyor?
-
-    Silinen veriler, sildiğinizde gerçekten kaybolmaz çünkü bilgisayarlar verileri tek tek bit olarak depolar. Bir dosyayı sildiğinizde, bilgisayar dosyadaki tüm bitleri silmez. Bunun yerine, dosyanın bulunduğu veri bloklarına yeni bir dosya için yer açmak için bir işaret koyar. Bu işaret, dosyanın artık kullanılmadığını gösterir, ancak veriler hala fiziksel olarak diskte kalır. Diskteki veriyi silmek için en doğru olan aynı adrese defalarca kez yazmaktır. 
-    
-    Dosya silindiğinde, veriler hala diskte kalır, ancak bunlar artık erişilemez. Bu, dosyaların kurtarma yazılımı kullanılarak geri alınabileceği anlamına gelir. Kurtarma yazılımı, silinen dosyaları bulmak için diskteki boş alanları tarayabilir.
-    
-    Silinen verileri tamamen yok etmek için, diskteki tüm verileri yeni veri ile yazmak gerekir. Bu, verilerin üzerine yazma veya diski fiziksel olarak imha etme gibi yöntemlerle yapılabilir.
-    
-    Verilerin üzerine yazma, silinen verileri yeni verilerle değiştirerek çalışır. Bu, verilerin kurtarılmasını zorlaştırır, ancak onları tamamen yok etmez. Verilerin üzerine yazmak için, sildiğiniz dosyayı aynı boyutta veya daha küçük bir dosyayla değiştirmeniz gerekir.
-    
-    Diski fiziksel olarak imha etmek, diski kırarak veya yakarak yapılır. Bu, verilerin tamamen yok edilmesini sağlar, ancak diski yeniden kullanamazsınız.
-    
-33. #### Gözetim Zinciri Nedir?
+32. #### Gözetim Zinciri Nedir?
     Siber güvenlikte gözetim zinciri, bir siber güvenlik olayının veya ihlalinin kanıtlarını toplamak, korumak ve analiz etmek için kullanılan bir süreçtir. Bu süreç, aşağıdaki dört aşamadan oluşur:
 
     Toplama: Bu aşamada, olay veya ihlal ile ilgili tüm kanıtlar toplanır. Bu kanıtlar, ağ günlükleri, sistem günlükleri, uygulama kayıtları, e-postalar ve diğer belgeler gibi çeşitli kaynaklardan gelebilir.
@@ -389,7 +377,7 @@ ________________________________________
     
     Dağıtım: Bu aşamada, analiz sonuçları ilgili kişilerle paylaşılır. Bu, olay müdahale ekiplerini, yöneticileri ve düzenleyici kurumları içerebilir.
     
-34. #### Sızma nedir?
+33. #### Sızma nedir?
     Siber güvenlikte, bir sızıntı, bir saldırganın bir kuruluşun veya bireyin bilgisayar sistemlerine veya ağlarına yetkisiz erişim elde ettiği bir olaydır. Bu erişim, hassas verileri ele geçirmek, sisteme zarar vermek veya sistemi ele geçirmek için kullanılabilir. 
 
     Sızıntılar, aşağıdakiler gibi çeşitli şekillerde meydana gelebilir:
@@ -400,7 +388,7 @@ ________________________________________
     
     Sosyal mühendislik: Sosyal mühendislik, bir saldırganın insanların güvenini kazanarak hassas bilgileri veya erişim bilgilerini elde etmesini sağlayan bir tekniktir. Sosyal mühendislik, sahte e-postalar, telefon aramaları veya yüz yüze etkileşim yoluyla gerçekleştirilebilir.
     
-35. #### Ev kablosuz erişim noktanızı nasıl korursunuz?
+34. #### Ev kablosuz erişim noktanızı nasıl korursunuz?
     Modemin varsayılan şifresini değiştiriyorum. Sonrasında modemin arayüzünün varsayılan şifresini değiştirerek arayüze iç ağdan bağlantıyı zorlaştırıyorum. Ağ ayarlarından lşifrelemey WPA2 ya da WPA3 olarak ayarlıyorum. Ayrıca modemi herkesin erişemeyeceği bir noktaya koyarak modemin resetlenmesi ve üzerindeki bilgilerin okunmasını engelliyorum. Modemimi ve modemin yazılımını güncel tutmaya çalışıyorum.
     Bunun yanında başka önlemler de alınabilir bu önlemleri:
         VPN kullanılabilir.
@@ -409,14 +397,14 @@ ________________________________________
 ________________________________________  
 > Sayfa 8
 
-36. #### Veritabanı tabanlı bir web sitesine girecek olsaydınız, bunu nasıl yapardınız?
+35. #### Veritabanı tabanlı bir web sitesine girecek olsaydınız, bunu nasıl yapardınız?
     SQL injection: Bu, SQL ifadelerinin web sitesine girilerek veritabanından verilere erişme veya değişiklik yapma yöntemidir.
     
     Cross-site scripting (XSS): Bu, kötü amaçlı kodun web sitesine yerleştirilerek kullanıcıların bilgisayarlarına bulaşmasını sağlama yöntemidir.
     
     Man-in-the-middle (MITM): Bu, saldırganın, kullanıcının web sitesiyle iletişimini dinleyerek ve değiştirerek veritabanına erişmesini sağlama yöntemidir.
     
-37. #### CIA üçgeni nedir?
+36. #### CIA üçgeni nedir?
     
      ##### Gizlilik (Confidentiality):
     Bilgiye yetkisiz kişilerin erişimini sınırlama anlamına gelir. Bilgi, sadece yetkili kişiler veya sistemler tarafından erişilebilecek ve kullanılabilecek şekilde korunmalıdır. Gizlilik, duyarsız veya özel bilgilerin yetkisiz kişiler tarafından ele geçirilmesini veya ifşa edilmesini önlemeye odaklanır.
@@ -427,7 +415,7 @@ ________________________________________
     ##### Erişilebilirlik (Availability):
     Bilgi veya sistemlere yetkili kullanıcıların gerektiğinde güvenli bir şekilde erişim sağlama anlamına gelir. Bu, sistem veya hizmetlerin planlandığı gibi çalışmasını ve kullanıcıların ihtiyaç duydukları zaman bilgiye ulaşmalarını sağlamayı içerir. Erişilebilirlik, doğal afetler, siber saldırılar veya teknik sorunlar gibi olaylara karşı direnç sağlamayı amaçlar.
     
-38. #### Bilgi koruma ve bilgi güvencesi arasındaki fark nedir?
+37. #### Bilgi koruma ve bilgi güvencesi arasındaki fark nedir?
     Bilgi Koruma (Information Protection):
 
     Bilgi koruma, genel olarak, bilgi varlıklarını çeşitli tehditlere karşı koruma sürecini ifade eder. Bu, bilgiye yetkisiz erişimi önlemek, veri bütünlüğünü sağlamak ve bilgi sistemlerini çeşitli tehditlere karşı korumak için alınan önlemleri içerir. Bilgi koruma, güvenlik politikaları, erişim kontrolleri, şifreleme ve güvenlik yazılımları gibi çeşitli stratejileri içerir.
@@ -435,7 +423,7 @@ ________________________________________
     
     Bilgi güvencesi, geniş bir perspektif sunan ve bilgi varlıklarının güvenliğini sağlamaya odaklanan bir terimdir. Bilgi güvencesi, bilgi korumasının yanı sıra bilgi sistemlerinin ve süreçlerinin genel güvenilirliği, bütünlüğü ve kullanılabilirliğini de içerir. Bu, siber güvenlik, risk yönetimi, uyumluluk ve sürekli iyileştirme gibi geniş bir kapsamı kucaklar.
     
-39. #### Telefonunuzdaki mobil uygulamanın kullanımının güvenli olup olmadığını nasıl kontrol edebilirsiniz?
+38. #### Telefonunuzdaki mobil uygulamanın kullanımının güvenli olup olmadığını nasıl kontrol edebilirsiniz?
     
     Uygulamanın geliştiricisini ve uygulamanın amacını araştırın. Uygulamanın tanınmış bir geliştirici tarafından oluşturulduğundan ve güvenilir bir amaç için kullanıldığından emin olun.
     
@@ -447,7 +435,7 @@ ________________________________________
 
     Cihazınızın güvenlik ayarlarını kullanın. Cihazınızın güvenlik ayarlarını kullanarak, uygulamaların erişebileceği verileri ve izinleri kısıtlayabilirsiniz.
 
-40. #### Hangisi daha güvenli Android veya iOS, neden?
+39. #### Hangisi daha güvenli Android veya iOS, neden?
     Android, daha açık bir sistemdir. Bu, geliştiricilerin Android cihazlar için kendi uygulamalarını ve yazılımlarını oluşturmasına olanak tanır. Ancak, bu aynı zamanda kötü amaçlı yazılım ve diğer güvenlik tehditlerinin daha kolay yayılabileceği anlamına gelir.
 
     Android ve iOS arasındaki bazı güvenlik farklılıkları şunlardır:
@@ -461,7 +449,7 @@ ________________________________________
 ________________________________________  
 > Sayfa 9
 
-41. #### Hangisi daha güvenli, güçlü bir parola mı yoksa biyometrik kimlik doğrulama mı?
+40. #### Hangisi daha güvenli, güçlü bir parola mı yoksa biyometrik kimlik doğrulama mı?
     Güçlü parolaların avantajları:
     
     Oldukça güvenli: Kaba kuvvet saldırılarına karşı oldukça dirençlidir.
@@ -486,7 +474,7 @@ ________________________________________
 
     Biyometrik kimlik doğrulama, daha güvenli bir seçenektir, ancak daha pahalı ve karmaşık olabilir. Ayrıca, biyometrik verilerin ele geçirilmesi durumunda, kullanıcıların hesaplarına erişimi kaybetme riski daha yüksektir. Ayrıca son zamanlarda çıkan SSO uygulaması bu iki durumun hibrit olarak birleşmesi sonucu hem maliyetten tasarruf ederek hem de güvenliği kolaylaştırma maksadıyla kullanılabilir.
 
-42. #### Deep web ile dark web arasındaki fark nedir?
+41. #### Deep web ile dark web arasındaki fark nedir?
     Deep Web:
 
     Deep web, genel olarak internetin indekslenmemiş veya genel arama motorları tarafından erişilemeyen bölümünü ifade eder. Bu, örneğin özel veritabanları, şifreli içerikler, ücretli aboneliklerle erişilen siteler gibi, genel internet arama motorları tarafından taranmayan ancak meşru ve yasal içeriğe sahip olan alanları içerir. Deep web, genellikle günlük internet kullanıcısının erişimine kapalıdır.
@@ -497,7 +485,7 @@ ________________________________________
     
     Özetle, deep web, genel arama motorları tarafından tarama yapılmayan, ancak meşru ve yasal içeriğe sahip olan internetin bir bölümünü ifade ederken, dark web genellikle illegal faaliyetlere odaklanan şifreli ve anonim ağlardan oluşan bir alt kümedir. Dark web üzerindeki faaliyetler genellikle illegal olduğu için dikkat çeker ve bu tür ağlara erişmek ve kullanmak yasalara aykırı olabilir.
     
-43. #### Fidye yazılımı neden mobil cihazları etkilemiyor?
+42. #### Fidye yazılımı neden mobil cihazları etkilemiyor?
     Fidye yazılımları genellikle bilgisayar sistemlerini hedef alsa da, mobil cihazlara yönelik fidye yazılımları da mevcuttur. Ancak, mobil cihazlar ve bilgisayarlar arasındaki farklılıklar nedeniyle, mobil fidye yazılımları bilgisayar tabanlı fidye yazılımları kadar yaygın değildir. İşte bu farklılıkları anlamak için bazı önemli noktalar:
 
     İşletim Sistemi Farkı:
@@ -516,10 +504,10 @@ ________________________________________
     
     Mobil cihazlar genellikle ek güvenlik katmanlarına sahiptir. Örneğin, birçok mobil cihazda bulunan biyometrik kimlik doğrulama (parmak izi tarayıcıları, yüz tanıma) ve şifreleme özellikleri, cihazın güvenliğini artırır.
     
-44. #### GÖNYE SALDIRISI Nedir?
+43. #### GÖNYE SALDIRISI Nedir?
     Gönyeli saldırı, bir bilgisayar korsanının, bir kurbanın bilgisayarına bir veya daha fazla kötü amaçlı yazılım dosyasını yüklemek için bir e-posta veya web sitesi aracılığıyla bir gönyeli dosya gönderdiği bir tür siber saldırıdır. Gönyeli dosyalar, genellikle bir zafiyetten yararlanarak bir bilgisayara girer ve daha sonra, bilgisayar korsanının kontrolünü ele geçirmesine veya verilerini çalmasına izin veren diğer kötü amaçlı yazılımları yükler.
     
-45. #### CISO, CIO'ya veya CEO'ya rapor vermeli mi ve neden böyle?
+44. #### CISO, CIO'ya veya CEO'ya rapor vermeli mi ve neden böyle?
     CISO (Chief Information Security Officer), CIO (Chief Information Officer) veya CEO'ya rapor vermeli mi konusu, kuruluşun yapısına, büyüklüğüne, sektörüne ve güvenlik stratejisine bağlı olarak değişebilir. Ancak, genel olarak CISO'nun üst düzey yöneticilere rapor vermesi şu avantajları sağlayabilir:
 
     Stratejik Uyum ve Yönetim:
@@ -545,7 +533,7 @@ ________________________________________
 ________________________________________  
 > Sayfa 10
 
-46. #### Wifi Pineapple cihazı nedir?
+45. #### Wifi Pineapple cihazı nedir?
     Wifi Pineapple, bir Wi-Fi ağını taklit ederek, ortadaki adam saldırılarına olanak tanıyan bir donanımdır. Bu cihaz, genellikle güvenlik testleri için kullanılır, ancak kötü amaçlı amaçlar için de kullanılabilir.
 
     Wifi Pineapple, aşağıdakiler dahil olmak üzere çeşitli özelliklere sahiptir:
@@ -554,7 +542,7 @@ ________________________________________
     Handshake dosyaları yakalama: Wifi Pineapple, kullanıcıların bir Wi-Fi ağına bağlandığı anda oluşturulan Handshake dosyalarını yakalayabilir. Bu dosyalar, kullanıcıların şifrelerini ve diğer hassas bilgilerini içerebilir.
     Ağ trafiğini izleme: Wifi Pineapple, bir ağdaki tüm trafiği izleyebilir. Bu, kötü amaçlı yazılımların veya diğer saldırıların tespit edilmesinde yardımcı olabilir.
 
-47. #### Kubernetes nedir? Docker nedir? İlişkiyi açıklar mısın?
+46. #### Kubernetes nedir? Docker nedir? İlişkiyi açıklar mısın?
     
     Kubernetes, konteyner tabanlı uygulamaların dağıtımını, ölçeklendirmesini ve yönetimini otomatikleştirmek için kullanılan açık kaynaklı bir platformdur. Kubernetes, konteynerlerin nasıl oluşturulacağını, dağıtılacağını, yönetileceğini ve güncelleneceğini tanımlayan bir set kural ve API sağlar.
     
@@ -568,10 +556,7 @@ ________________________________________
     Kubernetes kullanarak, bu konteynerleri bir Kubernetes kümesine dağıtın.
     Kubernetes, konteynerleri otomatik olarak dağıtacak ve yönetecektir. Bu, web uygulamasını farklı ortamlarda kolayca dağıtmanıza ve yönetmenize olanak tanır.
     
-48. #### Mobil cihazlar arasında güvenli bir şekilde iletişim kurmak için hangi uygulamayı kullanırdınız?
-    Bu konuda açık kaynaklı projeleri tespit etmeye özen gösterirdim. Açık kaynaklı IOS ve android tarafında uygulaması bulunan signal adlı iletişim aracını tercih ederdim.
-    
-49. #### Proxy nedir ne yapar? VPN nedir? Aralarındaki temel farklar nelerdir?
+47. #### Proxy nedir ne yapar? VPN nedir? Aralarındaki temel farklar nelerdir?
     "Vekil sunucu" ya da "ara sunucu" olarak da bilinen Proxy, bağlanmak istediğiniz siteye başka bir kanal kullanarak geçmenize yarayan bir araçtır. Kullanıcı olarak site adresinizi doğrudan İnternet tarayıcısına yazmak yerine, ücretsiz veya ücretli vekil sunucu hizmeti veren siteye yazabilirsiniz. Sunucu o sayfaya girer ve sizinle sayfanın içeriğini paylaşır. Bağlantı, ara sunucunun IP adresi üzerinden yapılarak, sizin IP adresiniz bağlantı için kullanılmaz.
 
     VPN, bir kullanıcının internet trafiğini, bir şifreli tünel üzerinden uzak bir sunucuya yönlendiren bir teknolojidir. Bu, kullanıcının IP adresini gizleyerek ve çevrimiçi etkinliklerini şifreleyerek gizliliğini artırmaya yardımcı olur. 
@@ -601,7 +586,7 @@ ________________________________________
     Proxy: Tipik olarak HTTP, HTTPS, FTP gibi belirli protokolleri destekler.
     VPN: Genellikle tüm internet trafiğini kapsayan genel bir bağlantı sağlar.
 
-50. #### Ortadaki adam (Man In The Middle) saldırısını açıklayabilir misiniz?
+48. #### Ortadaki adam (Man In The Middle) saldırısını açıklayabilir misiniz?
     Man in the middle saldırısı ağda, iki bağlantı arasındaki iletişimin dinlenmesi ile çeşitli verilerin ele geçirilmesi veya iletişimi dinlemekle kalmayıp her türlü değişikliğin yapılmasını da kapsayan bir saldırı yöntemidir. MITM’de iki taraf arasındaki iletişim kesilebilir ya da yanıltıcı bir iletişim oluşturulabilir. Bu saldırı ağ üzerindeki paketleri yakalayarak manipüle etmek olarak özetlenebilir.
 
     Kablosuz ağlarda ise paketler tamamen broadcast olarak yayıldığı için herhangi bir ön işleme gerek olmaksızın tüm paketler saldırgan tarafından yakalanabilir. Bu sebeple Ücretsiz Wi-Fi sağlayan alanlar, MiTM saldırısının gerçekleştirilmesi için en uygun alanlardır. Şifrelenmemiş paketlerin içerikleri kolaylıkla okunabilir. Wifi alanlarındaki saldırganlar network trafiğini kendi üzerlerinden geçecek şekilde yönlendirirler. Böylece o ağdaki kişilerin trafiği saldırgan üzerinden akmaya başlar. Bu trafiği ele geçiren saldırgan buradan birçok kişisel veri şifre vs. elde edebilir.
@@ -610,7 +595,7 @@ ________________________________________
 ________________________________________  
 > Sayfa 10
 
-51. #### En güvenli kimlik doğrulama metodolojisi nedir, neden?
+49. #### En güvenli kimlik doğrulama metodolojisi nedir, neden?
     En güvenli kimlik doğrulama metodolojisi, çok faktörlü kimlik doğrulama (MFA)'dır. MFA, kullanıcıların kimliklerini doğrulamak için birden fazla faktör kullanmasını gerektirir. Bu faktörler, aşağıdakilerden herhangi biri olabilir:
 
     Bilgi: Kullanıcı adı, şifre, güvenlik sorusu gibi bilgiler.
@@ -640,22 +625,9 @@ ________________________________________
     Karmaşıklık: MFA, kullanıcılar için biraz karmaşık olabilir. Kullanıcıların, MFA'yı nasıl kullanacaklarını öğrenmeleri gerekebilir.
     
     Maliyet: MFA, ek donanım veya yazılım gerektirebileceğinden, maliyetli olabilir.
-
-52. #### Otomasyonun bilgi güvenliğindeki rolü nedir?
-    Otomasyon, bilgi güvenliğinde aşağıdaki alanlarda kullanılabilir:
-
-    Risk yönetimi: Otomasyon, risk yönetimi süreçlerini otomatikleştirerek, güvenlik risklerini daha hızlı ve daha verimli bir şekilde belirlemeye yardımcı olabilir.
     
-    Uygulama güvenliği: Otomasyon, uygulama güvenliği süreçlerini otomatikleştirerek, uygulamaların güvenlik açıklarını daha hızlı ve daha verimli bir şekilde tespit etmeye yardımcı olabilir.
-    
-    Ağ güvenliği: Otomasyon, ağ güvenliği süreçlerini otomatikleştirerek, ağları güvenlik tehditlerine karşı daha iyi korumaya yardımcı olabilir.
-    
-    Erişim kontrolü: Otomasyon, erişim kontrolü süreçlerini otomatikleştirerek, kullanıcıların sistemlere ve kaynaklara erişimini daha güvenli bir şekilde yönetmeye yardımcı olabilir.
-    
-    Güvenlik eğitimi: Otomasyon, güvenlik eğitimi süreçlerini otomatikleştirerek, çalışanların bilgi güvenliği konusundaki farkındalığını artırmaya yardımcı olabilir.
 
-
-53. #### SIEM ve UEBA arasındaki fark nedir?
+50. #### SIEM ve UEBA arasındaki fark nedir?
 
     SIEM ve UEBA, bilgi güvenliğinde kullanılan iki önemli araçtır. Her iki araç da, güvenlik olaylarını tespit etmek ve yanıt vermek için kullanılır. Ancak, bu araçlar farklı bir yaklaşım benimser ve farklı güçlü yönlere sahiptir.
     
@@ -677,7 +649,7 @@ ________________________________________
 ________________________________________  
 > Sayfa 11
     
-54. #### Tedarik zinciri saldırısına bir örnek verebilir misiniz?
+51. #### Tedarik zinciri saldırısına bir örnek verebilir misiniz?
     Tabii ki. Tedarik zinciri saldırılarına en iyi örnek, 2020'de SolarWinds'e yapılan saldırıdır. SolarWinds, BT sistemleri izleme ve yönetim yazılımları sağlayan bir şirkettir. Saldırganlar, SolarWinds'in Orion platformuna sızarak, kullanılan bir dll yazılımına backdoor eklemiştir. Backdoor yazılımı, yazılımı kullanan firmalara (Fireeye, Microsoft vb), yazılım güncelleme aracılığıyla dağılmış. Bu sayede, saldırganlar, SolarWinds'in müşterilerinin sistemlerine uzaktan erişebilmiştir.
 
     SolarWinds saldırısı, tedarik zinciri saldırılarının potansiyel olarak ne kadar yıkıcı olabileceğini gösteren bir örnektir. Bu saldırı, ABD hükümeti ve Fortune 500 şirketlerinin yanı sıra, dünya çapında birçok kuruluşu etkilemiştir.
@@ -694,7 +666,7 @@ ________________________________________
     
     Tedarik zinciri saldırıları, giderek daha yaygın hale gelen bir tehdittir. Bu nedenle, kuruluşlar, bu saldırılara karşı korunmak için gerekli önlemleri almalıdır.
     
-55. #### APT'nin ne olduğunu tanımlayabilir misiniz?
+52. #### APT'nin ne olduğunu tanımlayabilir misiniz?
     Tabii ki. APT, "gelişmiş kalıcı tehdit" anlamına gelen bir kısaltmadır. APT'ler, belirli bir hedefe uzun süreli ve gizli erişim elde etmek için tasarlanmış siber saldırılardır. APT'ler genellikle devletler, büyük şirketler veya suç örgütleri tarafından gerçekleştirilir.
 
     APT'ler, aşağıdakiler de dahil olmak üzere çok çeşitli hedeflere yönelik olabilir:
@@ -717,7 +689,7 @@ ________________________________________
     
     APT'ler, siber güvenlik için önemli bir tehdit oluşturmaktadır. Kuruluşların, bu saldırılara karşı korunmak için gerekli önlemleri alması önemlidir.
     
-56. #### Neden fidye yazılım taleplerini sigorta şirketleri ödüyor?
+53. #### Neden fidye yazılım taleplerini sigorta şirketleri ödüyor?
 
     Sigorta şirketleri, fidye yazılım taleplerini ödüyor çünkü bu, müşterilerinin veri kaybından kaynaklanan mali kayıpları azaltmanın bir yoludur. Fidye yazılımı saldırıları, işletmeler için ciddi bir tehdit oluşturmaktadır. Saldırganlar, verileri şifreler ve fidye talep eder. Müşteriler fidyeyi ödemezse, verilere erişemezler. Bu da, iş kesintisine, itibar kaybına ve hatta iflasa yol açabilir.
 
@@ -725,7 +697,7 @@ ________________________________________
     
     Sigorta şirketleri, fidye yazılımı taleplerini ödemeyi tercih ediyor çünkü bu, müşterilerinin mali kayıplarını azaltmanın ve müşteri memnuniyetini artırmanın bir yoludur. Ayrıca, fidye ödemeleri, saldırganları teşvik etmemek için de önemlidir. Fidye ödemeleri arttıkça, saldırganlar daha fazla fidye yazılımı saldırısı gerçekleştirmeye teşvik edilebilir.
     
-57. #### ISO/IEC 27002 kapsamını açıklayabilir misin?
+54. #### ISO/IEC 27002 kapsamını açıklayabilir misin?
     
     ISO/IEC 27002, "Information technology - Security techniques - Code of practice for information security controls" standardının bir parçasıdır. Bu standart, bilgi güvenliği kontrolleri için bir rehber olarak hizmet eder ve genellikle ISO/IEC 27001 standardı ile birlikte kullanılır. ISO/IEC 27001, bir bilgi güvenliği yönetim sistemini kurma ve sürdürme gereksinimlerini belirtirken, ISO/IEC 27002, bu sistemin uygulanabilir kontrollerini sağlar.
     
@@ -739,7 +711,7 @@ ________________________________________
     ##### Bilgi Sistemleri Geliştirme ve Bakımı İle İlgili Kontroller:
     ##### Tedbirler İle İlgili Kontroller:
 
-58. #### Birthday attack nedir?
+55. #### Birthday attack nedir?
 
     Doğum günü saldırısı (birthday attack) kriptografide kullanılan karma fonksiyonlarını hedef alan bir tekniktir. Amacı, bir çarpışma (collision) yaratmaktır, yani aynı karma değerine (hash) sahip farklı iki çıktı üretmektir. Bu çarpışmayı kullanarak, bir dijital imza saldırısı ya da kimlik doğrulama sistemi gibi güvenlik uygulamalarında sahtecilik yapmak mümkündür.
     
@@ -751,7 +723,7 @@ ________________________________________
     
     Özetle, doğum günü saldırısı, karma fonksiyonlarının güvenliğini tehdit eden önemli bir saldırı tekniğidir. Ancak, doğru çıktı uzunluğu seçimi ve yeni algoritmaların geliştirilmesiyle bu saldırıya karşı mücadele etmek mümkündür.
 
-59. #### Cyber Kill Chain Siber Ölüm Zincirinin ne olduğunu tanımlayabilir misiniz?
+56. #### Cyber Kill Chain Siber Ölüm Zincirinin ne olduğunu tanımlayabilir misiniz?
 "Cyber Kill Chain" kavramı, siber saldırıların aşamalarını tanımlayan bir modeldir. Bu model, saldırganların bir sistemi hedef alıp hedeflerine ulaşana kadarki adımları açıklar.
 
 Aşamalar:
@@ -768,6 +740,20 @@ Lateral Hareket:** Saldırgan, sisteme girdikten sonra ağda ilerler ve daha faz
 
 Hedeflere Ulaşma:** Saldırgan, başlangıçtaki hedeflerine ulaşır. Bu, veri çalmak, sistemi yok etmek veya fidye yazılımı yaymak gibi çeşitli amaçlar olabilir.
 
+57. #### SYSMON nedir açıklar mısınız?
+Sysmon, Windows işletim sistemlerinde sistem aktivitelerini izlemek ve kaydetmek için kullanılan bir araçtır. Bu aktiviteler arasında dosya oluşturma, dosya silme, ağ bağlantıları, işlem oluşturma, kayıt defteri değişiklikleri gibi çeşitli sistem etkinlikleri bulunur. Sysmon, bu olayları izleyerek, ayrıntılarını ve zaman bilgilerini bir log dosyasına kaydeder.
+
+Sysmon'un ana görevleri şunlardır:
+
+Güvenlik Olaylarını İzleme: Sistemdeki çeşitli olayları izleyerek, bilgisayar sistemlerinde olası güvenlik tehditlerini tespit etmek için kullanılır. Örneğin, kötü niyetli bir yazılımın çalıştırılması gibi potansiyel olarak zararlı işlemleri izleyebilir.
+
+Güvenlik İncelmeleri ve Araştırmaları Destekleme: Sysmon'un oluşturduğu loglar, güvenlik uzmanları veya sistem yöneticileri tarafından incelenerek, sistemde meydana gelen olaylar üzerinde detaylı incelemeler yapılabilir. Bu, güvenlik açıklarını tespit etmek, olası tehditleri önlemek ve sistemlerin güvenliğini artırmak için kullanılabilir.
+
+Günlükleme ve Denetim Amaçları: Sysmon, bilgisayar sistemlerinde gerçekleşen önemli olayların kaydedilmesi için kullanılır. Bu loglar, günlükleme ve denetim amaçlarıyla kullanılabilir ve sistemdeki aktivitelerin geriye dönük olarak incelenmesine olanak tanır.
+
+Tehdit İzleme ve Algılama: Sysmon, bilgisayar sistemlerindeki potansiyel tehditleri izlemek ve tespit etmek için kullanılabilir. Özellikle, kötü niyetli yazılımların veya saldırıların tespit edilmesine yardımcı olabilir.
+
+Sonuç olarak, Sysmon, bilgisayar sistemlerindeki güvenlik olaylarını izlemek, kaydetmek ve tespit etmek için kullanılan bir araçtır. Bu sayede, bilgisayar sistemlerinin güvenliğini artırabilir ve olası tehditleri önleyebilir veya azaltabilir.
 ________________________________________  
 > Sayfa 12
 
